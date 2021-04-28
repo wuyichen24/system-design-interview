@@ -7,8 +7,8 @@
 - [CAP Theorem]()
 
 ## Components
-- [Load Balancer (LB)]()
 - [Domain Name System (DNS)]()
+- [Load Balancer (LB)]()
 - [Content Delivery Network (CDN)]()
 - [Database (DB)]()
 - [Cache]()
