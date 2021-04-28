@@ -4,6 +4,7 @@
 - [Scalability]()
 - [Availability]()
 - [Consistency]()
+- [CAP Theorem]()
 
 ## Components
 - [Load Balancer (LB)]()
