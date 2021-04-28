@@ -9,6 +9,6 @@
 ## Common Combinations
 | Combination | Behaviors | Situations |
 |----|----|----|
-| CP | | |
-| AP | | |
+| CP | | <li>Require atomic reads and writes. |
+| AP | | <li>Allow for eventual consistency <li>Need to continue working despite external errors. |
 
