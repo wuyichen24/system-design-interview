@@ -2,6 +2,8 @@
 
 ## Concepts
 - Geographically distributed network of proxy servers and their data centers.
+
+## Functionalities
 - Serve content from locations closer to the user.
 
 ## Pros
