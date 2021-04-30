@@ -39,6 +39,9 @@
 ## Step 4: Data model definition
 - Description
    - Identify various entities and how they will interact with each other.
+   - Find proper database systems and other storage we should use.
+      - Database: SQL or NoSQL dtatbase.
+      - Block storage: Store photos and videos.
 - Aspects of data model
    - Entities (Which tables do we need?)
    - Entities' fields (Which columns do we need for each table?)
