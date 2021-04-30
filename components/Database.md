@@ -30,7 +30,7 @@
   |---|---|---|
   | Example | ![ddia_0602](https://user-images.githubusercontent.com/8989447/116647540-09a4f380-a938-11eb-9621-eeeff91e442c.png) | ![ddia_0603](https://user-images.githubusercontent.com/8989447/116647659-525cac80-a938-11eb-847f-c44bfec9f68a.png) |
   | Concept | Assign a range of keys to each partition. | Assign a range of hashes to each partition. |
-  | Pros | <li>Range queries are easy. | <li>Keys distributing is fair among the partitions. |
-  | Cons | <li>Certain access patterns can lead to hot spots (A partition with disproportionately high load). | <li>Lose the ability to do efficient range queries. |
+  | Pros | <ul><li>Range queries are easy.</ul> | <ul><li>Keys distributing is fair among the partitions.</ul> |
+  | Cons | <ul><li>Certain access patterns can lead to hot spots (A partition with disproportionately high load).</ul> | <ul><li>Lose the ability to do efficient range queries.</ul> |
 
 ### Federation
