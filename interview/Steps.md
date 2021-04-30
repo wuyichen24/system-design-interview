@@ -26,17 +26,17 @@
    - Estimate the bandwidth
       - Calculation: Bandwidth = Data size need to transfer per day / time of a day
 
-## System interface definition
+## Step 3: System interface definition
 - Description
    - Define what APIs are expected from the system.
 - Example
   ```
   executeAction1(param1_1, param1_2, param1_3)
   executeAction2(param2_1, param2_2, param2_3)
-  executeAction2(param3_, param2_2, param2_3)
+  executeAction2(param3_1, param3_2, param3_3)
   ```
 
-## Data model definition
+## Step 4: Data model definition
 - Description
    - Identify various entities and how they will interact with each other.
 - Aspects of data model
