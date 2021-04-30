@@ -56,3 +56,16 @@
    - Application server
    - Database
    - File storage
+
+## Step 6: Detailed Design
+- Description
+   - Dig deeper into two or three major components.
+   - Provide different options, their pros and cons, and explain why we will prefer one approach over the other.
+
+## Step 7: Identify and solve bottlelnecks
+- Description
+   - Identify potential bottlenecks
+   - Provide solutions for the bottlenecks
+- Common bottlenecks
+   - Performance bottleneck
+   - Single point of failure
