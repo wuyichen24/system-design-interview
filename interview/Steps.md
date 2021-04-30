@@ -35,7 +35,6 @@
   executeAction2(param2_1, param2_2, param2_3)
   executeAction2(param3_, param2_2, param2_3)
   ```
-  ```
 
 ## Data model definition
 - Description
