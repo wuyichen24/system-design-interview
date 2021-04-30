@@ -11,5 +11,9 @@
 
 ## Techniques
 ### Replication
+| | Master-slave | Master-master |
+|---|---|---|
+| Architecture | ![C9ioGtn](https://user-images.githubusercontent.com/8989447/116644854-b334b680-a931-11eb-9ff5-60f57652b09d.png) | ![krAHLGg](https://user-images.githubusercontent.com/8989447/116644889-cc3d6780-a931-11eb-956d-c6eebf2f218f.png) |
+| Alias | Single-leader | Multi-leader |
 
 ### Sharding
