@@ -5,4 +5,4 @@
 | | Relational (SQL) database | Non-relational (NoSQL) database |
 |---|---|---|
 | Features | <li>Rows and columns in a series of tables | |
-   
+| Query Language | SQL | |
