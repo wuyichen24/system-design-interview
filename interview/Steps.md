@@ -36,3 +36,11 @@
   executeAction2(param3_, param2_2, param2_3)
   ```
   ```
+
+## Data model definition
+- Description
+   - Identify various entities and how they will interact with each other.
+- Aspects of data model
+   - Entities (Which tables do we need?)
+   - Entities' fields (Which columns do we need for each table?)
+   - Entities' relationship (Is there any foreign key relationship between tables?)
