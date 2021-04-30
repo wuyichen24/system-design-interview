@@ -46,3 +46,13 @@
    - Entities (Which tables do we need?)
    - Entities' fields (Which columns do we need for each table?)
    - Entities' relationship (Is there any foreign key relationship between tables?)
+
+## Step 5: High-level design
+- Description
+   - Draw a block diagram with 5-6 boxes representing the core components of our system.
+- Common core components
+   - Client/User
+   - Load balancer
+   - Application server
+   - Database
+   - File storage
