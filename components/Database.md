@@ -17,5 +17,6 @@
 | Alias | Single-leader | Multi-leader |
 | Write operations | Master only  | Masters |
 | Read operations | Master and slaves | Masters |
+| Failure handling | <li>If the master is down, one of the slave will be promoted to be a new master. | |
 
 ### Sharding
