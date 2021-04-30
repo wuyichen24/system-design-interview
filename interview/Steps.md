@@ -30,5 +30,5 @@
 - Description
    - Define what APIs are expected from the system.
 - Example
-   > executeAction1(param1_1, param1_2, param1_3)
-   > executeAction2(param2_1, param2_2, param2_3)
+  `executeAction1(param1_1, param1_2, param1_3)`
+  `executeAction2(param2_1, param2_2, param2_3)`
