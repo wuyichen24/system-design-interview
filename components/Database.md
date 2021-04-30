@@ -19,4 +19,16 @@
 | Read operations | Master and slaves | Masters |
 | Failure handling | <li>If the master is down, one of the slave will be promoted to be a new master. | <li>If one master is down, other masters can still handle reads and writes. |
 
-### Sharding
+### Partitioning
+- Types
+   - Horizontal partitioning (Sharding): Split data by row.
+   - Vertical partitioning: Split data by column.
+
+#### Sharding
+- Strategies
+  | | By key range | By hash of key |
+  |---|---|---|
+  | Example | ![ddia_0602](https://user-images.githubusercontent.com/8989447/116647540-09a4f380-a938-11eb-9621-eeeff91e442c.png) | ![ddia_0603](https://user-images.githubusercontent.com/8989447/116647659-525cac80-a938-11eb-847f-c44bfec9f68a.png) |
+  | Concept | Assign a range of keys to each partition. | Assign a range of hashes to each partition. |
+
+### Federation
