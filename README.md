@@ -7,10 +7,10 @@
 - [CAP Theorem]()
 
 ## Components
-- [Domain Name System (DNS)]()
-- [Load Balancer (LB)]()
-- [Content Delivery Network (CDN)]()
-- [Database (DB)]()
+- [Domain Name System (DNS)](components/Domain_Name_System.md)
+- [Load Balancer (LB)](omponents/Load_Balancer.md)
+- [Content Delivery Network (CDN)](components/Content_Delivery_Network.md)
+- [Database (DB)](components/Database.md)
 - [Cache]()
 
 ## Interview
