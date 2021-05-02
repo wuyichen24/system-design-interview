@@ -2,9 +2,9 @@
 
 ## Concepts
 - [Scalability]()
-- [Availability]()
+- [Availability](concepts/Scalability.md)
 - [Consistency]()
-- [CAP Theorem]()
+- [CAP Theorem](concepts/CAP_Theorem.md)
 
 ## Components
 - [Domain Name System (DNS)](components/Domain_Name_System.md)
@@ -14,4 +14,4 @@
 - [Cache]()
 
 ## Interview
-- [Steps]()
+- [Procedure](interview/Procedure.md)
