@@ -4,11 +4,12 @@
 - Description
    - Ask questions about the exact scope of the problem.
    - Clarify what parts of the system we will be focusing on.
-- Types of requirements
-   - Functional requirements
-      - General features to common applications
-      - Special features to different applications  
-   - Non-functional requirements
+- Sub-steps
+   - Step 1.1: Functional requirements
+      - Read actions
+      - Write actions
+      - Other functional behaviors 
+   - Step 1.2: Non-functional requirements
       - Consistency
       - Availability
       - Performance
@@ -16,7 +17,7 @@
 ## Step 2: Estimation
 - Description
    - Estimate the scale of the system we’re going to design.
-- Steps for estimation
+- Sub-steps
    - Estimate the usage
       - (Daily) User size
       - (Daily) User's common action' frequency
