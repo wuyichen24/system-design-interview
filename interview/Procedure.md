@@ -46,14 +46,15 @@
 
 ## Step 4: Data model definition
 - Description
-   - Identify various entities and how they will interact with each other.
-   - Find proper database systems and other storage we should use.
+   - Identify tables and how they will interact with each other.
+- Sub-steps
+   - Step 4.1: Build the schema.
+      - Tables
+      - Columns and column type
+      - Foreign key relationship between tables
+   - Step 4.2: Choose a proper database and other storage.
       - Database: SQL or NoSQL dtatbase.
       - Block storage: Store photos and videos.
-- Aspects of data model
-   - Entities (Which tables do we need?)
-   - Entities' fields (Which columns do we need for each table?)
-   - Entities' relationship (Is there any foreign key relationship between tables?)
 
 ## Step 5: High-level design
 - Description
