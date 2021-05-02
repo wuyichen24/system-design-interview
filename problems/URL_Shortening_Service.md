@@ -14,10 +14,21 @@
 ## Estimation
 - **Traffic estimation**
    - Our system will be read-heavy (Lots of redirection requests compared to new URL shortenings).
-   - Read-write ratio is 100 : 1 (*Assume*)
+   - Read-write ratio is 100 : 1 (*Assumed*)
    - Number of read actions and write actions per month
-      - Number of writes (URL Shortening) = 500 millions (*Assume*)
-      - Number of reads (URL Redirection) = 500 millions x 100 = 50 billion
+      - Number of writes (URL Shortening) per month = 500 millions (*Assumed*)
+      - Number of reads (URL Redirection) per month= 500 millions x 100 = 50 billion
    - Frequency of read actions and write actions per second (QPS)
-      - Frequency of writes = 500 millions / (30 days x 24 hours x 3600 seconds) = 200 times/s 
-      - Frequency of reads = 200 times/s x 100 = 20000 times/s
+      - Frequency of writes per second = 500 millions / (30 days x 24 hours x 3600 seconds) = 200 times/s 
+      - Frequency of reads per second = 200 times/s x 100 = 20000 times/s
+- **Storage estimation**
+   - Types
+      - Data: Yes
+      - File: No
+   - Capacity
+      - Time length of storing a record = 5 years (*Assumed*)
+      - Number of records created in 5 years = Number of writes per month x Number of months = 500 million x 5 years x 12 months = 30 billion
+      - Size of one record = 500 bytes (*Assumed*)
+      - Total capacity needed in 5 years = 30 billion * 500 bytes = 15 TB
+- **Bandwidth estimation**
+   - 
