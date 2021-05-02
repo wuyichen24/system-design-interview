@@ -41,6 +41,8 @@
   executeAction2(param2_1, param2_2, param2_3)
   executeAction2(param3_1, param3_2, param3_3)
   ```
+- Recommendations
+   - If an interface is for registered accounts only, add `api_key` as a parameter.
 
 ## Step 4: Data model definition
 - Description
