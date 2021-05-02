@@ -53,3 +53,22 @@
          - api_dev_key (string): The API developer key of a registered account.
          - short_url (string): The short URL to be deleted.
 
+## Data model definition
+- **Schema**
+   - Table 1: URL
+      - Description
+         - Store URL mappings
+      - Columns
+        | Column Name | Column Type | PK |
+        |----|----|----|
+        | ShortUrl | varchar(16) | PK |
+        | OriginalUrl | varchar(512) | |
+        | CreationDate | datetime | |
+        | ExpirationDate | datetime | |
+        | UserId | int | |
+      - Foreign key relationship
+         - No
+   - Table 2: User
+      - Description
+         - Store user accounts
+      - Columns
