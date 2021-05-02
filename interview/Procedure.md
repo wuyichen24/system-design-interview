@@ -17,7 +17,7 @@
 - Description
    - Estimate the scale of the system we’re going to design.
 - Steps for estimation
-   - Estimate the scale of application
+   - Estimate the usage
       - (Daily) User size
       - (Daily) User's common action' frequency
    - Estimate the storage
