@@ -31,4 +31,5 @@
       - Size of one record = 500 bytes (*Assumed*)
       - Total capacity needed in 5 years = 30 billion * 500 bytes = 15 TB
 - **Bandwidth estimation**
-   - 
+   - Write bandwidth = Frequency of writes per second x Size of one record = 200 times/s x 500 bytes = 100 KB/s
+   - Read bandwidth = Frequency of reads per second x Size of one record = 20000 times/s x 500 bytes = 10 MB/s
