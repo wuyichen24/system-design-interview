@@ -18,14 +18,19 @@
 - Description
    - Estimate the scale of the system we’re going to design.
 - Sub-steps
-   - Estimate the usage
-      - (Daily) User size
-      - (Daily) User's common action' frequency
-   - Estimate the storage
-      - Types (Database, file system)
-      - Capacity
-   - Estimate the bandwidth
-      - Calculation: Bandwidth = Data size need to transfer per day / time of a day
+   - Step 2.1: Estimate traffic/usage
+      - Identify the system is read-heavy or write-heavy.
+      - Estimate read-write ratio (The ratio between read actions and write actions).
+      - Estimate the times of read actions and write actions per month/day.
+      - Estimate the frequencies of read actions and write actions per second (QPS).
+   - Step 2.2: Estimate storage
+      - Estimate the types of storages (Database, file system).
+      - Estimate the capacity of storage
+          - Use the times of write actions in a period to calculate the number of records will be created in the period.
+          - Total capacity needed in the period = Number of records x Size of a record
+   - Step 2.3: Estimate bandwidth
+      - Write bandwidth = Frequency of writes per second x Size of one record
+      - Read bandwidth = Frequency of reads per second x Size of one record
 
 ## Step 3: System interface definition
 - Description
