@@ -1,4 +1,4 @@
-# Steps
+# Procedure
 
 ## Step 1: Requirements Clarification
 - Description
