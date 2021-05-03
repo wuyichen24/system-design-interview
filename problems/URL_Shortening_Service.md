@@ -86,3 +86,9 @@
       - Reason
          - No relation need to look up.
          - NoSQL is good at scaling.     
+
+## Detailed design
+**Short URL generator**
+   - The number of unique short URLs can generate
+      - Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
+      
