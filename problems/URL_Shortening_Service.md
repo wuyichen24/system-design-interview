@@ -90,6 +90,14 @@
 ## High-level design
 ![url](https://user-images.githubusercontent.com/8989447/116921161-da7cd380-ac10-11eb-8216-f05e13335782.png)
 
+- **Zookeeper**
+   - Distributed coordinator to give each server a unique unused range of keys.
+- **Cache**
+   - Stores the top 20% most used URLs.
+   - When a server receives a URL query request, it can search the cache first. It the target URL is in in the cache, it can query the database.
+- **Database**
+   - Stores URLs and users.
+
 ## Detailed design
 - **Short URL generation server**
    - Considerations
