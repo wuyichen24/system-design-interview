@@ -64,8 +64,8 @@
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
-        | ShortUrl | varchar(16) | PK | The short URL. |
-        | OriginalUrl | varchar(512) | | The original long URL. |
+        | ShortUrl | string | PK | The short URL. |
+        | OriginalUrl | string | | The original long URL. |
         | CreationDate | datetime | | The creation date of the short URL. |
         | ExpirationDate | datetime | | The expiration date of the short URL. |
         | UserID | int | | The UserID of the user who created this short URL. |
@@ -78,8 +78,8 @@
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
         | UserID | int | PK | The user ID. |
-        | Name | varchar(20) | | The name of the user. |
-        | Email | varchar(32) | | The email of the user. |
+        | Name | string | | The name of the user. |
+        | Email | string | | The email of the user. |
         | CreationDate | datetime | | The creation date of the user. |
         | LastLogin | datetime | | The last login time of the user. |
       - Foreign key relationship
