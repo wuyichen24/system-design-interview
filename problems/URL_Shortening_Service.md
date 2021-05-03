@@ -77,7 +77,8 @@
         | UserID | int | PK | The user ID. |
         | Name | varchar(20) | | The name of the user. |
         | Email | varchar(32) | | The email of the user. |
-      - Foreign key relationship
-         - No
         | CreationDate | datetime | | The creation date of the user. |
         | LastLogin | datetime | | The last login time of the user. |
+      - Foreign key relationship
+         - No
+        
