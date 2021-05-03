@@ -40,6 +40,22 @@
         | ConversationId | int | | Identify the message belongs to which conversation. |
         | Text | string | | The text message of the message |
         | MediaUrl | string | | The url to access the media files attached to the message. | 
+   - Table 3: Conversation
+      - Description
+         - Store conversation information
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | ConversationId | int | PK | The conversation ID. |
+        | name | string | | The name of the conversation (like channel name in Slack). |
+   - Table 4: ConversationUsers
+      - Description
+         - Store the relationship about which user is a part of the converation.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | ConversationId | int | PK | The conversation ID. |
+        | UserId | int | | The user ID of each user belongs to this conversation. |
 
 ## High-level design
 
