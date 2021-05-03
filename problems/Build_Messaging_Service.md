@@ -1,0 +1,51 @@
+# Build Messaging Service
+
+## Real-life Examples
+- Facebook Chat
+- Whatapp
+- Slack
+- Discord
+
+## Requirements Clarification
+- **Functional requirements**
+   - Messaging: One user can send a message to another user or a group of users.
+   - Status: Shows online/offline statuses of uesrs.
+   - Images and videos uploading: User can upload images and videos in addition to text messages.
+   - Push notifications: Offline users can receive a push notification when there are new messages.
+   - Read receipt: Senders can get a receipt when receivers read messages they sent.
+- **Non-functional requirements**
+   - The system should have low latency (real-time messaging).
+   - The system should be highly consistent (users should be able to see the same chat history on all their devices).
+   - High availability is desirable (base on CAP theorem, the system cannot pursue high availability and high consistency at the same time).
+
+## High-level design
+
+- **Chat server**
+   - Orchestrate all the communications between users (The direct connection between 2 users is not reliable).
+
+## Detailed design
+- Users
+   - Considerations
+      - Consideration 1: Users receive new messages
+         - Ideas
+            - It cannot be server initiated, it must be client initiated.
+         - Solutions for receiving messages
+            - Solution 1: Polling
+               - Description: Users can repeatedly ask the server if there are any new messages for them.
+               - Cons: Users will send lots of unnecessary to the server.
+            - Solution 2: Long polling
+               - Description
+                  - A user send one request to the server.
+                  - The server will hold the request, wait and response only if there is a new message for the user.
+               - Cons: The server need to maintain lots of open connections.
+            - Solution 3: WebSocket
+               - Pros
+                  - Full duplex: Users and the server can send data at the same time.
+                  - Connections can keep open for the duration of the session.
+
+## References 
+- https://www.youtube.com/watch?v=zKPNUMkwOJE&ab_channel=TusharRoy-CodingMadeSimple
+- https://www.youtube.com/watch?v=uzeJb7ZjoQ4&ab_channel=Exponent
+- https://www.youtube.com/watch?v=vvhC64hQZMk&ab_channel=GauravSen
+- http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf
+- https://www.facebook.com/note.php?note_id=14218138919&id=9445547199&index=0
