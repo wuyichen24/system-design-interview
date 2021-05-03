@@ -69,15 +69,15 @@
          - Ideas
             - It cannot be server initiated, it must be client initiated.
          - Solutions for receiving messages
-            - Solution 1: Polling
+            - Solution 1: HTTP polling (poor)
                - Description: Users can repeatedly ask the server if there are any new messages for them.
                - Cons: Users will send lots of unnecessary to the server.
-            - Solution 2: Long polling
+            - Solution 2: HTTP long polling (acceptable)
                - Description
                   - A user send one request to the server.
                   - The server will hold the request, wait and response only if there is a new message for the user.
                - Cons: The server need to maintain lots of open connections.
-            - Solution 3: WebSocket
+            - Solution 3: WebSocket (good)
                - Pros
                   - Full duplex: Users and the server can send data at the same time.
                   - Connections can keep open for the duration of the session.
