@@ -1,5 +1,8 @@
 # Build URL Shortening Service
 
+## Real-life Examples
+- [TinyUrl](https://tinyurl.com/app)
+
 ## Requirements Clarification
 - **Functional requirements**
    - URL Shortening (Write): Given an original URL, our service should generate a shorter and unique URL of it.
