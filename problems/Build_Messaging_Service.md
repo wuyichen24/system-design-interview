@@ -24,7 +24,7 @@
    - Orchestrate all the communications between users (The direct connection between 2 users is not reliable).
 
 ## Detailed design
-- Users
+- **Users**
    - Considerations
       - Consideration 1: Users receive new messages
          - Ideas
