@@ -81,6 +81,7 @@
                - Pros
                   - Full duplex: Users and the server can send data at the same time.
                   - Connections can keep open for the duration of the session.
+            - Solution 4: BOSH - Bidirectional-streams Over Synchronous HTTP
 
 ## References 
 - https://www.youtube.com/watch?v=zKPNUMkwOJE&ab_channel=TusharRoy-CodingMadeSimple
