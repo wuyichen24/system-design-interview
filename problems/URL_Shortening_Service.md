@@ -57,7 +57,7 @@
 - **Schema**
    - Table 1: URL
       - Description
-         - Store URL mappings
+         - Store URL mappings.
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
@@ -65,10 +65,19 @@
         | OriginalUrl | varchar(512) | | The original long URL. |
         | CreationDate | datetime | | The creation date of the short URL. |
         | ExpirationDate | datetime | | The expiration date of the short URL. |
-        | UserId | int | | The UserID of the user who created this short URL. |
+        | UserID | int | | The UserID of the user who created this short URL. |
       - Foreign key relationship
          - No
    - Table 2: User
       - Description
-         - Store user accounts
+         - Store user accounts.
       - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | UserID | int | PK | The user ID. |
+        | Name | varchar(20) | | The name of the user. |
+        | Email | varchar(32) | | The email of the user. |
+      - Foreign key relationship
+         - No
+        | CreationDate | datetime | | The creation date of the user. |
+        | LastLogin | datetime | | The last login time of the user. |
