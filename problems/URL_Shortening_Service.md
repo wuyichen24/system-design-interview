@@ -67,7 +67,7 @@
         | ExpirationDate | datetime | | The expiration date of the short URL. |
         | UserID | int | | The UserID of the user who created this short URL. |
       - Foreign key relationship
-         - No
+         - URL.UserID (n:1) User:UserID
    - Table 2: User
       - Description
          - Store user accounts.
@@ -80,5 +80,9 @@
         | CreationDate | datetime | | The creation date of the user. |
         | LastLogin | datetime | | The last login time of the user. |
       - Foreign key relationship
-         - No
-        
+         - URL.UserID (n:1) User:UserID
+- **Database**
+   - NoSQL
+      - Reason
+         - No relation need to look up.
+         - NoSQL is good at scaling.     
