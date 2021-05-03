@@ -90,5 +90,8 @@
 ## Detailed design
 **Short URL generator**
    - The number of unique short URLs can generate
-      - Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
+      - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
+      - Solutions
+         - Solution 1: Only use number (0-9) and short URLs are 7-digit long
+            - Number of unique URLs = 10<sup>7</sup>
       
