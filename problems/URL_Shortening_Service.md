@@ -88,7 +88,7 @@
          - NoSQL is good at scaling.     
 
 ## Detailed design
-- **Short URL generator**
+- **Short URL generation server**
    - Considerations
       - Consideration 1: Uniqueness of short URLs.
          - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
