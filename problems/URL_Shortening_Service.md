@@ -87,6 +87,9 @@
          - No relation need to look up.
          - NoSQL is good at scaling.     
 
+## High-level design
+![url](https://user-images.githubusercontent.com/8989447/116921161-da7cd380-ac10-11eb-8216-f05e13335782.png)
+
 ## Detailed design
 - **Short URL generation server**
    - Considerations
