@@ -54,7 +54,7 @@
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
-        | ConversationId | int | PK | The conversation ID. |
+        | ConversationId | int | | The conversation ID. |
         | UserId | int | | The user ID of each user belongs to this conversation. |
 
 ## High-level design
