@@ -59,13 +59,13 @@
       - Description
          - Store URL mappings
       - Columns
-        | Column Name | Column Type | PK |
-        |----|----|----|
-        | ShortUrl | varchar(16) | PK |
-        | OriginalUrl | varchar(512) | |
-        | CreationDate | datetime | |
-        | ExpirationDate | datetime | |
-        | UserId | int | |
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | ShortUrl | varchar(16) | PK | The short URL. |
+        | OriginalUrl | varchar(512) | | The original long URL. |
+        | CreationDate | datetime | | The creation date of the short URL. |
+        | ExpirationDate | datetime | | The expiration date of the short URL. |
+        | UserId | int | | The UserID of the user who created this short URL. |
       - Foreign key relationship
          - No
    - Table 2: User
