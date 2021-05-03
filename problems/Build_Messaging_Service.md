@@ -18,6 +18,29 @@
    - The system should be highly consistent (users should be able to see the same chat history on all their devices).
    - High availability is desirable (base on CAP theorem, the system cannot pursue high availability and high consistency at the same time).
 
+## Data model definition
+- **Schema**
+   - Table 1: User
+      - Description
+         - Store user accounts
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | UserId | int | PK | The user ID. |
+        | Name | string | | The name of the user. |
+        | LastActive | datetime | | The timestamp of when the user is online (support online/offline status). |     
+   - Table 2: Message
+      - Descrition
+         - Store messages and their metadata.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | MessageId | int | PK | The message ID. |
+        | SenderUserId | int | | The user ID of the sender. |
+        | ConversationId | int | | Identify the message belongs to which conversation. |
+        | Text | string | | The text message of the message |
+        | MediaUrl | string | | The url to access the media files attached to the message. | 
+
 ## High-level design
 
 - **Chat server**
