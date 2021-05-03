@@ -89,9 +89,13 @@
 
 ## Detailed design
 **Short URL generator**
-   - The number of unique short URLs can generate
+   - Consideration 1: Generate unique short URLs.
       - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
       - Solutions
          - Solution 1: Only use number (0-9) and short URLs are 7-digit long
-            - Number of unique URLs = 10<sup>7</sup>
+            - Number of unique URLs = 10<sup>7</sup> = 10 million
+         - Solution 2: Use base36 ([a-z, 0-9]) and short URL are 7-digit long
+            - Number of unique URLs = 36<sup>7</sup> = 78 billion
+         - Solution 3: Use base62 ([A-Z, a-z, 0-9]) and short URL are 7-digit long
+            - Number of unique URLs = 62<sup>7</sup> = 3.5 trillion
       
