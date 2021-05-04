@@ -62,6 +62,11 @@
 
 - **Chat server**
    - Orchestrate all the communications between users (The direct connection between 2 users is not reliable).
+- **Message Queue**
+   - Handle the communication between chat servers.
+   - Each chat server will have a channel for receiving messages for that chat.
+- **Object Storage**
+   - Store media files.
 
 ## Detailed design
 - **Users**
