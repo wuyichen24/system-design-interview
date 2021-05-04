@@ -16,7 +16,7 @@
 - **Non-functional requirements**
    - Low latency (real-time messaging).
    - High consistency (users should be able to see the same chat history on all their devices).
-   - High availability is desirable (base on CAP theorem, the system cannot pursue high availability and high consistency at the same time).
+   - High availability is desirable (base on CAP theorem).
 
 ## Data model definition
 - **Schema**
