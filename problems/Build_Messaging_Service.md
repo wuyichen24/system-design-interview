@@ -90,6 +90,7 @@
             - Solution 4: BOSH - Bidirectional-streams Over Synchronous HTTP
 
 ## References 
+- https://slack.engineering/how-slack-built-shared-channels/
 - https://www.youtube.com/watch?v=zKPNUMkwOJE&ab_channel=TusharRoy-CodingMadeSimple
 - https://www.youtube.com/watch?v=uzeJb7ZjoQ4&ab_channel=Exponent
 - https://www.youtube.com/watch?v=vvhC64hQZMk&ab_channel=GauravSen
