@@ -54,7 +54,7 @@
       - Foreign key relationship between tables
    - Step 4.2: Choose a proper database and other storage.
       - Database: SQL or NoSQL dtatbase.
-      - Block storage: Store photos and videos.
+      - Object storage: Store photos and videos.
 
 ## Step 5: High-level design
 - Description
