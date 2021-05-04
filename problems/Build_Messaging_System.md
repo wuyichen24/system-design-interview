@@ -14,8 +14,8 @@
    - Push notifications: Offline users can receive a push notification when there are new messages.
    - Read receipt: Senders can get a receipt when receivers read messages they sent.
 - **Non-functional requirements**
-   - The system should have low latency (real-time messaging).
-   - The system should be highly consistent (users should be able to see the same chat history on all their devices).
+   - Low latency (real-time messaging).
+   - High consistency (users should be able to see the same chat history on all their devices).
    - High availability is desirable (base on CAP theorem, the system cannot pursue high availability and high consistency at the same time).
 
 ## Data model definition
