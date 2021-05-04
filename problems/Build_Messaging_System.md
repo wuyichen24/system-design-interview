@@ -1,4 +1,4 @@
-# Build Messaging Service
+# Build Messaging System
 
 ## Real-life Examples
 - Facebook Chat
