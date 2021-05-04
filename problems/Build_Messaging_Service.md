@@ -58,6 +58,7 @@
         | UserId | int | | The user ID of each user belongs to this conversation. |
 
 ## High-level design
+![message](https://user-images.githubusercontent.com/8989447/116949379-39594180-ac3f-11eb-9481-49d6d25060bb.png)
 
 - **Chat server**
    - Orchestrate all the communications between users (The direct connection between 2 users is not reliable).
