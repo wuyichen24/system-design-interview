@@ -15,3 +15,8 @@
 
 ## Interview
 - [Procedure](interview/Procedure.md)
+
+## Problems
+- [Build URL Shortening System](problems/Build_URL_Shortening_System.md)
+- [Build Messaging System](problems/Build_Messaging_System.md)
+- [Build Video Distribution System](problems/Build_Video_Distribution_System.md)
