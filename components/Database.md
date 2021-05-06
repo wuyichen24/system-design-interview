@@ -32,5 +32,13 @@
   | Concept | Assign a range of keys to each partition. | Assign a range of hashes to each partition. |
   | Pros | <ul><li>Range queries are easy.</ul> | <ul><li>Keys distributing is fair among the partitions.</ul> |
   | Cons | <ul><li>Certain access patterns can lead to hot spots (A partition with disproportionately high load).</ul> | <ul><li>Lose the ability to do efficient range queries.</ul> |
+  
+- Directory based sharding
+   - Concepts
+      - Place a lookup service in front of the sharded databases.
+         - The lookup service knows the current partitioning scheme and 
+         - The lookup service keeps a map of each entity and which database shard it is stored on.
+      - When we need to query the database, query the lookup service first to figure out which shard has the data we want.
+   - Pros
+      - Loose coupling: Any partitioning scheme changes will encapsulated and will not impact on the application.
 
-### Federation
