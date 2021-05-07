@@ -64,6 +64,18 @@
          - codec: The encoding format of the video.
          - resolution: The resolution of the video.
 
+## Data model definition
+- **Schema**
+   - Table 1: VideoMetadata
+   - Table 2: Comment
+   - Table 3: User
+- **Data storage**
+   - Database
+   - File storage (to store video and thumbnails)
+      - HDFS
+      - GlusterFS
+      - Amazon S3
+
 ## High-level design
 
 ![Build_Video_Distribution_System](https://user-images.githubusercontent.com/8989447/117078614-6f59fc80-acf7-11eb-8f51-81e5baacd007.png)
