@@ -44,17 +44,17 @@
       - Function
          - Create a new shorter URL.
       - Parameters
-         - api_dev_key (string): The API developer key of a registered account.
+         - api_key (string): The API developer key of a registered account.
          - original_url (string): Original URL to be shortened.
          - custom_alias (string): Optional custom key for the URL.
          - user_name (string): Optional user name to be used in the encoding.
          - expire_date (string): Optional expiration date for the shortened URL.
 - **Interface 2**
-   - `deleteURL(api_dev_key, short_url)`
+   - `deleteURL(api_key, short_url)`
       - Function
          - Delete a short URL.
       - Parameters
-         - api_dev_key (string): The API developer key of a registered account.
+         - api_key (string): The API developer key of a registered account.
          - short_url (string): The short URL to be deleted.
 
 ## Data model definition
