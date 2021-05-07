@@ -43,6 +43,27 @@
    - Write bandwidth = Frequency of writes per second x Size of one record = 24 videos/s x 500 MB = 11 GB/s
    - Read bandwidth = Frequency of reads per second x Size of one record = 4800 videos/s x 6 MB/s (1080p) = 28 GB/s
 
+## System interface definition
+- **Interface 1**
+   - `uploadVideo(api_key, video_title, video_description, video_content)`
+      - Function
+         - Upload a video
+      - Parameters
+         - api_key (string): The API developer key of a registered account.
+         - video_title (string): The title of the video.
+         - video_description (string): The description of the video.
+         - video_content (stream): The content stream of the video.
+- **Interface 2**
+   - `streamVideo(api_key, video_id, offset, codec, resolution)`
+      - Function
+         - Watch a video
+      - Parameters
+         - api_key (string): The API developer key of a registered account.
+         - video_id (string): The ID of the video.
+         - offset (number): A playing time in seconds from the beginning of the video.
+         - codec: The encoding format of the video.
+         - resolution: The resolution of the video.
+
 ## High-level design
 
 ![Build_Video_Distribution_System](https://user-images.githubusercontent.com/8989447/117078614-6f59fc80-acf7-11eb-8f51-81e5baacd007.png)
