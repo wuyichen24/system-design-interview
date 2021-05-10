@@ -11,7 +11,7 @@
       - The starting point is 0 (12 o'clock's direction).
       - The ending point is h (right next to the starting point).
      
-     ![ch1](https://user-images.githubusercontent.com/8989447/117730978-8c387900-b1aa-11eb-8bd5-6eaedbc0be04.png)![ch2](https://user-images.githubusercontent.com/8989447/117731167-ea655c00-b1aa-11eb-9d61-f101e951ab7b.png)
+     ![ch1](https://user-images.githubusercontent.com/8989447/117730978-8c387900-b1aa-11eb-8bd5-6eaedbc0be04.png)  ![ch2](https://user-images.githubusercontent.com/8989447/117731167-ea655c00-b1aa-11eb-9d61-f101e951ab7b.png)
    - Evenly place the servers to the ring.
    
      
