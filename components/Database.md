@@ -45,7 +45,7 @@
 - Directory based sharding
    - Concepts
       - Place a lookup service in front of the sharded databases.
-         - The lookup service knows the current partitioning scheme and 
+         - The lookup service knows the current partitioning scheme.
          - The lookup service keeps a map of each entity and which database shard it is stored on.
       - When we need to query the database, query the lookup service first to figure out which shard has the data we want.
    - Pros
