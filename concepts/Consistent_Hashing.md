@@ -24,3 +24,6 @@
    - The key will be be reassigned to the next server in clockwise order.
 
      ![ch4](https://user-images.githubusercontent.com/8989447/117732075-70ce6d80-b1ac-11eb-9349-f148aed9872b.png)
+
+## Benefits
+- Minimize reorganization/rebalance when servers are added or removed.
