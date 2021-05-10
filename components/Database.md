@@ -20,19 +20,19 @@
 | Failure handling | <li>If the master is down, one of the slave will be promoted to be a new master. | <li>If one master is down, other masters can still handle reads and writes. |
 
 ### Partitioning
-- Types
+- **Types**
    - Horizontal partitioning (Sharding): Split data by row.
    - Vertical partitioning: Split data by column.
    - Functional partitioning (Federation): Split data into multiple databases by function.
-- Pros
+- **Pros**
    - Less read and write traffic to a single database/shard.
    - If one database/shard is down, other databases/shards will be still operational.
    - More writes in parallel to increase throughput.
-- Cons
+- **Cons**
    - Join operation is complex.
    - Rebalance is complex.
    - Introduce hot spots.
-- Sharding
+- **Sharding**
    - Strategies
      | | By key range | By hash of key |
      |---|---|---|
