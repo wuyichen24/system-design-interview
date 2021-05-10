@@ -5,8 +5,10 @@
 | | Relational database | Non-relational database |
 |---|---|---|
 | Alias | SQL database | NoSQL database |
-| Features | <li>Structured | <li>Unstructured<li>Distributed<li>Dynamic schema |
-| Query Language | SQL | |
+| Schema | Fixed | Dynamic |
+| Query Language | SQL | UnQL (Unstructured Query Language) |
+| Scalability | Vertically scalable | Horizontally scalable |
+| Transaction Guarantee | ACID | Not ACID (for performance and scalability) |
 | Sub-types | | <li>Document<li>Wide-column<li>Key-value<li>Graph<li>Object<li>Tuple |
 
 ## Techniques
