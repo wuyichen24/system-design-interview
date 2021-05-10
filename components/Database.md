@@ -7,7 +7,7 @@
 | Alias | SQL database | NoSQL database |
 | Features | <li>Structured | <li>Unstructured<li>Distributed<li>Dynamic schema |
 | Query Language | SQL | |
-| Sub-types | | <ul><li>Document<li>Wide-column<li>Key-value<li>Graph<li>Object<li>Tuple</ul> |
+| Sub-types | | <li>Document<li>Wide-column<li>Key-value<li>Graph<li>Object<li>Tuple |
 
 ## Techniques
 ### Replication
