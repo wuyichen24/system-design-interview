@@ -5,7 +5,7 @@
 | | Relational database | Non-relational database |
 |---|---|---|
 | Alias | SQL database | NoSQL database |
-| Features | <li>Rows and columns in a series of tables | <li>Schema free |
+| Features | <li>Structured | <li>Unstructured<li>Distributed<li>Dynamic schema |
 | Query Language | SQL | |
 | Sub-types | | <li>Document<li>Wide-column<li>Key-value<li>Graph<li>Object<li>Tuple |
 
