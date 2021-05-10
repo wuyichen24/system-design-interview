@@ -51,6 +51,6 @@
    - Pros
       - Loose coupling: Any partitioning scheme changes will encapsulated and will not impact on the application.
    
-   ![dss](https://user-images.githubusercontent.com/8989447/117697354-9d1fc500-b17f-11eb-895d-4164124c4b01.png)
+        ![dss](https://user-images.githubusercontent.com/8989447/117697354-9d1fc500-b17f-11eb-895d-4164124c4b01.png)
 
 
