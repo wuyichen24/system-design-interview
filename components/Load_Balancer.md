@@ -16,6 +16,11 @@
 
 ## Types
 - **Hardware vs. Software**
+  | | Hardware | Software |
+  |----|----|----|
+  | Rely on | proprietary hardware | commodity hardware |
+  | Pros | | <li>Low cost |
+ 
 - **Layer 4 vs. Layer 7**
   | | Layer 4 | Layer 7 |
   |---|---|---|
