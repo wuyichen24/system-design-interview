@@ -20,6 +20,7 @@
 | Layer | Transport layer | Application layer |
 | Unit | Packet | Message |
 | Decision | Not based on the content of the packet | Based on the content of the message |
+| Pros | | <li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance). |
 
 ## Types
 - Hardware
