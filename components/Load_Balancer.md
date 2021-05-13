@@ -19,7 +19,7 @@
   | | Hardware | Software |
   |----|----|----|
   | Rely on | proprietary hardware | commodity hardware |
-  | Pros | | <ul><li>Low cost</ul> |
+  | Pros | | <ul><li>Low cost<li>High agility</ul> |
  
 - **Layer 4 vs. Layer 7**
   | | Layer 4 | Layer 7 |
@@ -36,10 +36,16 @@
    - Picks two servers at random and then choose the better one.
 - Round robin
    - Requests are distributed sequentially.
-- Less work
+- Least connections
+   - Requests are distributed to the server with the fewest active connections to clients.
+- Least time
+   - Requests are distributed to the server with the combination of lowest response time and fewest active connections.
+- Least work
    - Requests are distributed to the server with the fewest work.
 - Hash
-   - Requests are distributed according to a hash table.
+   - Requests are distributed according to a hash table you define.
+- IP hash
+   - Requests are distributed based on the IP address of the client.
 
 ## Cons
 - Load balancer can be a potential performance bottleneck.
