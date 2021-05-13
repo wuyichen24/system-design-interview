@@ -52,6 +52,15 @@
 - A single load balancer is a single point of failure.
 - Load balancer increases the system complexity.
 
+## Redundant Load Balancers
+- Concepts
+   - To remove the load balancer as a single point of failure, a second load balancer can be connected to the first to form a cluster.
+- Operations
+   - Each load balancer monitors the health of the other.
+   - In the event the primary load balancer fails, the secondary load balancer takes over.
+   
+   ![ha-diagram-animated](https://user-images.githubusercontent.com/8989447/118159733-a2c51700-b3da-11eb-8501-33cec29c11f6.gif)
+
 ## Related Concepts
 - **Session Persistence**
    - All requests from a client are sent to the same server for the duration of the session.
