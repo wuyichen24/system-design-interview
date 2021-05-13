@@ -52,5 +52,19 @@
 - A single load balancer is a single point of failure.
 - Load balancer increases the system complexity.
 
+## Related Concepts
+- **Session Persistence**
+   - All requests from a client are sent to the same server for the duration of the session.
+- **Dynamic Configuration of Server Groups (Autoscaling)**
+   - The load balancer can dynamically add or remove servers from the server group without interrupting existing connections.
+- **Cloud Load Balancing**
+   - Distributing client requests across multiple application servers that are running in a cloud environment.
+- **Hybrid Load Balancing**
+   - Distributing client requests across a set of server applications that are running in various environments: on premises, in a private cloud, and in the public cloud.
+- **DNS Load Balancing**
+   - Configuring a domain in the Domain Name System (DNS) such that client requests to the domain are distributed across a group of server machines.
+- **SSL Load Balancer**
+   - A load balancer that also performs encryption and decryption of data transported via HTTPS, which uses the Secure Sockets Layer (SSL) protocol (or its successor, the Transport Layer Security (TLS) protocol) to secure HTTP data as it crosses the network.
+
 ## References
 - https://www.nginx.com/resources/glossary/load-balancing/
