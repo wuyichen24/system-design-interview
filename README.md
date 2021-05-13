@@ -5,6 +5,7 @@
 - [Availability](concepts/Scalability.md)
 - [Consistency]()
 - [CAP Theorem](concepts/CAP_Theorem.md)
+- [OSI Model]()
 
 ## Components
 - [Domain Name System (DNS)](components/Domain_Name_System.md)
