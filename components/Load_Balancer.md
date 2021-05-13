@@ -18,7 +18,7 @@
 - **Hardware vs. Software**
   | | Hardware | Software |
   |----|----|----|
-  | Rely on | proprietary hardware | commodity hardware |
+  | Rely on | Proprietary hardware | Commodity hardware |
   | Pros | | <ul><li>Low cost<li>High agility</ul> |
  
 - **Layer 4 vs. Layer 7**
