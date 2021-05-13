@@ -14,17 +14,15 @@
 | TLS offload | Load balancer can terminate TLS connections, passing HTTPS requests as HTTP requests to the backend servers. |
 | Health checking | Load balancer can check the health of the backend servers and remove unhealthy ones from the pool. |
 
-## Layer Options
-| | Layer 4 | Layer 7 |
-|---|---|---|
-| Layer | Transport layer | Application layer |
-| Unit | Packet | Message |
-| Decision | Not based on the content of the packet | Based on the content of the message |
-| Pros | | <li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance). |
-
 ## Types
-- Hardware
-- Software
+- Hardware vs. Software
+- Layer 4 vs. Layer 7
+  | | Layer 4 | Layer 7 |
+  |---|---|---|
+  | Layer | Transport layer | Application layer |
+  | Unit | Packet | Message |
+  | Decision | Not based on the content of the packet. | Based on the content of the message (request). |
+  | Pros | | <li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance). |
 
 ## Algorithms
 - Random
