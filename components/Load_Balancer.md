@@ -14,6 +14,13 @@
 | TLS offload | Load balancer can terminate TLS connections, passing HTTPS requests as HTTP requests to the backend servers. |
 | Health checking | Load balancer can check the health of the backend servers and remove unhealthy ones from the pool. |
 
+## Layer Options
+| | Layer 4 | Layer 7 |
+|---|---|---|
+| Layer | Transport layer | Application layer |
+| Unit | Packet | Message |
+| Decision | Not based on the content of the packet | Based on the content of the message |
+
 ## Types
 - Hardware
 - Software
