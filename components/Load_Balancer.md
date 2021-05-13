@@ -27,7 +27,7 @@
   | Layer | Transport layer | Application layer |
   | Unit | Packet | Message |
   | Decision | <ul><li>**Not based on the content of the packet.**<li>Based on the source, destination IP addresses and ports recorded in the packet header.</ul> | <ul><li>**Based on the content of the message.**<ul><li>HTTP header<li>URL<li>The type of data (text, video, graphics)<li>Information in a cookie</ul></ul> |
-  | Pros | <li>Simple<li>Better performance | <ul><li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance).</ul> |
+  | Pros | <ul><li>Simple<li>Better performance</ul>| <ul><li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance).</ul> |
 
 ## Algorithms
 - Random
