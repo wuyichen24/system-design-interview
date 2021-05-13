@@ -19,14 +19,14 @@
   | | Hardware | Software |
   |----|----|----|
   | Rely on | proprietary hardware | commodity hardware |
-  | Pros | | <li>Low cost |
+  | Pros | | <ul><li>Low cost</ul> |
  
 - **Layer 4 vs. Layer 7**
   | | Layer 4 | Layer 7 |
   |---|---|---|
   | Layer | Transport layer | Application layer |
   | Unit | Packet | Message |
-  | Decision | Not based on the content of the packet. | Based on the content of the message (request). |
+  | Decision | <ul><li>Not based on the content of the packet.<li>Based on the source, destination IP addresses and ports recorded in the packet header.</ul> | <ul><li>Based on the content of the message (request).</ul> |
   | Pros | | <ul><li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance).</ul> |
 
 ## Algorithms
