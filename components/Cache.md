@@ -41,7 +41,7 @@
 | Problem | Scenario | Cause | Solutions |
 |---|---|---|---|
 | Cache avalanche | Lots of cached data expire at the same time or the cache instance is down. | All of a sudden all queries hit the database and cause the database to crash down. | <li>Use distributed cache cluster (Redis cluster) to achieve high availability.<li>Use Hystrix's circuit breaker and rate limit to avoid the database crash down by high load.<li>Use the combination of in-process cache and distributed cache.<li>Adjust the expiration time for different keys so that they will not expire at the same time. |
-| Cache penetration | Lots of queries for the data which doesn't exist in the database. | For those queries, database doesn't have the data and cache doesn't have too. But those queries will eventually the hit database cause the database to crash down. | |
+| Cache penetration | Lots of queries for the data which doesn't exist in the database. | For those queries, database doesn't have the data and cache doesn't have too. But those queries will eventually the hit database. If the amount of the queries is very large, it would cause the database to crash down. | |
 | Cache breakdown | | | |
 
 ## Related Concepts
