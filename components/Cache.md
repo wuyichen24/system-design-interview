@@ -26,3 +26,10 @@
    - Write-Through
    - Write-Behind
    - Refresh-Ahead
+
+## Related Concepts
+- **Distributed Cache**
+   - A distributed cache may span multiple servers so that it can grow in size and in transactional capacity. 
+
+## References
+- https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching
