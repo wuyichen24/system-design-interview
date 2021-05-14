@@ -1,15 +1,25 @@
 # Cache
 
 ## Types
+
+![Cache](https://user-images.githubusercontent.com/8989447/118215761-6cfe4d80-b42f-11eb-9ac2-2e43553b36f1.png)
+
+### Client-side caching
 | Type | Description |
 |----|----|
-| Client caching | Caches can be located on the client side (OS or browser). |
-| CDN caching | CDNs are considered a type of cache. |
-| Web server caching | Reverse proxies and web server can cache request or content. |
+| Browser caching | Web browsers on the client side can cache some web content. |
+| App caching | Applications (mobile or PC) on the client side can cache some content. |
+
+### Server-side caching
+| Type | Description |
+|----|----|
+| CDN caching | CDNs can cache some static resources (web page, media file, etc.). |
+| Reverse proxy caching | Reverse proxy server can cache responses to clients. |
+| In-Process caching | An object cache built within the same memory as the application. |
 | Database caching | Databases include some level of caching. |
 | Application caching | Caches can be located between the application and the data storage. |
 
-## Algorithms (Replacement)
+## Replacement Policies
 | Algorithm | Description |
 |----|----|
 | Least recently used (LRU) | Discards the least recently used items first. | 
