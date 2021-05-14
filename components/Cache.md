@@ -29,7 +29,12 @@
 
 ## Related Concepts
 - **Distributed Cache**
-   - A distributed cache may span multiple servers so that it can grow in size and in transactional capacity. 
+   - A distributed cache may span multiple servers so that it can grow in size and in transactional capacity.
+- **Cache Coherence**
+   - The uniformity of shared resource data that is stored in multiple local caches.
+   - If one client updates the memory block, another client could be left with an invalid cache of memory without any notification of the change.
+
+     <img width="304" alt="Cache_Coherency_Generic" src="https://user-images.githubusercontent.com/8989447/118202935-310bbe00-b418-11eb-9fbb-547fe155e05b.png">
 
 ## References
 - https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching
