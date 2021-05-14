@@ -11,13 +11,13 @@
 | App caching | Applications (mobile or PC) on the client side can cache some content. |
 
 ### Server-side caching
-| Type | Description |
-|----|----|
-| CDN caching | CDNs can cache some static resources (web page, media file, etc.). |
-| Reverse proxy caching | Reverse proxy server can cache responses to clients. |
-| In-Process caching | An object cache built within the same memory as the application. |
-| Database caching | Databases include some level of caching. |
-| Application caching | Caches can be located between the application and the data storage. |
+| Type | Description | Examples |
+|----|----|----|
+| CDN caching | CDNs can cache some static resources (web page, media file, etc.). | |
+| Reverse proxy caching | Reverse proxy server can cache responses to clients. | | 
+| In-Process caching | An object cache built within the same memory as the application. | <li>Ehcache<li>Caffine<li>Google Guava Cache |
+| Database caching | Databases include some level of caching. | |
+| Application caching | Caches can be located between the application and the data storage. | <li>Redis<li>Memcached<li>Tair |
 
 ## Replacement Policies
 | Algorithm | Description |
@@ -38,11 +38,11 @@
    - Refresh-Ahead
 
 ## Common Problems And Solutions
-| Problem | Cause | Solutions |
-|---|---|---|
-| Cache avalanche | | |
-| Cache penetration | | |
-| Cache breakdown | | |
+| Problem | Scenario | Cause | Solutions |
+|---|---|---|---|
+| Cache avalanche | Lots of cached data expire at the same time or the cache instance is down. | All of a sudden all queries hit the database and cause the database to crash down. | <li>Use distributed cache cluster (Redis cluster) to achieve high availability.<li>Use Hystrix's circuit breaker and rate limit to avoid the database crash down by high load.<li>Use the combination of in-process cache and distributed cache.<li>Adjust the expiration time for different keys so that they will not expire at the same time. |
+| Cache penetration | | | |
+| Cache breakdown | | | |
 
 ## Related Concepts
 - **Distributed Cache**
