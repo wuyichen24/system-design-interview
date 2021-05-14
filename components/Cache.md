@@ -37,6 +37,13 @@
    - Write-Behind
    - Refresh-Ahead
 
+## Common Problems And Solutions
+| Problem | Cause | Solutions |
+|---|---|---|
+| Cache avalanche | | |
+| Cache penetration | | |
+| Cache breakdown | | |
+
 ## Related Concepts
 - **Distributed Cache**
    - A distributed cache may span multiple servers so that it can grow in size and in transactional capacity.
