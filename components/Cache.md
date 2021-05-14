@@ -55,3 +55,6 @@
 
 ## References
 - https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching
+- https://www.pixelstech.net/article/1586522853-What-is-cache-penetration-cache-breakdown-and-cache-avalanche
+- https://github.com/doocs/advanced-java/blob/main/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md
+- https://github.com/dunwu/blog/blob/master/source/_posts/theory/cache.md
