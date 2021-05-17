@@ -12,7 +12,7 @@
 - [Load Balancer (LB)](components/Load_Balancer.md)
 - [Content Delivery Network (CDN)](components/Content_Delivery_Network.md)
 - [Database (DB)](components/Database.md)
-- [Cache]()
+- [Cache](components/Cache.md)
 
 ## Interview
 - [Procedure](interview/Procedure.md)
