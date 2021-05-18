@@ -12,7 +12,7 @@
    - Search video: Users can search videos.
    - Comment video: Users can leave comments to videos, also like or dislike.
 - **Non-functional requirements**
-   - High reliability (any video uploaded should not be lost).
+   - High reliability (Any video uploaded should not be lost).
    - High availability.
    - High consistency is desirable (It should be ok for a user doesn’t see a video for a while).
 
