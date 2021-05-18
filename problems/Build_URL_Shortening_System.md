@@ -118,7 +118,10 @@
          - Basic idea:
             - Keep short URL as short as possible.
             - Don't let unique short URLs run out easily.
- 
+
+## Key points
+- Use Zookeeper as the distributed coordinator to solve the key conflict problem among multiple servers.
+
 ## References
 - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
 - https://www.youtube.com/watch?v=eCLqmPBIEYs&t=1s&ab_channel=KAEducation
