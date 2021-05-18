@@ -102,3 +102,6 @@
 
 ## Key points
 - Use queue to decouple upload works with encoding works.
+- Use proper storage for storing videos and thumbnails.
+   - Object storages
+   - CDN
