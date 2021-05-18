@@ -97,6 +97,17 @@
 - **Metadata Database**
    - Store photo, users and user following relationship information.
 
+## Detailed design
+- **Feed Generation Service**
+   - Consideration 1: Generate news feed for users
+      - Process
+         - Get a list of people the user follows and then fetch metadata info of each user’s latest 100 photos.
+         - Submit all these photos to our ranking algorithm, which will determine the top 100 photos and return them to the user.
+      - Problem
+         - The process of generating news feed will be slow.
+      - Solution
+         - Pre-generate the news feed and store it in a separate table.
+
 ## Key points
 - Images need to be compressed.
 - Use queue to decouple upload works with image compression works.
