@@ -69,5 +69,29 @@
         |----|----|----|----|
         | FollowerUserId | int | | The follower user ID. |
         | FolloweeUserId | int | | The user ID who has been followed. |
-        
+- Data storage
+   - Database
+   - File storage
+       - HDFS
+       - GlusterFS
+       - Amazon S3
+
 ## High-level design
+
+![ins](https://user-images.githubusercontent.com/8989447/118730026-24121480-b7f4-11eb-844b-960023c99db6.png)
+
+- **Upload Service**
+   - Handle photo upload requests.
+   - Create a image compression task and push it into the processing queue.
+- **Processing Queue**
+   - Store all the compression tasks.
+   - Decouple uploading works and compression works
+   - It can act as a buffer if the image compression service is unavailable or overloaded.
+- **Image Compression Service**
+   - Compress images from multiple quality to a single quality for storing and transferring.
+- **Read Service**
+   - Handle photo view and search requests.
+- **Feed Generation Service**
+   - Generate news feeds based on user following relationship.
+- **Metadata Database**
+   - Store photo, users and user following relationship information.
