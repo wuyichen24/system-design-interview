@@ -1,9 +1,9 @@
 # Build URL Shortening System
 
-## Real-life Examples
+## Real-life examples
 - [TinyUrl](https://tinyurl.com/app)
 
-## Requirements Clarification
+## Requirements clarification
 - **Functional requirements**
    - URL Shortening (Write): Given an original URL, our service should generate a shorter and unique URL of it.
    - URL Redirection (Read): When users access a short URL, our service should redirect them to the original URL.
