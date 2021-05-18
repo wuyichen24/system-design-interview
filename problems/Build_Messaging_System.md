@@ -89,6 +89,9 @@
                   - Connections can keep open for the duration of the session.
             - Solution 4: BOSH - Bidirectional-streams Over Synchronous HTTP
 
+## Key points
+- Use WebSocket for clients to get new messages.
+
 ## References 
 - https://slack.engineering/how-slack-built-shared-channels/
 - https://www.infoq.com/presentations/slack-scalability-2018/
