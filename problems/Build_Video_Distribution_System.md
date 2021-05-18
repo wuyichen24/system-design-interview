@@ -1,11 +1,11 @@
 # Build Video Distribution System
 
-## Real-life Examples
+## Real-life examples
 - Youtube
 - Netflix
 - Vimeo
 
-## Requirements Clarification
+## Requirements clarification
 - **Functional requirements**
    - Upload video: Users can upload videos.
    - Watch video: Users can watch videos.
