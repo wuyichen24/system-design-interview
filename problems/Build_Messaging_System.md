@@ -1,12 +1,12 @@
 # Build Messaging System
 
-## Real-life Examples
+## Real-life examples
 - Facebook Chat
 - Whatapp
 - Slack
 - Discord
 
-## Requirements Clarification
+## Requirements clarification
 - **Functional requirements**
    - Messaging: One user can send a message to another user or a group of users.
    - Status: Shows online/offline statuses of uesrs.
