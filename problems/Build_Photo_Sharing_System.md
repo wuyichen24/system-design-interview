@@ -38,5 +38,36 @@
 ## System interface definition
 
 ## Data model definition
-
+- **Schema**
+   - Table 1: User
+      - Description
+         - Store user accounts.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | UserId | int | PK | The user ID. |
+        | Name | string | | The name of the user. |
+        | Email | string | | The email of the user. |
+        | Location | string | | The location of the user. |
+        | LastLogin | datetime | | The last login time of the user. |
+   - Table 2: Photo
+      - Description
+         - Store the photo information.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | PhotoId | int | PK | The photo ID. |
+        | UserId | int | | The owner's user ID of the photo. |
+        | Description | string | | The description of the photo. |
+        | Location | string | | The location of the photo was taken. |
+        | Path | string | | The URL to access the photo in distributed file system. |
+   - Table 3: UserFollow
+      - Decription
+         - Store the user following relationship.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | FollowerUserId | int | | The follower user ID. |
+        | FolloweeUserId | int | | The user ID who has been followed. |
+        
 ## High-level design
