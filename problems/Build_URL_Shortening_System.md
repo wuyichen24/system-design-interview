@@ -11,7 +11,7 @@
       - URL Customization: Users should optionally be able to pick a custom short URL for their original URL.
       - URL Expiration: Shorter URL will expire after a standard default timespan. Users should be able to specify the expiration time.
 - **Non-functional requirements**
-   - The system should be highly available (ff our service is down, all the URL redirections will start failing).
+   - The system should be highly available (If our service is down, all the URL redirections will start failing).
    - URL redirection should happen in real-time with minimal latency.
    - Shortened links should not be guessable (not predictable).
 
