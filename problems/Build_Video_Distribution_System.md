@@ -105,3 +105,5 @@
 - Use proper storage for storing videos and thumbnails.
    - Object storages
    - CDN
+- Read traffic for thumbnails will be huge compared to videos
+   - Users will be watching one video at a time, but they might be looking at a page with 20 thumbnails of other videos.
