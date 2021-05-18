@@ -99,3 +99,6 @@
    - Store all the information about videos like title, file path in the system, uploading user, total views, likes, dislikes, comments.
 - **User Database**
    - Store user’s information.
+
+## Key points
+- Use message queue to decouple upload works with encoding works.
