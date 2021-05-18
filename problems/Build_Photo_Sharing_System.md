@@ -11,7 +11,7 @@
    - View: Users can view photos.
    - Search: Users can search photos.
    - Follow: Users can follow other users.
-   - Feed: Users can see the top/new photos from the users they follow.
+   - News feed: Users can see the top/new photos from the users they follow.
 - **Non-functional requirements**
    - High availability
    - High reliability (any photo uploaded should not be lost).
