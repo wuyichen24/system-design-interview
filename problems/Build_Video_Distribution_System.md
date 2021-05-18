@@ -101,4 +101,4 @@
    - Store user’s information.
 
 ## Key points
-- Use message queue to decouple upload works with encoding works.
+- Use queue to decouple upload works with encoding works.
