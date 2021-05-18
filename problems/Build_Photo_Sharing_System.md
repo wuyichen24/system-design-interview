@@ -101,3 +101,7 @@
 - Images need to be compressed.
 - Use queue to decouple upload works with image compression works.
 - Segregate uploads and reads into 2 different types of servers.
+
+## References
+- https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG
+- https://www.youtube.com/watch?v=VJpfO6KdyWE&ab_channel=Exponent
