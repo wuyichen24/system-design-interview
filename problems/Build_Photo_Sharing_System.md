@@ -71,10 +71,11 @@
         | FolloweeUserId | int | | The user ID who has been followed. |
 - Data storage
    - Database
+      - SQL database (We need to do join operations).
    - File storage
-       - HDFS
-       - GlusterFS
-       - Amazon S3
+      - HDFS
+      - Amazon S3
+      - GlusterFS
 
 ## High-level design
 
