@@ -96,3 +96,8 @@
    - Generate news feeds based on user following relationship.
 - **Metadata Database**
    - Store photo, users and user following relationship information.
+
+## Key points
+- Images need to be compressed.
+- Use queue to decouple upload works with image compression works.
+- Segregate uploads and reads into 2 different types of servers.
