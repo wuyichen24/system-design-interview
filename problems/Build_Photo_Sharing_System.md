@@ -14,7 +14,7 @@
    - News feed: Users can see the top/new photos from the users they follow.
 - **Non-functional requirements**
    - High availability
-   - High reliability (any photo uploaded should not be lost).
+   - High reliability (Any photo uploaded should not be lost).
    - High consistency is desirable (It should be ok for a user doesn’t see a photo for a while).
    - Low latency is expected while viewing photos.
 
