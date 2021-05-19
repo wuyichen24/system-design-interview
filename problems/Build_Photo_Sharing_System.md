@@ -1,11 +1,11 @@
 # Build Photo Sharing System
 
-## Real-life Examples
+## Real-life examples
 - Instagram
 - Flickr
 - Picasa
 
-## Requirements Clarification
+## Requirements clarification
 - **Functional requirements**
    - Upload: Users can upload photos.
    - View: Users can view photos.
