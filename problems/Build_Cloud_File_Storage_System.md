@@ -27,3 +27,21 @@
 - **Storage estimation**
    - Total capacity needed = Number of total users x Number of files per user x Average file size = 500 million x 200 x 100 KB = 10 PB
 - **Bandwidth estimation**
+
+## System interface definition
+
+## Data model definition
+
+## High-level design
+
+- **Block Server**
+   - Handle upload/download file operations
+   - Update the file metadata to the metadata database after uploading files.
+- **Metadata Server**
+   - Handle file search operation.
+- **Synchronization Servers**
+   - Get file updates from clients.
+   - Sychronize file updates to clients.
+- **Message Queue**
+   - Request Queue
+   - Response Queue
