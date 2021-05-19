@@ -53,8 +53,8 @@
       - Internal DB
          - Keep track of all the files, chunks, their versions, and their location in the file system.
       - Chunker
-         - Split the files into smaller chunks
-         - Reconstruct a file from its chunks.
+         - Split the files into smaller chunks (for uploading).
+         - Reconstruct a file from its chunks (for downloading).
       - Watcher
          - Monitor the local workspace folders and notify the Indexer of any action performed by the users.
          - Listens to any changes happening on other clients that are broadcasted by the Synchronization server.
