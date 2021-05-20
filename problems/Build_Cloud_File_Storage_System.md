@@ -35,6 +35,8 @@
 
 ## High-level design
 
+![Build_Cloud_File_Storage_System](https://user-images.githubusercontent.com/8989447/118901140-cc48db80-b8cf-11eb-9573-ea7b1224a471.png)
+
 - **Block Server**
    - Handle upload/download file operations.
    - Update the file metadata to the metadata database after uploading files.
