@@ -37,6 +37,15 @@
       - Root node store an empty character.
       - The path from the root node to the leaf node can construct a word.
    - Additional features for our use case
-      - Each node stores the frequency of it prefix has been searched.
+      - Each node stores the frequency of its prefix has been searched.
       - Each node only keep top K frequent of all its children.
-    
+- **Update trie**
+   - Basic idea
+      - Update our trie offline after certain interval (every day or every week)
+   - Normal time
+      - Put new searches into a log and track their frequencies.
+      - Log every search or log every 1000th search (sampling)
+   - At the time to update the trie
+      - Copy the old trie from servers
+      - Use Map-Reduce to process the logging data to update the copy of the old trie to a new trie.
+      - Replace the old trie on the servers with the new trie.
