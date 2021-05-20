@@ -38,6 +38,8 @@
 - **Block Server**
    - Handle upload/download file operations.
    - Update the file metadata to the metadata database after uploading files.
+- **Block Storage**
+   - Store chunks of files uploaded by clients.
 - **Metadata Server**
    - Handle metadata-related operation.
 - **Metadata Database**
@@ -45,9 +47,14 @@
 - **Synchronization Server**
    - Get file updates from clients.
    - Sychronize file updates to clients.
+   - It is designed to transmit less data between clients and the cloud storage to achieve a better response time.
 - **Message Queue**
-   - Request Queue
-   - Response Queue
+   - A communication middleware between clients and the Synchronization Server for improving efficiency and scalability.
+   - Types of queues
+      - Request Queues
+         - Global queue and all clients will share it.
+      - Response Queues
+         - Each client will have its own queue for getting updates only for itself.
 - **Client**
    - Components
       - Internal DB
@@ -57,7 +64,7 @@
          - Reconstruct a file from its chunks (for downloading).
       - Watcher
          - Monitor the local workspace folders and notify the Indexer of any action performed by the users.
-         - Listens to any changes happening on other clients that are broadcasted by the Synchronization server.
+         - Listens to any changes happening on other clients that are broadcasted by the Synchronization Server.
       - Indexer
          - Process the events received from the Watcher and update the internal DB about the chunks of the modified files.
-         - Notify the file changes to the Synchronization server for broadcasting the changes to other clients.
+         - Notify the file changes to the Synchronization Server for broadcasting the changes to other clients.
