@@ -19,5 +19,23 @@
       - 200 million daily active users. (Assumed)
       - 100 million new tweets every day. (Assumed)
       - Each user follows 200 people on average. (Assumed)
+   - Number of tweets will be viewed per day
+      - A user visits their timeline 2 times and visits five other people’s pages every day. (Assumed)
+      - Each page has 20 tweets. (Assumed)
+      - Number of tweets will be viewed per day = 200 million x ((2 + 5) x 20 tweets) = 28 billion
 - **Storage estimation**
+   - Types
+      - Data: Yes
+      - File: Yes
+   - Capacity
+      - Capacity for text
+         - Each tweet 
+            - Has 140 characters. (Assumed)
+            - Need 30 bytes to store the metadata. (Assumed)
+         - Each character needs 2 bytes.
+         - Total size for storing new tweets per day = 100 million x (140 x 2 bytes + 30 bytes) = 30 GB
+      - Capacity for photo and video
+         - Every fifth tweet has a photo and every tenth has a video.
+         - Photo size is 200 KB and Video size is 2 MB
+         - Total size for storing new photos and videos per day = (100 million / 5 photos x 200 KB) + (100 million / 10 videos x 2MB) = 24 TB
 - **Bandwidth estimation**
