@@ -51,6 +51,9 @@
       - Each node store one character.
       - Root node store an empty character.
       - The path from the root node to the leaf node can construct a word.
+
+        ![trie](https://user-images.githubusercontent.com/8989447/119071413-00430000-b9a7-11eb-8e52-f9356fe1c276.png)
+        
    - Additional features for our use case
       - Each node stores the frequency of its prefix has been searched.
       - Each node only keep top K frequent of all its children.
