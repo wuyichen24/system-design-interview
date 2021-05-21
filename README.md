@@ -23,3 +23,4 @@
 - [Build Video Distribution System](problems/Build_Video_Distribution_System.md)
 - [Build Photo Sharing System](problems/Build_Photo_Sharing_System.md)
 - [Build Cloud File Storage System](https://github.com/wuyichen24/system-design-interview/blob/main/problems/Build_Cloud_File_Storage_System.md)
+- [Build Typeahead/Autocomplete System](https://github.com/wuyichen24/system-design-interview/blob/main/problems/Build_Typeahead_Autocomplete_System.md)
