@@ -47,3 +47,41 @@
 ## System interface definition
 
 ## Data model definition
+- **Schema**
+   - Table 1: User
+      - Description
+         - Store user accounts.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | UserId | int | PK | The user ID. |
+        | Name | string | | The name of the user. |
+        | Email | string | | The email of the user. |
+        | Location | string | | The location of the user. |
+        | LastLogin | datetime | | The last login time of the user. |
+   - Table 2: Tweet
+      - Description
+         - Store the information of each tweet.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | TweetId | int | PK | The tweet ID. |
+        | UserId | int | | The user ID of the user who created the tweet. |
+        | Content | string | | The text content of the tweet. |
+        | Location | string | | The location of the tweet was publish. |
+        | Path | string | | The URL to access the photo or video of the tweet in distributed file system. |
+   - Table 3: UserFollow
+      - Decription
+         - Store the user following relationship.
+      - Columns
+        | Column Name | Column Type | PK | Description |
+        |----|----|----|----|
+        | FollowerUserId | int | | The follower user ID. |
+        | FolloweeUserId | int | | The user ID who has been followed. |
+- Data storage
+   - Database
+      - SQL database (We need to do join operations).
+   - File storage
+      - HDFS
+      - Amazon S3
+      - GlusterFS
