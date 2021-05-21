@@ -35,7 +35,7 @@
          - Each character needs 2 bytes.
          - Total size for storing new tweets per day = 100 million x (140 x 2 bytes + 30 bytes) = 30 GB
       - Capacity for photo and video
-         - Every fifth tweet has a photo and every tenth has a video.
+         - 20% tweets has a photo and 10% tweets has a video.
          - Photo size is 200 KB and Video size is 2 MB
-         - Total size for storing new photos and videos per day = (100 million / 5 photos x 200 KB) + (100 million / 10 videos x 2MB) = 24 TB
+         - Total size for storing new photos and videos per day = (100 million x 20% x 200 KB) + (100 million x 10% x 2MB) = 24 TB
 - **Bandwidth estimation**
