@@ -39,3 +39,11 @@
          - Photo size is 200 KB and Video size is 2 MB
          - Total size for storing new photos and videos per day = (100 million x 20% x 200 KB) + (100 million x 10% x 2MB) = 24 TB
 - **Bandwidth estimation**
+   - Text bandwidth = (28 billion x 280 bytes) / (24 hours x 3600 seconds) = 93 MB/s
+   - Phtot bandwidth = (28 billion x 20% x 200 KB ) / (24 hours x 3600 seconds) = 13 GB/s
+   - Video bandwidth = (28 billion x 10% x 30% x 2 MB ) / (24 hours x 3600 seconds) = 22 GB/s (Assume users only open to see 30% of videos in their timeline)
+   - Total bandwidth = 93 MB/s + 13 GB/s + 22 GB/s = 35 GB/s
+
+## System interface definition
+
+## Data model definition
