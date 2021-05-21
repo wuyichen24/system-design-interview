@@ -36,6 +36,12 @@
 - **Cache**
    - Cache stores top searched words.
    - API server will try to find the result from the cache first. If there is no result from the cache, it will check tries servers later.
+- **Zookeeper**
+   - Zookeeper will help API servers locate the proper trie server(s) for getting the results.
+- **Log**
+   - Log is used to store searches and track their frequencies.
+- **Map-Reduce**
+   - Map-Reduce will process the logging data to update the copy of the old trie to a new trie.
 
 ## Detailed design
 - **Data structure**
