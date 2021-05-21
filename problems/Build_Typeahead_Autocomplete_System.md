@@ -61,6 +61,6 @@
       - Put new searches into a log and track their frequencies.
       - Log every search or log every 1000th search (sampling)
    - At the time to update the trie
-      - Copy the old trie from servers
-      - Use Map-Reduce to process the logging data to update the copy of the old trie to a new trie.
-      - Replace the old trie on the servers with the new trie.
+      - Copy the old tries from servers
+      - Use Map-Reduce to process the logging data to update the copy of the old tries to new tries.
+      - Replace the old tries on the servers with the new tries.
