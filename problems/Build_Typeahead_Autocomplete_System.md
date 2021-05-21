@@ -27,6 +27,15 @@
          - Total size for storing the index per day = 5 million x 3 x 5 x 2 = 15 GB
 
 ## High-level design
+![Build_Typeahead_Autocomplete_System](https://user-images.githubusercontent.com/8989447/119062563-55294b00-b994-11eb-91ca-30a42610f50d.png)
+
+- **API Servers**
+   - Handle the requests from clients.
+- **Trie Servers**
+   - Each trie server stores a sub-trie of the whole trie.
+- **Cache**
+   - Cache stores top searched words.
+   - API server will try to find the result from the cache first. If there is no result from the cache, it will check tries servers later.
 
 ## Detailed design
 - **Data structure**
