@@ -91,6 +91,23 @@
 
 ## High-level design
 
+![Uploading Twitter.png…]()
+
+- **Tweet Service**
+   - Handle all the new tweets sent from users.
+- **Fanout**
+   - Take all the new tweets come in and place them into the Timeline Cache (A massive Redis cluster).
+   - Query the Social Graph Service to get the user following relationship.
+   - A single tweet might be written into multiple Redis instances for improving read performance.
+- **Social Graph Service**
+   - Hold all the following relationship information between users.
+- **Timeline Cache**
+   - A massive reds cluster to store all the new tweets for each active user.
+- **Timeline Service**
+   - Generate timeline for users.
+- **Object Storage**
+   - Store photos and video for tweets.
+
 ## Detailed design
 - **Data sharding**
    - Options
@@ -100,3 +117,7 @@
      | By TweetID | Store tweets based on tweet ID. | Load is distributed evenly. | Have to query all the servers for timeline generation. |
      | By Tweet creation time | Store tweets based on creation time. | Only have to query a very small set of servers for timeline generation. | Load is not distributed evenly (The server holding the latest data will have a very high load comparing to the servers holding old data). |
      | By both tweetID and tweet creation time | Store tweets based on the new tweet ID (Epoch seconds + Auto-incrementing sequence) | Reads and writes will be substantially quicker than the original tweet ID solution.<ul><li>While writing, we don't have any secondary index on tweet creation time.<li>While reading, we don’t need to filter on tweet creation time as our primary key has epoch time.</ul> | Have to query all the servers for timeline generation. |
+
+## References
+- https://www.infoq.com/presentations/Twitter-Timeline-Scalability/
+- http://highscalability.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html
