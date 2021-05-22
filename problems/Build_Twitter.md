@@ -91,7 +91,7 @@
 
 ## High-level design
 
-![Uploading Twitter.png…]()
+![Twitter](https://user-images.githubusercontent.com/8989447/119243080-f0e7c200-bb20-11eb-8ba9-9ea9f2f072ed.png)
 
 - **Tweet Service**
    - Handle all the new tweets sent from users.
