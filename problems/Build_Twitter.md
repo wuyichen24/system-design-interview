@@ -95,5 +95,5 @@
      | Option | Description | Pros | Cons |
      |----|----|----|----|
      | By UserID | Store all the data of a user on one server. | | Load is not distributed evenly (The server holding a hot user will have a very high load comparing to the servers holding normal users). |
-     | By TweetID | | | |
-     | By Tweet creation time | | | Load is not distributed evenly (The server holding the latest data will have a very high load comparing to the servers holding old data). |
+     | By TweetID | Store tweets based on tweet ID. | Load is distributed evenly. | Have to query all the servers to fetch all the top tweets. |
+     | By Tweet creation time | Store tweets based on creation time. | Only have to query a very small set of servers to fetch all the top tweets. | Load is not distributed evenly (The server holding the latest data will have a very high load comparing to the servers holding old data). |
