@@ -6,6 +6,8 @@
       - Tweets can contain photos and videos.
    - Follow: Users can follow other users.
    - Timeline: System should be able to create and display a user’s timeline consisting of top tweets from all the people the user follows.
+      - User timeline: All the tweets a particular user has sent. 
+      - Home timeline: A temporal merge of all the user timelines of the people are you are following. 
 - **Non-functional requirements**
    - High availability.
    - Acceptable latency of generating timeline is 200ms.
