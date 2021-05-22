@@ -68,7 +68,8 @@
         | TweetId | int | PK | The tweet ID. |
         | UserId | int | | The user ID of the user who created the tweet. |
         | Content | string | | The text content of the tweet. |
-        | Location | string | | The location of the tweet was publish. |
+        | Location | string | | The location of the tweet was published. |
+        | CreateTime | datetime | | The time of the tweet was published. |
         | Path | string | | The URL to access the photo or video of the tweet in distributed file system. |
    - Table 3: UserFollow
       - Decription
@@ -85,3 +86,14 @@
       - HDFS
       - Amazon S3
       - GlusterFS
+
+## High-level design
+
+## Detailed design
+- **Data sharding**
+   - Options
+     | Option | Description | Pros | Cons |
+     |----|----|----|----|
+     | By UserID | Store all the data of a user on one server | | Load is not distributed evenly (The server holding a hot user will have a very high load comparing to the servers holding normal users). |
+     | By TweetID | | | |
+     | By Tweet creation time | | | Load is not distributed evenly |
