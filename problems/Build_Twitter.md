@@ -95,5 +95,6 @@
      | Option | Description | Pros | Cons |
      |----|----|----|----|
      | By UserID | Store all the data of a user on one server. | | Load is not distributed evenly (The server holding a hot user will have a very high load comparing to the servers holding normal users). |
-     | By TweetID | Store tweets based on tweet ID. | Load is distributed evenly. | Have to query all the servers to fetch all the top tweets. |
-     | By Tweet creation time | Store tweets based on creation time. | Only have to query a very small set of servers to fetch all the top tweets. | Load is not distributed evenly (The server holding the latest data will have a very high load comparing to the servers holding old data). |
+     | By TweetID | Store tweets based on tweet ID. | Load is distributed evenly. | Have to query all the servers for timeline generation. |
+     | By Tweet creation time | Store tweets based on creation time. | Only have to query a very small set of servers for timeline generation. | Load is not distributed evenly (The server holding the latest data will have a very high load comparing to the servers holding old data). |
+     | By both tweetID and tweet creation time | Store tweets based on the new tweet ID (Epoch seconds + Auto-incrementing sequence) | Reads and writes will be substantially quicker than the original tweet ID solution.<ul><li>While writing, we don't have any secondary index on tweet creation time.<li>While reading, we don’t need to filter on tweet creation time as our primary key has epoch time.</ul> | Have to query all the servers for timeline generation. |
