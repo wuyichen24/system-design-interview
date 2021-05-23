@@ -95,7 +95,7 @@
 ## References 
 - https://slack.engineering/how-slack-built-shared-channels/
 - https://www.infoq.com/presentations/slack-scalability-2018/
-- https://www.youtube.com/watch?v=WE9c9AZe-DY
+- https://www.infoq.com/presentations/slack-infrastructure/?utm_source=youtube&utm_medium=link&utm_campaign=qcontalks
 - https://www.youtube.com/watch?v=zKPNUMkwOJE&ab_channel=TusharRoy-CodingMadeSimple
 - https://www.youtube.com/watch?v=uzeJb7ZjoQ4&ab_channel=Exponent
 - https://www.youtube.com/watch?v=vvhC64hQZMk&ab_channel=GauravSen
