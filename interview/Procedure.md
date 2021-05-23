@@ -23,7 +23,7 @@
          - Estimate read-write ratio (The ratio between read actions and write actions).
       - Estimate the total number of users and daily active users (DAU)
          - USER_NUM.
-      - Estimate the number of read actions and write actions per user per month/week/day
+      - Estimate the number of read actions and write actions per user per month/week/day.
          - ACTION_NUM_PER_USER.
       - Estimate the total number of read actions and write actions for the system per month/week/day.
          - ACTION_NUM_PER_SYSTEM = USER_NUM X ACTION_NUM_PER_USER
