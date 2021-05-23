@@ -52,7 +52,13 @@
    - If one client updates the memory block, another client could be left with an invalid cache of memory without any notification of the change.
 
      <img width="304" alt="Cache_Coherency_Generic" src="https://user-images.githubusercontent.com/8989447/118202935-310bbe00-b418-11eb-9fbb-547fe155e05b.png">
-
+- **Cold Cache, Warm Cache and Cache Warming**
+   - Cold Cache: The cache has no data in it and cannot provide cache hits.
+   - Warm Cache: The cache has data it it can can provide cache hits.
+   - Cache Warming: Manually pre-fill a cold cache with data so that it can provide cache hits when receiving real requests.
+   - Cache Warmer: The tools for warning caches.
+      - Examples: Magento, Wordpress.
+   
 ## References
 - https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching
 - https://www.pixelstech.net/article/1586522853-What-is-cache-penetration-cache-breakdown-and-cache-avalanche
