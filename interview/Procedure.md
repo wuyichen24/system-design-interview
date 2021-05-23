@@ -44,6 +44,8 @@
       - Calculate read bandwidth
          - READ_BANDWIDTH = QPS x DATA_RECORD_SIZE
 
+     ![Estimation](https://user-images.githubusercontent.com/8989447/119246938-f7873100-bb42-11eb-8503-bb50453331f6.png)
+
 ## Step 3: System interface definition
 - Description
    - Define what APIs are expected from the system.
