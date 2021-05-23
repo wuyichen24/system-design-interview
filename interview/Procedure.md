@@ -20,9 +20,15 @@
 - Sub-steps
    - Step 2.1: Estimate traffic/usage
       - Identify the system is read-heavy or write-heavy.
-      - Estimate read-write ratio (The ratio between read actions and write actions).
-      - Estimate the times of read actions and write actions per month/day.
+         - Estimate read-write ratio (The ratio between read actions and write actions).
+      - Estimate the total number of users and daily active users (DAU)
+         - USER_NUM.
+      - Estimate the number of read actions and write actions per user per month/week/day
+         - ACTION_NUM_PER_USER.
+      - Estimate the total number of read actions and write actions for the system per month/week/day.
+         - ACTION_NUM_PER_SYSTEM = USER_NUM X ACTION_NUM_PER_USER
       - Estimate the frequencies of read actions and write actions per second (QPS).
+         - QPS = ACTION_NUM_PER_SYSTEM / TIME
    - Step 2.2: Estimate storage
       - Estimate the types of storages (Database, file system).
       - Estimate the capacity of storage
