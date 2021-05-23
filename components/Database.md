@@ -26,7 +26,7 @@
 - **Types**
    - Horizontal partitioning (Sharding): Split data by row.
    - Vertical partitioning: Split data by column.
-   - Functional partitioning (Federation): Split data into multiple databases by function.
+   - Functional partitioning (Federation): Split data into multiple databases by function (table).
 - **Pros**
    - Less read and write traffic to a single database/shard.
    - If one database/shard is down, other databases/shards will be still operational.
