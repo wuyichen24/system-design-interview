@@ -32,5 +32,9 @@
 | Topic | Source 1 | Source 2 |
 |----|----|----|
 | Scaling Instagram Infrastructure | [InfoQ](https://www.infoq.com/presentations/instagram-scale-infrastructure/) | [Youtube](https://www.youtube.com/watch?v=hnpzNAPiC0E) |
-| 
+| How Slack Works | [InfoQ](https://www.infoq.com/presentations/slack-infrastructure/) | [Youtube](https://www.youtube.com/watch?v=WE9c9AZe-DY) |
+| Scaling Slack - The Good, the Unexpected, and the Road Ahead | [InfoQ](https://www.infoq.com/presentations/slack-scalability-2018/) | [Youtube](https://www.youtube.com/watch?v=_M-oHxknfnI) |
+| Scaling Slack | [InfoQ](https://www.infoq.com/presentations/slack-scalability/) | [Youtube](https://www.youtube.com/watch?v=x1Uz3rMlOBo) |
+| Twitter: Timelines at Scale | [InfoQ](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/) | [Youtube](https://www.youtube.com/watch?v=x1Uz3rMlOBo) |
+| How We Learned to Stop Worrying and Love Fan-In at Twitter | | [Youtube](https://www.youtube.com/watch?v=WEgCjwyXvwc) |
 
