@@ -10,3 +10,14 @@
 | 3 | Network | Packet | Structuring and managing a multi-node network. | IP (IPv4, IPv6) |
 | 2 | Data Link | Frame | Reliable transmission of data frames between two nodes connected by a physical layer. | |
 | 1 | Physical | Bit, Symbol | Transmission and reception of raw bit streams over a physical medium. | |
+
+## Common Protocols
+| Name | Layer | Features |
+|----|----|----|
+| UDP | Transport layer (L4) | <li>Connectionless<li>Unreliable |
+| TCP | Transport layer (L4) | <li>Connection-based<li>Reliable |
+| HTTP | Application layer (L7) | |
+  
+## Common Mechanisms
+### REST
+### RPC
