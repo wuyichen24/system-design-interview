@@ -37,7 +37,7 @@
 | Round robin | Requests are distributed sequentially. | | |
 | Least connections | Requests are distributed to the server with the fewest active connections to clients. | | |
 | Least time | Requests are distributed to the server with the combination of lowest response time and fewest active connections. | | |
-| Least work | Requests are distributed to the server with the fewest work. | | |
+| Least work/load | Requests are distributed to the server with the fewest work. | | |
 | Hash | Requests are distributed according to a hash table you define. | | |
 | IP hash | Requests are distributed based on the IP address of the client. | | |
 
