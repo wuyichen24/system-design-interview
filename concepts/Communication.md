@@ -1,6 +1,6 @@
-# OSI Model
+# Communication
 
-## Layers
+## OSI Model
 | Number | Name | Protocol Data Unit | Decription | Common Protocols |
 |----|----|----|----|----|
 | 7 | Application | Data | High-level APIs. | HTTP (HTTP/1, HTTP/2), HTTPS, RPC, SOAP, WebSocket, FTP, SFTP, SMTP, LDAP, SSH, DHCP, DNS  |
