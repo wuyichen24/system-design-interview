@@ -30,22 +30,16 @@
   | Pros | <ul><li>Simple<li>Better performance</ul>| <ul><li>Can make smarter load‑balancing decisions<li>Can apply optimizations and changes to the content (such as compression and encryption).<li>Can use buffering to offload slow connections from the upstream servers (Improve performance).</ul> |
 
 ## Algorithms
-- Random
-   - Requests are distributed randomly.
-- Random with two choices
-   - Picks two servers at random and then choose the better one.
-- Round robin
-   - Requests are distributed sequentially.
-- Least connections
-   - Requests are distributed to the server with the fewest active connections to clients.
-- Least time
-   - Requests are distributed to the server with the combination of lowest response time and fewest active connections.
-- Least work
-   - Requests are distributed to the server with the fewest work.
-- Hash
-   - Requests are distributed according to a hash table you define.
-- IP hash
-   - Requests are distributed based on the IP address of the client.
+| Name | Description | Pros | Cons |
+|----|----|----|----|
+| Random | Requests are distributed randomly. | | |
+| Random with two choices | Picks two servers at random and then choose the better one. | | |
+| Round robin | Requests are distributed sequentially. | | |
+| Least connections | Requests are distributed to the server with the fewest active connections to clients. | | |
+| Least time | Requests are distributed to the server with the combination of lowest response time and fewest active connections. | | |
+| Least work | Requests are distributed to the server with the fewest work. | | |
+| Hash | Requests are distributed according to a hash table you define. | | |
+| IP hash | Requests are distributed based on the IP address of the client. | | |
 
 ## Cons
 - Load balancer can be a potential performance bottleneck.
