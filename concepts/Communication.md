@@ -20,18 +20,18 @@
   
 ## Common Mechanisms
 ### REST
-- Pros
+- **Pros**
    - Simple
    - Easy to debug (You can debug by web browsers, Postman and curl command)
    - Firewall-friendly (Can be used for public APIs).
    - Stateless.
-- Cons
+- **Cons**
    - Only supports request-response style.
 
 ### RPC
-- Concepts
+- **Concepts**
    - Allows a computer program to cause a procedure to execute in another address space (commonly on another computer on a shared network).
-- Frameworks
+- **Frameworks**
    - Google gRPC
    - Facebook Thrift
    - Apache Avro
