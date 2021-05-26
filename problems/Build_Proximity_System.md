@@ -1,7 +1,13 @@
 # Build Proximity System
 
-## Intro
-- Proximity servers are used to discover nearby attractions like place
+## Requirements clarification
+- **Functional requirements**
+   - Change places: Users should be able to add/delete/update places.
+   - Search places: Given their location (longitude/latitude), users should be able to find all nearby places within a given distance.
+- **Non-functional requirements**
+   - High availability.
+   - Low latency.
+   - High availability is desirable (It should be ok for a user doesn’t see a place for a while).
 
 ## High-level design
 ![Screen Shot 2021-05-26 at 2 01 41 AM](https://user-images.githubusercontent.com/8989447/119624393-54dee480-bdc6-11eb-8e41-4c42af4c10f4.png)
