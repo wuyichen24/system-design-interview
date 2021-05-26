@@ -32,7 +32,7 @@
 | [Build Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
 | [Build Proximity System](problems/Build_Proximity_System.md) | |
-| [Build Recommendation System](problems/Build_Proximity_System.md) | |
+| [Build Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Build Search System](problems/Build_Search_System.md) | |
 
 ## Presentation
