@@ -1,8 +1,8 @@
 # system-design-interview
 
 ## Concepts
-- [Scalability]()
-- [Availability](concepts/Scalability.md)
+- [Scalability](concepts/Scalability.md)
+- [Availability]()
 - [Consistency]()
 - [CAP Theorem](concepts/CAP_Theorem.md)
 - [Communication](concepts/Communication.md)
@@ -13,6 +13,8 @@
 - [Content Delivery Network (CDN)](components/Content_Delivery_Network.md)
 - [Database (DB)](components/Database.md)
 - [Cache](components/Cache.md)
+- [Reverse Proxy](components/Reverse_Proxy.md)
+- [Service Discovery](components/Service_Discovery.md)
 
 ## Interview
 - [Procedure](interview/Procedure.md)
