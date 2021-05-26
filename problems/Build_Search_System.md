@@ -5,6 +5,7 @@
 
 ## Detailed Design
 ![Screen Shot 2021-05-26 at 1 45 47 AM](https://user-images.githubusercontent.com/8989447/119622163-252edd00-bdc4-11eb-8586-ff23e7307c92.png)
+![Screen Shot 2021-05-26 at 11 00 20 AM](https://user-images.githubusercontent.com/8989447/119701475-9c3e9280-be11-11eb-839d-8ad229b2643b.png)
 
 ## Detailed Design
 - What if an index server dies?
