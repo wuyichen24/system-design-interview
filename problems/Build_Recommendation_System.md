@@ -16,6 +16,9 @@
 - 2 Solutions for generating top N trending topics
    - Fast path
       - A data structure called Count-Min Sketch will be used.
+         - 2D array
+            - Rows are mapped to different hash functions.
+            - Column are mapped to the Top N.
       - Take short time but less accurate.
    - Slow path
       - MapReduce pipeline
