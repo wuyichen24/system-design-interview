@@ -16,7 +16,7 @@
    
 | Type | Concept | Pros | Products |
 |----|----|----|----|
-| Document-oriented | Documents encapsulate and encode data (or information) in some standard formats or encodings (JSON,XML,YAML,BSON). | <li>Flexibility (Schemaless)<li>High Performance | <li>MongoDB<li>CouchDB<li>Terrastore<li>OrientDB<li>RavenDB |
+| Document-oriented | Documents encapsulate and encode data in some standard formats or encodings (JSON,XML,YAML,BSON). | <li>Flexibility (Schemaless)<li>High Performance | <li>MongoDB<li>CouchDB<li>Terrastore<li>OrientDB<li>RavenDB |
 | Document-oriented | Store data tables by column rather than by row. | <li>Distributed<li>Highly-available<li>Optimized for write | <li>Cassandra<li>HBase<li>Hypertable<li>Amazon SimpleDB |
 | Key–value | Use map as fundamental data model. | <li>Reduce latency for accessing active data. | <li>Redis<li>Memcache |
    
