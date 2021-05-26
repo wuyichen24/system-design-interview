@@ -26,9 +26,14 @@
 | [Build Messaging System](problems/Build_Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
 | [Build Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
 | [Build Photo Sharing System](problems/Build_Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
-| [Build Cloud File Storage System](https://github.com/wuyichen24/system-design-interview/blob/main/problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
-| [Build Typeahead/Autocomplete System](https://github.com/wuyichen24/system-design-interview/blob/main/problems/Build_Typeahead_Autocomplete_System.md) | |
-| [Build Twitter](https://github.com/wuyichen24/system-design-interview/blob/main/problems/Build_Twitter.md) | <li>Twitter<li>Facebook | 
+| [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
+| [Build Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
+| [Build Twitter](problems/Build_Twitter.md) | <li>Twitter<li>Facebook | 
+| [Build Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
+| [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
+| [Build Proximity System](problems/Build_Proximity_System.md) | |
+| [Build Recommendation System](problems/Build_Proximity_System.md) | |
+| [Build Search System](problems/Build_Search_System.md) | |
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
