@@ -6,5 +6,11 @@
 ## Detailed Design
 ![Screen Shot 2021-05-26 at 1 45 47 AM](https://user-images.githubusercontent.com/8989447/119622163-252edd00-bdc4-11eb-8586-ff23e7307c92.png)
 
-## Questions
-![Screen Shot 2021-05-26 at 1 48 37 AM](https://user-images.githubusercontent.com/8989447/119622614-8a82ce00-bdc4-11eb-93cd-6f0842c422c9.png)
+## Detailed Design
+- What if an index server dies?
+   - Have a secondary replica of each server and if the primary server dies it can take control after the failover.
+   - Rebuild index
+      - Iiterate through the whole database
+      - Build a reverse index that will map all the TweetID to their index server.
+         - Our Index-Builder server can hold this information.
+         - Key = index server number. Value = HashSet containing all the TweetIDs being kept at that index server.
