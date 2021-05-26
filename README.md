@@ -2,7 +2,7 @@
 
 ## Concepts
 - [Scalability](concepts/Scalability.md)
-- [Availability]()
+- [Availability](concepts/Availability.md)
 - [Consistency]()
 - [CAP Theorem](concepts/CAP_Theorem.md)
 - [Communication](concepts/Communication.md)
