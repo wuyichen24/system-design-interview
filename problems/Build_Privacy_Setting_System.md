@@ -28,6 +28,4 @@
    - Perform an intersection of the post's owner and the viewer's friend lists.
    - Add a record of friend of friend (A-B, B-C, so add A-C into the user relationship data).
 
-![Screen Shot 2021-05-26 at 2 16 48 AM](https://user-images.githubusercontent.com/8989447/119626473-7e007480-bdc8-11eb-8bc6-ab0954808024.png)
-
-
+![Screen Shot 2021-05-26 at 10 18 37 AM](https://user-images.githubusercontent.com/8989447/119695773-c42af780-be0b-11eb-945a-ca3b49660318.png)
