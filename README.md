@@ -49,3 +49,6 @@
 | Systems at Facebook Scale | | [Youtube](https://www.youtube.com/watch?v=dlixGkelP9U) |
 | Building Real Time Infrastructure at Facebook | | [Youtube](https://www.youtube.com/watch?v=ODkEWsO5I30) |
 | Lessons of Scale at Facebook | | [Youtube](https://www.youtube.com/watch?v=QCHiNEw73AU) |
+| The Evolution of Reddit.com's Architecture | | [Youtube](https://www.youtube.com/watch?v=nUcO7n4hek4) |
+| Scalable and Reliable Logging at Pinterest | | [Youtube](https://www.youtube.com/watch?v=DphnpWVYeG8) | 
+| Facebook and memcached | | [Youtube](https://www.youtube.com/watch?v=UH7wkvcf0ys) |
