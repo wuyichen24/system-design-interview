@@ -31,6 +31,7 @@
 
 ![Screen Shot 2021-05-26 at 10 18 37 AM](https://user-images.githubusercontent.com/8989447/119695773-c42af780-be0b-11eb-945a-ca3b49660318.png)
 
+<img width="1595" alt="Screen Shot 2022-01-09 at 10 21 01 PM" src="https://user-images.githubusercontent.com/8989447/148725630-6acbdd23-964a-4519-8752-7c97b06d5253.png">
 
 ## Data model definition
 - Schema
