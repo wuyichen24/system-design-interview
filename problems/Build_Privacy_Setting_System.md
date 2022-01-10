@@ -49,8 +49,9 @@
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
-        | UserID | int | PK | The user ID. |
-        | FriendUserID | int | | The user's one friend's user ID. |
+        | RelationID | int | PK | The friend relation ID. |
+        | FirstUserID | int | | The first user ID of one relationship. |
+        | SecondUserID | int | | The second user ID of one relationship. |
    - Table 3: FriendGroup
       - Description
          - Define user's friend groups, which allow a group of friends to access a post directly.
@@ -67,4 +68,5 @@
       - Option 2: Cache
       - Option 3: Graph database
          
-             
+## Detailed design
+- **How to figure out friend of friend from database**
