@@ -62,5 +62,10 @@
            | GroupID | int | PK | The user's friend group ID. |
            | GroupName | string | | The name of the friend group. |
            | FriendUserID | int| | The user's one friend's user ID. |
-
+- Database
+   - For storing friend relationship
+      - Option 1: SQL database
+      - Option 2: Cache
+      - Option 3: Graph database
+         
              
