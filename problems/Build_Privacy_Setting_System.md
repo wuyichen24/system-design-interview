@@ -62,11 +62,33 @@
         | GroupID | int | PK | The user's friend group ID. |
         | GroupName | string | | The name of the friend group. |
         | FriendUserID | int| | The user's one friend's user ID. |
-- **Database**
-   - For storing friend relationship
-      - Option 1: SQL database
-      - Option 2: Cache
-      - Option 3: Graph database
          
 ## Detailed design
+- **How to store friend relationship**
+   - Assumptions
+      - Friendship is symmetrical (If A is friends with B that implies that B is also friends with A).
+   - Options
+      - Option 1: Use key-value store (cache).
+         - Schema
+            - Key is UserID
+            - Value is set of all the friends.
+         - Example
+           | Key | Value |
+           |----|----|
+           | A | {B, C, D, E} |
+      - Option 2: Use SQL database.
+         - Schema
+           - RelationID: The primary key of relationship.
+           - FirstUserID: The first user ID of one relationship.
+           - SecondUserID: The second user ID of one relationship.
+         - Example
+           | RelationID | FirstUserID | SecondUserID |
+           |----|----|----|
+           | 1 | A | B |
+           | 2 | A | C |
+           | 3 | A | D | 
+           | ... | ... | ... |
+         - Optimization
+            - Use 2 rows for one relationship (If A and B are friend, add A-B and B-A to the table).
+      - Option 3: Use graph database.
 - **How to figure out friend of friend from database**
