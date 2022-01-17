@@ -5,7 +5,7 @@
 
 ## Types
 - **Vertical scaling (Scale up)**
-   - Add more resources into a single node.
+   - Add more resources (CPU, memory, etc.) into a single node.
 - **Horizontal scaling (Scale out)**
    - Add more nodes into a system.
 
