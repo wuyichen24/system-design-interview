@@ -9,4 +9,6 @@
 - **Horizontal scaling (Scale out)**
    - Add more nodes into a system.
 
-## Limitations
+## Limitations for Vertical Scaling
+- Vertical scaling has a hard limit (It is impossible to add unlimited CPU and memory to a single server).
+- Vertical scaling doesn't have failover and redundancy.
