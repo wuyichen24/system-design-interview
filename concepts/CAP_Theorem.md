@@ -11,6 +11,6 @@
 ## Common Combinations
 | Combination | Guarantee | Situations |
 |----|----|----|
-| CP (Consistency over Availability) | ACID <li>Atomicity | <li>Require atomic reads and writes. |
-| AP (Availability over Consistency) | BASE | <li>Allow for eventual consistency <li>Need to continue working despite external errors. |
+| CP (Consistency over Availability) | ACID <li>Atomicity<li>Consistency<li>Isolation<li>Durability | <li>Require atomic reads and writes. |
+| AP (Availability over Consistency) | BASE <li>Basically Available<li>Soft state<li>Eventually consistent | <li>Allow for eventual consistency <li>Need to continue working despite external errors. |
 
