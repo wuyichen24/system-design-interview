@@ -13,5 +13,5 @@
 |----|----|
 | CP (Consistency over Availability) | The system will return an error or a time out if particular information cannot be guaranteed to be up to date. |
 | AP (Availability over Consistency) | The system will always try to return the most recent available version of the information, but the information cannot be guaranteed to be up to date. |
-| CA | |
+| CA  | |
 
