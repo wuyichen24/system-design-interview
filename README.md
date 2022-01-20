@@ -1,20 +1,7 @@
 # system-design-interview
 
-## Concepts
-- [Scalability](concepts/Scalability.md)
-- [Availability](concepts/Availability.md)
-- [Consistency]()
-- [CAP Theorem](concepts/CAP_Theorem.md)
-- [Communication](concepts/Communication.md)
-
-## Components
-- [Domain Name System (DNS)](components/Domain_Name_System.md)
-- [Load Balancer (LB)](components/Load_Balancer.md)
-- [Content Delivery Network (CDN)](components/Content_Delivery_Network.md)
-- [Database (DB)](components/Database.md)
-- [Cache](components/Cache.md)
-- [Reverse Proxy](components/Reverse_Proxy.md)
-- [Service Discovery](components/Service_Discovery.md)
+## Knowledage
+For system design knowledge, please find [system-design-knowledge](https://github.com/wuyichen24/system-design-knowledge) repo.
 
 ## Interview
 - [Procedure](interview/Procedure.md)
