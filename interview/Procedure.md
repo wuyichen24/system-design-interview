@@ -4,6 +4,7 @@
 - Description
    - Ask questions about the exact scope of the problem.
    - Clarify what parts of the system we will be focusing on.
+   - The interviewer either answers the question or asks you to make assumptions.
 - Sub-steps
    - Step 1.1: Functional requirements
       - Read actions
