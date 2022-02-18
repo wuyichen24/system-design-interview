@@ -11,8 +11,9 @@
       - Write actions
       - Other functional behaviors 
    - Step 1.2: Non-functional requirements
-      - Consistency
-      - Availability
+      - Platforms: Which kind of platforms need to support? Mobile, web, etc.
+      - Consistency: Which kind of consistency level need to achieve? Strict consistency or eventual consistency.
+      - Availability: Which kind of availability level need to achieve? 
       - Performance
 
 ## Step 2: Estimation
