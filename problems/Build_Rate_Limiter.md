@@ -20,6 +20,9 @@
       - When a reuqest arrives
          - If there is a token in the bucket, the request will take one token out from the bucket and it goes through.
          - If there is token in the bucket, the request will be blocked.
+        
+        ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
+
 - Leaking bucket
 - Fixed window counter
 - Sliding window log
