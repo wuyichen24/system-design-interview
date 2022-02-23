@@ -13,7 +13,13 @@
 
 ## Detailed design
 ### Algorithms for rate limiting
-- Token bucket
+- **Token bucket**
+   - Mechanism
+      - The bucket can hold at the most B tokens.
+      - A token is added to the bucket every R seconds. If the bucket is full, no more tokens are added.
+      - When a reuqest arrives
+         - If there is a token in the bucket, the request will take one token out from the bucket and it goes through.
+         - If there is token in the bucket, the request will be blocked.
 - Leaking bucket
 - Fixed window counter
 - Sliding window log
