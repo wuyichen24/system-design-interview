@@ -22,7 +22,10 @@
          - If there is no token in the bucket, the request will be blocked.
         
         ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
-
+   - Implementation details
+      - Based on rate-limiting rules, we may need multiple buckets:
+         - If we need to throttle request based on IP addresses/users. so each IP address/user requires a bucket.
+         - If we need to throttle request based on request types (make a post, get feeds, etc.), so each request type requires a bucket.
 - Leaking bucket
 - Fixed window counter
 - Sliding window log
