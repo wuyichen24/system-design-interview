@@ -15,5 +15,6 @@
 ### Algorithms for rate limiting
 - Token bucket
 - Leaking bucket
-- Fixed window
-- Sliding window
+- Fixed window counter
+- Sliding window log
+- Sliding window counter
