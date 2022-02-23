@@ -10,3 +10,10 @@
 - **Non-functional requirements**
    - High availability (The rate limiter should always work for protecting the servers from external attacks).
    - Low latency (The rate limiter should not introduce substantial latencies affecting the user experience).
+
+## Detailed design
+### Algorithms for rate limiting
+- Token bucket
+- Leaking bucket
+- Fixed window
+- Sliding window
