@@ -26,6 +26,11 @@
       - Based on rate-limiting rules, we may need multiple buckets:
          - If we need to throttle request based on IP addresses/users. so each IP address/user requires a bucket.
          - If we need to throttle request based on request types (make a post, get feeds, etc.), so each request type requires a bucket.
+   - Pros
+      - Easy to implement.
+      - Memory effcient.
+   - Cons
+      - Hard to tune the bucket size (B) and the refill rate (R) properly.
 - Leaking bucket
 - Fixed window counter
 - Sliding window log
