@@ -74,4 +74,15 @@
       - Avoid the drawback of the fixed window counter algorithm.
    - Cons
       - Memory inefficient (For each request, have to filter logs and count the number of logs)
-- Sliding window counter
+- **Sliding window counter**
+   - Concepts
+      - The sliding window counter is the combination of the fixed window counter and the sliding window log.
+      - The basic idea of sliding window counter is to add a weighted count in previous time period to the count in current period.
+   - Mechanism
+      - Given the limiting rate is N requests per minute. 
+      - For current sliding window, there are overlaps on both the current minute and the previous minute. The overlap on the previous minute is P%.
+      - There were A requests received in the previous minute and there were B requests received in the current minute.
+      - So the number of requests in the current sliding window will be B + P% * A.
+      - Compare the number of requests in the current sliding window with threshold
+         - If the number doesn't reach the threshold, the request will go through.
+         - If the number reaches the threshold, the request will be blocked.
