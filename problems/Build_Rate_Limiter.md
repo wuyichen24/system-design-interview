@@ -45,6 +45,12 @@
    - Cons
       - Recent requests will be blocked and only old requests will be processed when the queue is full.
       - Token bucket can send large bursts at a faster rate while leaky bucket always sends requests at constant rate.
-- Fixed window counter
+- **Fixed window counter**
+   - Mechanism
+      - Divide the timeline to a fixed time window and assign a counter to each window.
+      - When a request arrives
+         - If the counter of the current time window doesn't reach the threshold, increment the counter by one and the request goes through.
+         - If the counter of the current time window reached the threshold, the request will be blocked.
+ 
 - Sliding window log
 - Sliding window counter
