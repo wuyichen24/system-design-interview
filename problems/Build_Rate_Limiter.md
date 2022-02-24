@@ -84,5 +84,5 @@
       - There were A requests received in the previous minute and there were B requests received in the current minute.
       - So the number of requests in the current sliding window will be B + P% * A.
       - Compare the number of requests in the current sliding window with threshold
-         - If the number doesn't reach the threshold, the request will go through.
-         - If the number reaches the threshold, the request will be blocked.
+         - If the number doesn't reach the threshold (B + P% * A < N), the request will go through.
+         - If the number reaches the threshold (B + P% * A ≥ N), the request will be blocked.
