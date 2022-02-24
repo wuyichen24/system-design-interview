@@ -21,7 +21,7 @@
          - If there is a token in the bucket, the request will take one token out from the bucket and it goes through.
          - If there is no token in the bucket, the request will be blocked.
         
-        ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
+         ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
    - Implementation details
       - Based on rate-limiting rules, we may need multiple buckets:
          - If we need to throttle request based on IP addresses/users. so each IP address/user requires a bucket.
@@ -31,13 +31,15 @@
       - Memory effcient.
    - Cons
       - Hard to tune the bucket size (B) and the refill rate (R) properly.
-- Leaking bucket
+- **Leaking bucket**
    - Mechanism
       - A FIFO queue works as a bucket and it can hold at the most N requests.
       - The FIFO queue pops out (leak) a request at a fixed rate and let it be processed.
       - When a request arrives
          - If the queue is not full, the request will be added to the queue.
          - If the queue is full, the request will be blocked.
+
+         ![leaky_bucket drawio](https://user-images.githubusercontent.com/8989447/155578782-e668a61f-cc47-40ad-8fc9-5e6599192047.png)
    - Pros
       - Memory effcient.
    - Cons
