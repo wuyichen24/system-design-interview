@@ -21,7 +21,7 @@
          - If there is a token in the bucket, the request will take one token out from the bucket and it goes through.
          - If there is no token in the bucket, the request will be blocked.
         
-         ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
+           ![token_bucket drawio](https://user-images.githubusercontent.com/8989447/155385390-aa3f9b9f-e1f7-4472-9601-8a520ad60676.png)
    - Implementation details
       - Based on rate-limiting rules, we may need multiple buckets:
          - If we need to throttle request based on IP addresses/users. so each IP address/user requires a bucket.
@@ -39,7 +39,7 @@
          - If the queue is not full, the request will be added to the queue.
          - If the queue is full, the request will be blocked.
 
-         ![leaky_bucket drawio](https://user-images.githubusercontent.com/8989447/155578782-e668a61f-cc47-40ad-8fc9-5e6599192047.png)
+           ![leaky_bucket drawio](https://user-images.githubusercontent.com/8989447/155578782-e668a61f-cc47-40ad-8fc9-5e6599192047.png)
    - Pros
       - Memory effcient.
    - Cons
@@ -51,6 +51,14 @@
       - When a request arrives
          - If the counter of the current time window doesn't reach the threshold, increment the counter by one and the request goes through.
          - If the counter of the current time window reached the threshold, the request will be blocked.
- 
+         
+           ![fixed_time_window drawio](https://user-images.githubusercontent.com/8989447/155586579-bcb77111-f072-4d55-856f-9ad4515f4a6f.png)
+   - Pros
+      - Easy to implement.
+      - Memory effcient.
+   - Cons
+      - A traffic spike at the edges of a window could cause more requests than the allowed quota to go through.
+
+        ![fixed_time_window drawio (1)](https://user-images.githubusercontent.com/8989447/155587144-0dc77e8a-f3cd-4e73-9cc7-4b792446cfb2.png)
 - Sliding window log
 - Sliding window counter
