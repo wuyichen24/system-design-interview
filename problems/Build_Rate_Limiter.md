@@ -86,3 +86,5 @@
       - Compare the number of requests in the current sliding window with threshold
          - If the number doesn't reach the threshold (B + P% * A < N), the request will go through.
          - If the number reaches the threshold (B + P% * A ≥ N), the request will be blocked.
+   - Pros
+      - Memory effcient.
