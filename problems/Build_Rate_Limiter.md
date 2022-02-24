@@ -32,6 +32,17 @@
    - Cons
       - Hard to tune the bucket size (B) and the refill rate (R) properly.
 - Leaking bucket
+   - Mechanism
+      - A FIFO queue works as a bucket and it can hold at the most N requests.
+      - The FIFO queue pops out (leak) a request at a fixed rate and let it be processed.
+      - When a request arrives
+         - If the queue is not full, the request will be added to the queue.
+         - If the queue is full, the request will be blocked.
+   - Pros
+      - Memory effcient.
+   - Cons
+      - Recent requests will be blocked and only old requests will be processed when the queue is full.
+      - Token bucket can send large bursts at a faster rate while leaky bucket always sends requests at constant rate.
 - Fixed window counter
 - Sliding window log
 - Sliding window counter
