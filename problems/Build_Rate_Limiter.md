@@ -60,5 +60,13 @@
       - A traffic spike at the edges of a window could cause more requests than the allowed quota to go through.
 
         ![fixed_time_window drawio (1)](https://user-images.githubusercontent.com/8989447/155587144-0dc77e8a-f3cd-4e73-9cc7-4b792446cfb2.png)
-- Sliding window log
+- **Sliding window log**
+   - Mechanism
+      - Use timestamp logs to track every request's timestamp. 
+      - When a request arrives
+         - Only keep the logs are in the current time window (From now to the start of the current time window) and remove the logs are not in the current time window.
+         - Count how many logs are in the current time window
+            - If the number doesn't reach the threshold, the request will go through.
+            - If the number reaches the threshold, the request will be blocked.
+            
 - Sliding window counter
