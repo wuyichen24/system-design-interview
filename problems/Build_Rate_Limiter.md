@@ -64,10 +64,12 @@
    - Mechanism
       - Use timestamp logs to track every request's timestamp. 
       - When a request arrives
-         - Only keep the logs are in the current time window (From now to the start of the current time window) and remove the logs are not in the current time window.
+         - Only focus on the logs are in the current time window (From now to the start of the current time window) and ignore the logs are not in the current time window.
          - Count how many logs are in the current time window
             - If the number doesn't reach the threshold, the request will go through.
             - If the number reaches the threshold, the request will be blocked.
+
+              ![sliding-window-log](https://user-images.githubusercontent.com/8989447/155608074-e690722b-922d-4819-9996-bc39bc08303a.png)
    - Pros
       - Avoid the drawback of the fixed window counter algorithm.
    - Cons
