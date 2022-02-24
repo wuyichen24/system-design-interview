@@ -68,5 +68,8 @@
          - Count how many logs are in the current time window
             - If the number doesn't reach the threshold, the request will go through.
             - If the number reaches the threshold, the request will be blocked.
-            
+   - Pros
+      - Avoid the drawback of the fixed window counter algorithm.
+   - Cons
+      - Memory inefficient (For each request, have to filter logs and count the number of logs)
 - Sliding window counter
