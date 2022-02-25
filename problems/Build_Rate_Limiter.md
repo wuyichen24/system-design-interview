@@ -88,3 +88,7 @@
          - If the number reaches the threshold (B + P% * A ≥ N), the request will be blocked.
    - Pros
       - Memory effcient.
+
+## References
+- https://medium.com/swlh/rate-limiting-fdf15bfe84ab
+- https://hechao.li/2018/06/25/Rate-Limiter-Part1/
