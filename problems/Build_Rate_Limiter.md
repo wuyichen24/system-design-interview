@@ -106,6 +106,9 @@
 - **Hard rate limiting**: The number of requests cannot exceed the threshold.
 - **Soft rate limiting**: The number of requests can exceed the threshold for a short period of time.
 
+### Other optimization options
+- Use client cache to avoid making too frequent API calls.
+
 ## References
 - https://medium.com/swlh/rate-limiting-fdf15bfe84ab
 - https://hechao.li/2018/06/25/Rate-Limiter-Part1/
