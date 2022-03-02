@@ -102,6 +102,10 @@
 - **Option 1**: Drop the requests and return the 429 error (too many requests) to the client. 
 - **Option 2**: Put the requests to a queue so that they can be processed later.
 
+### Hard and soft rate limiting
+- **Hard rate limiting**: The number of requests cannot exceed the threshold.
+- **Soft rate limiting**: The number of requests can exceed the threshold for a short period of time.
+
 ## References
 - https://medium.com/swlh/rate-limiting-fdf15bfe84ab
 - https://hechao.li/2018/06/25/Rate-Limiter-Part1/
