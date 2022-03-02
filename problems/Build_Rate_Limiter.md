@@ -12,7 +12,7 @@
    - Low latency (The rate limiter should not introduce substantial latencies affecting the user experience).
 
 ## High-level design
-![rate_limiter](https://user-images.githubusercontent.com/8989447/156300402-d06ebddc-dfb9-4ae6-9c88-080c2c0b50d8.png)
+![rate_limiter](https://user-images.githubusercontent.com/8989447/156301886-eed504db-b8dc-4c23-ada4-d0441186e582.png)
 
 - **Redis**
    - Use Redis to store the counter.
@@ -97,6 +97,10 @@
          ![sliding_window drawio](https://user-images.githubusercontent.com/8989447/155776135-4173c294-da01-42ea-aef1-911d74443bd0.png)
    - Pros
       - Memory effcient.
+
+### How to handle blocked requests
+- **Option 1**: Drop the requests and return the 429 error (too many requests) to the client. 
+- **Option 2**: Put the requests to a queue so that they can be processed later.
 
 ## References
 - https://medium.com/swlh/rate-limiting-fdf15bfe84ab
