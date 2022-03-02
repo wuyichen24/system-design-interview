@@ -102,9 +102,10 @@
 - **Option 1**: Drop the requests and return the 429 error (too many requests) to the client. 
 - **Option 2**: Put the requests to a queue so that they can be processed later.
 
-### Hard and soft rate limiting
+### Types of rate limiting
 - **Hard rate limiting**: The number of requests cannot exceed the threshold.
 - **Soft rate limiting**: The number of requests can exceed the threshold for a short period of time.
+- **Elastic/Dynamic rate limiting**: The number of requests can exceed the threshold if the system has some resources available.
 
 ### Other optimization options
 - Use client cache to avoid making too frequent API calls.
