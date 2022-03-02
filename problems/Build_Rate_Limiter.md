@@ -11,6 +11,9 @@
    - High availability (The rate limiter should always work for protecting the servers from external attacks).
    - Low latency (The rate limiter should not introduce substantial latencies affecting the user experience).
 
+## High-level design
+![rate_limiter](https://user-images.githubusercontent.com/8989447/156300402-d06ebddc-dfb9-4ae6-9c88-080c2c0b50d8.png)
+
 ## Detailed design
 ### Algorithms for rate limiting
 - **Token bucket**
