@@ -14,6 +14,10 @@
 ## High-level design
 ![rate_limiter](https://user-images.githubusercontent.com/8989447/156300402-d06ebddc-dfb9-4ae6-9c88-080c2c0b50d8.png)
 
+- **Redis**
+   - Use Redis to store the counter.
+   - Redis is fast and supports time-based expiration strategy.
+
 ## Detailed design
 ### Algorithms for rate limiting
 - **Token bucket**
