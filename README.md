@@ -21,6 +21,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Proximity System](problems/Build_Proximity_System.md) | |
 | [Build Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Build Search System](problems/Build_Search_System.md) | |
+| [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
