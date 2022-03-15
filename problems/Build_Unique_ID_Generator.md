@@ -35,9 +35,10 @@
         ```
         123e4567-e89b-12d3-a456-426614174000
         ```
+      - 128-bit.
    - Pros
       - Very low probability of getting collusion.
       - The ID generators in the services don't need to coordinate each other.
    - Cons
       - ID cannot be ordered by time.
-- Twitter snowflake
+- **Twitter snowflake**
