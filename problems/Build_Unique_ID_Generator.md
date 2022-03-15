@@ -30,6 +30,11 @@
 ### Solution options for centralized architecture
 ### Solution optinos for decentralized architecture
 - **UUID**
+   - Concepts
+      - UUID consists of 32 hexadecimal (base-16) digits, displayed in five groups separated by hyphens.
+        ```
+        123e4567-e89b-12d3-a456-426614174000
+        ```
    - Pros
       - Very low probability of getting collusion.
       - The ID generators in the services don't need to coordinate each other.
