@@ -26,3 +26,6 @@
   
   ![uniqueID drawio (1)](https://user-images.githubusercontent.com/8989447/158303949-72981c78-a56f-460f-b024-d1d9f039e6e8.png)
 
+## Detailed design
+### Solution options for centralized architecture
+### Solution optinos for decentralized architecture
