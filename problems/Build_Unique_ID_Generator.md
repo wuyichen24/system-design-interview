@@ -29,3 +29,10 @@
 ## Detailed design
 ### Solution options for centralized architecture
 ### Solution optinos for decentralized architecture
+- **UUID**
+   - Pros
+      - Very low probability of getting collusion.
+      - The ID generators in the services don't need to coordinate each other.
+   - Cons
+      - ID cannot be ordered by time.
+- Twitter snowflake
