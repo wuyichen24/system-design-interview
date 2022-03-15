@@ -13,4 +13,5 @@
 ## High-level design
 ### Architecture options
 - **Centralized**: Use one centralized service to generate ID.
+  ![uniqueID drawio](https://user-images.githubusercontent.com/8989447/158303619-8472b8a4-74b0-4da7-9132-de96b1a89a30.png)
 - **Decentralized**: Each service generates generate ID respectively.
