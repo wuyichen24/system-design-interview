@@ -46,8 +46,8 @@
       - Divide an ID into different sections:
          - Sign (1 bit): Always be 0 (Reserved for future used).
          - Timestamp (41 bits): Milliseconds since the epoch or custom epoch.
-         - Datacenter ID (5 bits): Each data center has an unique datacenter ID and this field can hold up 32 available data centers (2<sup>5</sup>=32).
-         - Machine ID (5 bits): Each mahcine has an unique machine ID within a data center and this field can hold up 32 available machines (2<sup>5</sup>=32).
+         - Datacenter ID (5 bits): Each data center has an unique datacenter ID.
+         - Machine ID (5 bits): Each mahcine has an unique machine ID within a data center.
          - Sequence number (12 bits): The sequence number is incremented by 1 and is reset to 0 every millisecond.
       - Each machine generate ID by itself.
    - Pros
