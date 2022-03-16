@@ -40,17 +40,20 @@
       - Very low probability of getting collusion.
       - The ID generators in the services don't need to coordinate each other.
    - Cons
-      - ID cannot be ordered by time.
-- **Twitter snowflake**
+      - IDs cannot be ordered by time.
+- **Snowflake ID**
    - Concepts
+      - The format was created by Twitter and is used for the IDs of tweets.
       - Divide an ID into different sections:
          - Sign (1 bit): Always be 0 (Reserved for future used).
          - Timestamp (41 bits): Milliseconds since the epoch or custom epoch.
-         - Datacenter ID (5 bits): Each data center has an unique datacenter ID.
-         - Machine ID (5 bits): Each mahcine has an unique machine ID within a data center.
+         - Machine ID (10 bits): Hold up to 1024 machines.
          - Sequence number (12 bits): The sequence number is incremented by 1 and is reset to 0 every millisecond.
-      - Each machine generate ID by itself.
+      -  64-bit.
+      - Each machine can generate IDs by itself.
+
+        <img width="709" alt="Snowflake-identifier" src="https://user-images.githubusercontent.com/8989447/158496043-0a8c6bf4-b991-47da-adb4-d884014d0054.png">
    - Pros
-     - ID can be ordered by time.
+     - IDs can be ordered by time.
      - The binary representation of the timestamp field can be converted to/from a a real date and time.
    - Cons
