@@ -31,6 +31,8 @@
 - **Zookeeper**
    - Concept
       - Distributed coordinator to give each server a unique unused range of IDs.
+        
+        ![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/8989447/158518927-2d831af3-c5fa-412f-9af8-5304561bd561.png)
    - Pros
       - Easy to implement.
    - Cons
