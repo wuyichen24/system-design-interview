@@ -45,7 +45,7 @@
    - Concepts
       - Divide an ID into different sections:
          - Sign (1 bit): Always be 0 (Reserved for future used).
-         - Timestamp (41 bits): Milliseconds since the epoch
-         - Datacenter ID (5 bits)
+         - Timestamp (41 bits): Milliseconds since the epoch or custom epoch.
+         - Datacenter ID (5 bits): 32 available data centers (2<sup>5</sup>)
          - Machine ID (5 bits)
          - Sequence number (12 bits)
