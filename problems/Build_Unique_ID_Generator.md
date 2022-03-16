@@ -19,7 +19,7 @@
       - Introduce single point of failure.
 
   ![uniqueID drawio](https://user-images.githubusercontent.com/8989447/158303619-8472b8a4-74b0-4da7-9132-de96b1a89a30.png)
-- **Decentralized**: Each service generates ID respectively.
+- **Decentralized**: Each server generates ID respectively.
    - Pros
       - Improve availability.
    - Cons
@@ -28,6 +28,15 @@
 
 ## Detailed design
 ### Solution options for centralized architecture
+- **Zookeeper**
+   - Concept
+      - Distributed coordinator to give each server a unique unused range of IDs.
+   - Pros
+      - Easy to implement.
+   - Cons
+      - IDs cannot be ordered by time cross multiple servers.
+      - Need to consider the size of each range.
+
 ### Solution optinos for decentralized architecture
 - **UUID**
    - Concepts
