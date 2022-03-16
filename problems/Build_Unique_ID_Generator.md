@@ -51,4 +51,6 @@
          - Sequence number (12 bits): The sequence number is incremented by 1 and is reset to 0 every millisecond.
       - Each machine generate ID by itself.
    - Pros
+     - ID can be ordered by time.
+     - The binary representation of the timestamp field can be converted to/from a a real date and time.
    - Cons
