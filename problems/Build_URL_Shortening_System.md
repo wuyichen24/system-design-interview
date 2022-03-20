@@ -90,7 +90,7 @@
       - Consideration 1: Uniqueness of short URLs.
          - Factors
             - Number of all possible characters in one digit.
-            - Number of digits
+            - Number of digits.
          - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
          - Solutions
             - Solution 1: Only use number (0-9) and short URLs are 7-digit long
