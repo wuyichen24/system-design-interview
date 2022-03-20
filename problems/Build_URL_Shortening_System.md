@@ -40,15 +40,11 @@
 
 ## System interface definition
 - **Interface 1**
-   - `createURL(api_key, original_url, custom_alias=None, user_name=None, expire_date=None)`
+   - `createURL(original_url)`
       - Function
          - Create a new shorter URL.
       - Parameters
-         - api_key (string): The API developer key of a registered account.
          - original_url (string): Original URL to be shortened.
-         - custom_alias (string): Optional custom key for the URL.
-         - user_name (string): Optional user name to be used in the encoding.
-         - expire_date (string): Optional expiration date for the shortened URL.
       - Return
          - The short URL.
 - **Interface 2**
@@ -56,7 +52,6 @@
       - Function
          - Get the original URL of a short URL.
       - Parameters
-         - api_key (string): The API developer key of a registered account.
          - short_url (string): The short URL to be redirected.
       - Return
          - The original URL.
@@ -71,24 +66,7 @@
         |----|----|----|----|
         | ShortUrl | string | PK | The short URL. |
         | OriginalUrl | string | | The original long URL. |
-        | CreationDate | datetime | | The creation date of the short URL. |
-        | ExpirationDate | datetime | | The expiration date of the short URL. |
-        | UserID | int | | The UserID of the user who created this short URL. |
-      - Foreign key relationship
-         - URL.UserID (n:1) User:UserID
-   - Table 2: User
-      - Description
-         - Store user accounts.
-      - Columns
-        | Column Name | Column Type | PK | Description |
-        |----|----|----|----|
-        | UserID | int | PK | The user ID. |
-        | Name | string | | The name of the user. |
-        | Email | string | | The email of the user. |
-        | CreationDate | datetime | | The creation date of the user. |
-        | LastLogin | datetime | | The last login time of the user. |
-      - Foreign key relationship
-         - URL.UserID (n:1) User:UserID
+
 - **Database**
    - NoSQL
       - Reason
