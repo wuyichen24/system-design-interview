@@ -107,7 +107,7 @@
    - Stores URLs and users.
 
 ## Detailed design
-- **Short URL generation server**
+- **Short URL generation service**
    - Considerations
       - Consideration 1: Uniqueness of short URLs.
          - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
