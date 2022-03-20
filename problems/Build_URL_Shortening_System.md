@@ -49,13 +49,17 @@
          - custom_alias (string): Optional custom key for the URL.
          - user_name (string): Optional user name to be used in the encoding.
          - expire_date (string): Optional expiration date for the shortened URL.
+      - Return
+         - The short URL.
 - **Interface 2**
-   - `deleteURL(api_key, short_url)`
+   - `getURL(api_key, short_url)`
       - Function
-         - Delete a short URL.
+         - Get the original URL of a short URL.
       - Parameters
          - api_key (string): The API developer key of a registered account.
-         - short_url (string): The short URL to be deleted.
+         - short_url (string): The short URL to be redirected.
+      - Return
+         - The original URL.
 
 ## Data model definition
 - **Schema**
