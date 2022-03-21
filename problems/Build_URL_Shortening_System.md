@@ -50,11 +50,11 @@
 - **Interface 2**
    - `getURL(api_key, short_url)`
       - Function
-         - Get the original URL of a short URL.
+         - Get the original long URL of a short URL.
       - Parameters
          - short_url (string): The short URL to be redirected.
       - Return
-         - The original URL.
+         - The original long URL.
 
 ## Data model definition
 - **Schema**
@@ -64,8 +64,9 @@
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
-        | ShortUrl | string | PK | The short URL. |
-        | OriginalUrl | string | | The original long URL. |
+        | ID | int | PK | | The ID of the row. |
+        | ShortUrl | string | | The short URL. |
+        | LongUrl | string | | The original long URL. |
 
 - **Database**
    - NoSQL
@@ -96,6 +97,12 @@
          - Collecting the first 7 characters can result in a hash collision more easily.
          - If the first 7 characters has a hash collision, recursively append a new predefined string to the long URL and hash the new long URL again, unitl no hash collision.
       - Use base62 conversion
+         - Convert the unique ID (numeric value) of the new row for the URL mapping table from base 10 to base 62.
+         - Example
+            - The long URL is `https://github.com/wuyichen24/grpc-up-and-running/tree/master/ordermgt`.
+            - The new ID for the new row is `1890486390281`.
+            - Convert the ID from base 10 to base 62: `xhy8ewh`.
+            - The short URL will be `https://abc.com/xhy8ewh`.
 - **Uniqueness of short URLs**
    - Factors
       - Number of all possible characters in one digit.
