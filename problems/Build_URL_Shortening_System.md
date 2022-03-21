@@ -85,6 +85,9 @@
    - Stores URLs and users.
 
 ## Detailed design
+- **URL shortening**
+   - Process
+   - Choices of hash function
 - **Uniqueness of short URLs**
    - Factors
       - Number of all possible characters in one digit.
