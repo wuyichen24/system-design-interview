@@ -93,7 +93,7 @@
       - Use existing hashing algorithm with collision resolution
          - A hash value from an existing hashing algorithm (CRC32, MD5, SHA-1, SHA-2, etc.) is too long, so we cannot use it directly.
          - Only collect the first 7 characters of a hash value from an existing hashing algorithm (CRC32, MD5, SHA-1, SHA-2, etc.).
-         - Collecting the first 7 characters can lead to hash collisions more easily.
+         - Collecting the first 7 characters can result in a hash collision more easily.
          - If the first 7 characters has a hash collision, recursively append a new predefined string to the long URL and hash the new long URL again, unitl no hash collision.
       - Use base62 conversion
 - **Uniqueness of short URLs**
