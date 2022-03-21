@@ -87,6 +87,8 @@
 ## Detailed design
 - **URL shortening**
    - Process
+   
+      ![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/8989447/159205969-cda31e60-9fa0-40a3-bb49-a387a6cb5cee.png)
    - Choices of hash function
 - **Uniqueness of short URLs**
    - Factors
