@@ -90,15 +90,15 @@
       - Number of all possible characters in one digit.
       - The length of a short URL (Number of digits).
    - Calculation: Number of unique URLs = Number of all possible characters in one digit<sup>Number of digits</sup>
-   - Evaluations
+   - Evaluation tradeoffs
       - Keep short URL as short as possible.
       - Don't let unique short URLs run out easily (Maximal number of URLs > Total number of short URLs created in 5 years).
    - Solutions
      | Number of all possible characters in one digit | Length of URLs | Maximal number of URLs |
      |----|----|----|
      | Only numbers (0-9) = 10 | 7 | 10<sup>7</sup> = 10 million |
-     | Base36 ([a-z, 0-9]) = 36 | 7 | 36<sup>7</sup> = 78 billion |
-     | Base62 ([A-Z, a-z, 0-9]) = 62 | 7 | 62<sup>7</sup> = 3.5 trillion |
+     | Base36 ([0-9, a-z]) = 36 | 7 | 36<sup>7</sup> = 78 billion |
+     | Base62 ([0-9, a-z, A-Z]) = 62 | 7 | 62<sup>7</sup> = 3.5 trillion |
 
 ## Key points
 - Use Zookeeper as the distributed coordinator to solve the key conflict problem among multiple servers.
