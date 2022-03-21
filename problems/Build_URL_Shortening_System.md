@@ -90,6 +90,10 @@
    
       ![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/8989447/159205969-cda31e60-9fa0-40a3-bb49-a387a6cb5cee.png)
    - Choices of hash function
+      - Use existing hashing algorithm with collision resolution
+         - Only collect the first 7 characters of a hash value from an existing hashing algorithm (CRC32, MD5, SHA-1, SHA-2, etc.).
+         - If the first 7 characters has a hash collision, recursively append a new predefined string to the long URL and hash the new long URL again, unitl no hash collision.
+      - Use base62 conversion
 - **Uniqueness of short URLs**
    - Factors
       - Number of all possible characters in one digit.
