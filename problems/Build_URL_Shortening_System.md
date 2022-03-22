@@ -123,3 +123,4 @@
 ## References
 - https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
 - https://www.youtube.com/watch?v=eCLqmPBIEYs&t=1s&ab_channel=KAEducation
+- https://www.scopulus.co.uk/tools/hexconverter.htm
