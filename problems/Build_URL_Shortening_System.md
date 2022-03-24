@@ -95,6 +95,8 @@
          - A hash value from an existing hashing algorithm (CRC32, MD5, SHA-1, SHA-2, etc.) is too long, so we cannot use it directly. Our solution is to only use the first 7 characters of a hash value from an existing hashing algorithm.
          - Using the first 7 characters can result in a hash collision more easily.
          - If the first 7 characters has a hash collision, recursively append a new predefined string to the long URL and hash the new long URL again, unitl no hash collision.
+
+        ![md5](https://user-images.githubusercontent.com/8989447/159953520-108e2bf1-ea45-4a7c-9584-23fdb3333fc9.png)
       - Use base62 conversion
          - Convert the unique ID (numeric value) of the new row for the URL mapping table from base 10 to base 62.
          - Example
