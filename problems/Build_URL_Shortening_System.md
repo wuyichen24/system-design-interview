@@ -104,6 +104,8 @@
             - The new ID for the new row is `1890486390281`.
             - Convert the ID from base 10 to base 62: `xhy8ewh`.
             - The short URL will be `https://abc.com/xhy8ewh`.
+
+        ![base62](https://user-images.githubusercontent.com/8989447/159954727-de5e418d-5c4a-4945-9168-8f3a754f64a5.png)
 - **Uniqueness of short URLs**
    - Factors
       - Number of all possible characters in one digit.
