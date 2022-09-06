@@ -22,6 +22,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Build Search System](problems/Build_Search_System.md) | |
 | [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
+| [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
