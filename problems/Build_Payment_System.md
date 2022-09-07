@@ -29,6 +29,8 @@
 
 ## High-level design
 
+![4d94e3eb-6f7b-4688-825f-c4e88e6c0d74_1913x1536](https://user-images.githubusercontent.com/8989447/188942625-263b3312-0d2d-4111-adc0-e3d8a4040cf8.jpeg)
+
 ## Detailed design
 
 ## References
