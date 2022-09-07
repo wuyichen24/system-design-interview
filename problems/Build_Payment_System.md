@@ -6,7 +6,7 @@
 - **Functional requirements**
    - Support money movement for an e-commerce application:
       - Pay-in flow: Receive money from customers on behalf of sellers.
-      - Pay-out flow: Send moneyto sellers.
+      - Pay-out flow: Send money to sellers.
 
         ![pay-in-out](https://user-images.githubusercontent.com/8989447/188941477-5734acbe-5aba-4820-a252-990291c5fa3c.png)
 
