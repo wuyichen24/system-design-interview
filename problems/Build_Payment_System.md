@@ -4,6 +4,10 @@
 
 ## Requirements clarification
 - **Functional requirements**
+   - Support money movement for an e-commerce application:
+      - Pay-in flow: Receive money from customers on behalf of sellers.
+      - Pay-out flow: Send moneyto sellers.
+   - Use third-party payment processors (Paypal, Stripe, Square, Braintree, Adyen, Galileo, etc.) for credit card payment processing.
 - **Non-functional requirements**
 
 ## Estimation
