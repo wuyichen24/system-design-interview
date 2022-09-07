@@ -46,6 +46,19 @@
       - Stores accounts' balances.
 - **Processes**
    - Process after a user clicks the "place order" button:
+      - (1) A payment event is generated and sent to the payment service.
+      - (2) The payment service stores the payment event in the database.
+      - (3) The payment service sends a payment order to the payment executor.
+      - (4) The payment executor stores the payment order in the database.
+      - (5) The payment executor calls an external PSP to process the credit card payment.
+      - (6) After the payment executor has successfully executed the payment, the payment service will update the wallet to record how much money a given seller has.
+      - (7) The wallet server stores the updated balance information in the database.
+      - (8) After the wallet service has successfully updated the seller’s balance information, the payment service will call the ledger to save the transaction history.
+      - (9) The ledger service adds the new transaction history to the database.
+      - (10) The reconciliation system parses the settlement file and compare it with the ledage system.
+- **Notes**
+   - Payment event and payment order
+   - Settlement file
 
 
 ## Detailed design
