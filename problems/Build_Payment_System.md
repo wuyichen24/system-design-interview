@@ -7,6 +7,9 @@
    - Support money movement for an e-commerce application:
       - Pay-in flow: Receive money from customers on behalf of sellers.
       - Pay-out flow: Send moneyto sellers.
+
+        ![pay-in-out](https://user-images.githubusercontent.com/8989447/188941477-5734acbe-5aba-4820-a252-990291c5fa3c.png)
+
    - Use third-party payment processors (Paypal, Stripe, Square, Braintree, Adyen, Galileo, etc.) for credit card payment processing.
 - **Non-functional requirements**
    - Fault tolerance (Failed payments need to be handled carefully).
