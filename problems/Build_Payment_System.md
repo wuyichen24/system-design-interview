@@ -31,8 +31,22 @@
 
 ![4d94e3eb-6f7b-4688-825f-c4e88e6c0d74_1913x1536](https://user-images.githubusercontent.com/8989447/188942625-263b3312-0d2d-4111-adc0-e3d8a4040cf8.jpeg)
 
-- **Payment service**
-   - Accepts payment events from users and coordinates the payment process.
+- **Components**
+   - Payment service
+      - Accepts payment events (one event may contain multiple payment orders) from users and coordinates the payment process.
+   - Payment executor
+      - Executes a single payment order via a Payment Service Provider (PSP).
+   - Payment Service Provider (PSP)
+      - Moves money from one account to another.
+   - Card schemas
+      - The organizations that process credit card operations.
+   - Ledger
+      - Stores transaction history.
+   - Wallet
+      - Stores accounts' balances.
+- **Processes**
+   - Process after a user clicks the "place order" button:
+
 
 ## Detailed design
 
