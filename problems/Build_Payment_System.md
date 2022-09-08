@@ -44,6 +44,8 @@
       - Stores transaction history.
    - Wallet
       - Stores accounts' balances.
+   - Reconciliation
+      - Parses the settlement file and compare it with the ledage system.
 - **Processes**
    - Process after a user clicks the "place order" button:
       - (1) A payment event is generated and sent to the payment service.
@@ -58,7 +60,11 @@
       - (10) The reconciliation system parses the settlement file and compare it with the ledage system.
 - **Notes**
    - Payment event and payment order
+      - A payment event may contain several payment orders.
+      - A user may select multiple products from multiple sellers in a single checkout process. The system splits the checkout into multiple payment orders.
    - Settlement file
+      - Every night the PSP or banks send a settlement file to their clients.
+      - Contains the balance of the bank account, together with all the transactions that took place on this bank account during the day.
 
 
 ## Detailed design
