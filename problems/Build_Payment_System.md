@@ -22,6 +22,25 @@
 - **Bandwidth estimation**
 
 ## System interface definition
+- **POST** `/v1/payments`
+   - Function: Execute a payment event.
+   - Request body
+     ```json
+     {
+       "buyer_info" : {},
+       "checkout_id" : "",
+       "credit_card_info" : {},
+       "payment_orders": [
+         {
+           "seller_account" : "",
+           "amount" : "",
+           "currency" : "",
+           "payment_order_id": ""
+         }
+       ]
+     }
+     ```
+- 
 
 ## Data model definition
 - **Schema**
