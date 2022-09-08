@@ -71,7 +71,7 @@
         | amount | string | | |
         | currency | string | | |
         | checkout_id | string | FK | |
-        | payment_order_status | string | | The status of the payment order. The value can be: <li>`NOT_STARTED` |
+        | payment_order_status | string | | The status of the payment order. The value can be: <ul><li>`NOT_STARTED`<li>`EXECUTING`<li>`SUCCESS`<li>`FAILED`</ul> |
         | ledger_updated | boolean | | |
         | wallet_updated | boolean | | |
 - **Database**
