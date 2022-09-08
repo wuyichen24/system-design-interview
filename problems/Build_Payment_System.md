@@ -48,6 +48,17 @@
 
 ## Data model definition
 - **Schema**
+   - Table 1: Payment event
+      - Description
+         - Stores detailed payment event inforamtion.
+      - Columns
+        | Column Name | Column Type | PK/FK | Description |
+        |----|----|----|----|
+        
+   - Table 2: Payment order
+      - Description
+         - Stores the execution status of each payment order.
+      - Columns
 - **Database**
 
 ## High-level design
