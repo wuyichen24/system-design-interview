@@ -48,7 +48,7 @@
         ```
       - 128-bit.
    - Pros
-      - Very low probability of getting collusion.
+      - Very low probability of getting collision.
       - The ID generators in the services don't need to coordinate each other.
    - Cons
       - IDs cannot be ordered by time.
