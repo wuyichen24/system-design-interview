@@ -40,7 +40,11 @@
        ]
      }
      ```
-- 
+   - Notes
+      - `payment_order_id`: It is userd by the PSP as the deduplication ID, also called the idempotency key/token.
+      - `amount`: The type of this field is string, not double.
+- **GET** `/v1/payments/{:id}`
+   - Function: Get the execution status of a single payment order.
 
 ## Data model definition
 - **Schema**
