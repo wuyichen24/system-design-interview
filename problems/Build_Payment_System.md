@@ -64,6 +64,16 @@
       - Description
          - Stores the execution status of each payment order.
       - Columns
+        | Column Name | Column Type | PK/FK | Description |
+        |----|----|----|----|
+        | payment_order_id | string | PK | |
+        | buyer_account | string | | |
+        | amount | string | | |
+        | currency | string | | |
+        | checkout_id | string | FK | |
+        | payment_order_status | string | | |
+        | ledger_updated | boolean | | |
+        | wallet_updated | boolean | | |
 - **Database**
 
 ## High-level design
