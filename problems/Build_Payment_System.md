@@ -70,7 +70,7 @@
         | buyer_account | string | | |
         | amount | string | | |
         | currency | string | | |
-        | checkout_id | string | FK | |
+        | checkout_id | string | FK | The foreign key to the payment event table's `checkout_id`. |
         | payment_order_status | string | | The status of the payment order. The value can be: <ul><li>`NOT_STARTED`<li>`EXECUTING`<li>`SUCCESS`<li>`FAILED`</ul> |
         | ledger_updated | boolean | | |
         | wallet_updated | boolean | | |
