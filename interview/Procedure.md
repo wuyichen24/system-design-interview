@@ -78,6 +78,7 @@
    - Step 4.2: Choose a proper database and other storage.
       - Database: SQL or NoSQL database ([see more](https://github.com/wuyichen24/system-design-knowledge/blob/master/components/Database.md#relational-and-non-relational-database)).
       - Object storage: Store photos and videos.
+      - [Non-technical factors need to be considered for selecting a storage solution](https://github.com/wuyichen24/system-design-knowledge/blob/master/best_practices/Non_Technical_Factors_Need_To_Be_Considered_For_Selecting_Storage_Solution.md)
 
 ## Step 5: High-level design
 - Description
