@@ -54,6 +54,11 @@
       - Columns
         | Column Name | Column Type | PK/FK | Description |
         |----|----|----|----|
+        | checkout_id | string | PK | |
+        | buyer_info | string | | |
+        | seller_info | string | | |
+        | credit_card_info | string | | |
+        | is_payment_done | boolean | | |
         
    - Table 2: Payment order
       - Description
@@ -99,7 +104,6 @@
    - Settlement file
       - Every night the PSP or banks send a settlement file to their clients.
       - Contains the balance of the bank account, together with all the transactions that took place on this bank account during the day.
-
 
 ## Detailed design
 
