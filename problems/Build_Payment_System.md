@@ -96,9 +96,9 @@
         | Column Name | Column Type | PK/FK | Description |
         |----|----|----|----|
         | payment_order_id | string | PK | The unique identifier for payment orders.  |
-        | buyer_account | string | | Which buyer will pay the money. |
-        | amount | string | | |
-        | currency | string | | |
+        | buyer_account | string | | The account identifier of buyer. |
+        | amount | string | | The amount of the transaction. |
+        | currency | string | | The currency of the transaction. |
         | checkout_id | string | FK | The foreign key to the payment event table's `checkout_id`. |
         | payment_order_status | string | | The status of the payment order. The value can be: <ul><li>`NOT_STARTED`<li>`EXECUTING`<li>`SUCCESS`<li>`FAILED`</ul> |
         | ledger_updated | boolean | | |
