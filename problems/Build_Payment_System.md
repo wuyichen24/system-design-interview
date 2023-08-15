@@ -136,6 +136,10 @@
       - Stores accounts' balances.
    - Reconciliation
       - Parses the settlement file and compare it with the ledger system.
+- **Key points**
+   - Don't store the credit card information.
+      - Use hosted credit card pages provided from PSP
+   - Ledger will follow the double-entry bookkeeping principle.
 - **Processes**
    - Process after a user clicks the "place order" button:
       - (1) A payment event is generated and sent to the payment service.
