@@ -161,5 +161,10 @@
       - Contains the balance of the bank account, together with all the transactions that took place on this bank account during the day.
 
 ## Detailed design
+### PSP integration
+![PSP Integration drawio](https://github.com/wuyichen24/system-design-interview/assets/8989447/5fa31425-a764-42fb-b1a0-5d8024581f26)
+
+- **Key points**
+   - The payment system doesn't store the credit card information, it will use hosted credit card pages provided from PSP and let PSP collect credit card information directly.
 
 ## References
