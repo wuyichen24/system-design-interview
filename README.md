@@ -16,6 +16,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
 | [Build Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
 | [Build Twitter](problems/Build_Twitter.md) | <li>Twitter<li>Facebook | 
+| [Build Payment System](problems/Build_Payment_System.md) | <li>Amazon |
 | [Build Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
 | [Build Proximity System](problems/Build_Proximity_System.md) | |
