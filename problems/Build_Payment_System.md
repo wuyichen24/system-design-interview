@@ -9,6 +9,17 @@
    - Stripe
    - Square
 
+## Concepts
+- Payment options
+   - Credit/Debit cards
+      - Card network: Visa, MasterCard
+         - POS terminal / Online
+         - Contact / Contactless (NFC)
+      - Online payment platform (PayPal, Stripe, Square)
+      - Digital wallets (Apple Pay, Google Pay)
+      - Direct debit (This method allows authorized parties to directly withdraw funds from a customer's bank account, often used for recurring payments like utility bills).
+      - Checks / Money orders
+
 ## Requirements clarification
 - **Functional requirements**
    - Support money movement for an e-commerce application:
