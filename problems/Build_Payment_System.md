@@ -1,6 +1,13 @@
 # Build Payment System
 
 ## Real-life examples
+- **Digital wallet**
+   - Apple Pay
+   - Google Pay
+- **Online payment platform**
+   - PayPal
+   - Stripe
+   - Square
 
 ## Requirements clarification
 - **Functional requirements**
@@ -11,6 +18,14 @@
         ![pay-in-out](https://user-images.githubusercontent.com/8989447/188941477-5734acbe-5aba-4820-a252-990291c5fa3c.png)
 
    - Use third-party payment processors (Paypal, Stripe, Square, Braintree, Adyen, Galileo, etc.) for credit card payment processing.
+   - The payment system should support all the payment options
+      - Credit/Debit cards
+         - Card network: Visa, MasterCard
+         - POS terminal / Online
+         - Contact / Contactless (NFC)
+      - Online payment platform (PayPal, Stripe, Square)
+      - Digital wallets (Apple Pay, Google Pay)
+      - Direct debit
 - **Non-functional requirements**
    - Fault tolerance (Failed payments need to be handled carefully).
    - A reconciliation process between internal services (payment services, accounting services, etc.) and external services (payment service providers, etc.)
