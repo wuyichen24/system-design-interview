@@ -104,6 +104,10 @@
         | ledger_updated | boolean | | |
         | wallet_updated | boolean | | |
 - **Database**
+  - Traditional relational database with ACID
+     - Reasons
+        - The financial sector requires greater uniformity rather than just accessibility.
+        - Proven stability: Whether the storage system has been used by other big financial companys for many years with positive feedback.
 
 ## High-level design
 
