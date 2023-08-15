@@ -10,7 +10,7 @@
    - Square
 
 ## Concepts
-- Payment options
+- **Payment options**
    - Credit/Debit cards
       - Card network: Visa, MasterCard
          - POS terminal / Online
@@ -19,6 +19,8 @@
       - Digital wallets (Apple Pay, Google Pay)
       - Direct debit (This method allows authorized parties to directly withdraw funds from a customer's bank account, often used for recurring payments like utility bills).
       - Checks / Money orders
+- **Payment Service Provider (PSP) / Payment processors / Payment gateway**
+   - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
 
 ## Requirements clarification
 - **Functional requirements**
