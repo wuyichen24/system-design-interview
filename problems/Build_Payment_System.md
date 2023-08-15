@@ -21,6 +21,7 @@
       - Checks / Money orders
 - **Payment Service Provider (PSP) / Payment processors / Payment gateway**
    - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
+- **Reconciliation**
 
 ## Requirements clarification
 - **Functional requirements**
@@ -114,7 +115,7 @@
    - Wallet
       - Stores accounts' balances.
    - Reconciliation
-      - Parses the settlement file and compare it with the ledage system.
+      - Parses the settlement file and compare it with the ledger system.
 - **Processes**
    - Process after a user clicks the "place order" button:
       - (1) A payment event is generated and sent to the payment service.
