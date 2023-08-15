@@ -21,6 +21,7 @@
       - Checks / Money orders
 - **Payment Service Provider (PSP) / Payment processors / Payment gateway**
    - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
+   - Examples: Paypal, Stripe, Square, Braintree, Adyen, Galileo
 - **Reconciliation**
    - A method of bookkeeping that compares financial records that are logged internally with bank statements that are logged externally, to make sure the accounting is accurate.
 - **Compliance**
@@ -37,7 +38,7 @@
 
         ![pay-in-out](https://user-images.githubusercontent.com/8989447/188941477-5734acbe-5aba-4820-a252-990291c5fa3c.png)
    - The payment system should support all the payment options
-   - Use third-party payment processors (Paypal, Stripe, Square, Braintree, Adyen, Galileo, etc.) for credit card payment processing.
+   - Use third-party PSP for credit card payment processing.
 - **Non-functional requirements**
    - Fault tolerance (Failed payments need to be handled carefully).
    - A reconciliation process between internal services (payment services, accounting services, etc.) and external services (payment service providers, etc.)
