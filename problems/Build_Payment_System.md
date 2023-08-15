@@ -23,7 +23,7 @@
    - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
    - Examples: Paypal, Stripe, Square, Braintree, Adyen, Galileo
 - **Reconciliation**
-   - A method of bookkeeping that compares financial records that are logged internally with bank statements that are logged externally, to make sure the accounting is accurate.
+   - A method of bookkeeping that compares financial records that are logged internally with records that are logged in PSP, to make sure the accounting is accurate.
 - **Double-entry bookkeeping**
    - A transaction always affects at least two accounts, always includes at least one debit and one credit, and always has total debits and total credits that are equal.
      
