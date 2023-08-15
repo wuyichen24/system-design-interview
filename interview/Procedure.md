@@ -20,7 +20,7 @@
       - Performance
          - Which kind of performance level need to achieve? Minimal latency or long latency is acceptable.
       - User volume
-         - How many users? How many daily active users (DAU)?
+         - How many users? How many Daily Active Users (DAU)?
          
 
 ## Step 2: Estimation
@@ -30,7 +30,7 @@
    - Step 2.1: Estimate traffic/usage
       - Identify the system is read-heavy or write-heavy.
          - Estimate read-write ratio (The ratio between read actions and write actions).
-      - Estimate the total number of users and daily active users (DAU)
+      - Estimate the total number of users and Daily Active Users (DAU)
          - USER_NUM.
       - Estimate the number of read actions and write actions per user per month/week/day.
          - ACTION_NUM_PER_USER.
