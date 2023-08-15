@@ -167,4 +167,12 @@
 - **Key points**
    - The payment system doesn't store the credit card information, it will use hosted credit card pages provided from PSP and let PSP collect credit card information directly.
 
+### Reconciliation
+- **Purpose**
+   - Fix the inconsistency between the financial records logged internally with the records logged in PSP externally.
+- **Process**
+   - Every night the PSP send a settlement file to the company.
+   - The reconciliation system parses the settlement file and compares the details with the ledger system.
+   - The financial team performs manual adjustments on the mismatches.
+
 ## References
