@@ -22,6 +22,7 @@
 - **Payment Service Provider (PSP) / Payment processors / Payment gateway**
    - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
 - **Reconciliation**
+   - A method of bookkeeping that compares financial records that are logged internally with bank statements, to make sure the accounting is accurate.
 
 ## Requirements clarification
 - **Functional requirements**
