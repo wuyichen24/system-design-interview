@@ -40,6 +40,8 @@
 
 ## Estimation
 - **Traffic estimation**
+   - Assume 1,000,000 transactions per day.
+   - TPS = 1,000,000 transactions / 10<sup>5</sup> = 10 transactions per second.
 - **Storage estimation**
 - **Bandwidth estimation**
 
