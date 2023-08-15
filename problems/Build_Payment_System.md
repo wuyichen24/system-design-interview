@@ -23,6 +23,11 @@
    - A third-party company that allows businesses to accept electronic payments, such as credit cards and debit cards payments.
 - **Reconciliation**
    - A method of bookkeeping that compares financial records that are logged internally with bank statements that are logged externally, to make sure the accounting is accurate.
+- **Compliance**
+   - *Payment Card Industry Data Security Standard (PCI DSS)*: The standard outlines security requirements for organizations that handle credit card information.
+   - *Anti-Money Laundering (AML)*: The laws prevent money laundering activities.
+   - *Combating the Financing of Terrorism (CFT)*: The term prevents and detects the use of funds for financing acts of terrorism.
+   - *Know Your Customer (KYC)*: The regulation verifys the identities of customers before allowing financial transactions. 
 
 ## Requirements clarification
 - **Functional requirements**
