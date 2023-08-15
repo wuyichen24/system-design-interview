@@ -95,8 +95,8 @@
       - Columns
         | Column Name | Column Type | PK/FK | Description |
         |----|----|----|----|
-        | payment_order_id | string | PK | |
-        | buyer_account | string | | |
+        | payment_order_id | string | PK | The unique identifier for payment orders.  |
+        | buyer_account | string | | Which buyer will pay the money. |
         | amount | string | | |
         | currency | string | | |
         | checkout_id | string | FK | The foreign key to the payment event table's `checkout_id`. |
