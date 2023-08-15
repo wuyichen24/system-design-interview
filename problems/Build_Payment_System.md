@@ -24,6 +24,13 @@
    - Examples: Paypal, Stripe, Square, Braintree, Adyen, Galileo
 - **Reconciliation**
    - A method of bookkeeping that compares financial records that are logged internally with bank statements that are logged externally, to make sure the accounting is accurate.
+- **Double-entry bookkeeping**
+   - A transaction always affects at least two accounts, always includes at least one debit and one credit, and always has total debits and total credits that are equal.
+     
+     | Account | Debit | Credit |
+     |----|----|----|
+     | Buyer | $5 | |
+     | Seller | | $5 |
 - **Compliance**
    - *Payment Card Industry Data Security Standard (PCI DSS)*: The standard outlines security requirements for organizations that handle credit card information.
    - *Anti-Money Laundering (AML)*: The laws prevent money laundering activities.
