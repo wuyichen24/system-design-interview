@@ -84,6 +84,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
    - There are multiple situations which could be considered as a winning situation:
       - One who finishes all his cards early.
       - One who earns the maximum points at the last.
+- Build a restaurant management system.
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
