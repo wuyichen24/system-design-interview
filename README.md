@@ -25,6 +25,46 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
 | [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
 
+### More topics will be added
+- Build a key-value store (System design interview vol1)
+- Build a unique ID generator (System design interview vol1)
+- Build a web crawler (System design interview vol1)
+   - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
+   - The crawler should not be unbounded on the same domain.
+   - Build a system that constantly tracks new web pages
+- Build a notification system (System design interview vol1)
+- Build a news feed system (System design interview vol1)
+- Build a nearby friends system (System design interview vol2)
+- Build a map system - Google map (System design interview vol2)
+- Build a distributed message queue (System design interview vol2)
+- Build a metrics monitoring alerting system (System design interview vol2)
+- Build a AD click event aggregation system (System design interview vol2)
+- Build a hotel reservation system (System design interview vol2)
+- Build a distributed email system (System design interview vol2)
+- Build a cloud object storage system (System design interview vol2)
+- Build a real-time gaming leaderboardboard (System design interview vol2)
+- Build a stock exchange system (System design interview vol2)
+   - Limit order, stop order
+- Build a auction system - eBay auction
+- Build a ticket selling system - ticketmaster
+- Build a currency exchange system
+- Build a flash sale system
+- Build a traffic control system
+  - Cnosider all phase transitions (from red to green, red to orange to green, and so on)
+  - Be clear on the conditions in which a certain transition will take place
+  - Consider pedestrian crossing requirements
+  - Determine cycle length
+  - Determine clearance time
+  - Apportion green light approriately
+- Build a counter system for online services
+- Build a game of chess
+- Build a parking garage
+- Build an online bookstore
+- Build an e-commerce website
+   - How to handle transactions?
+- Build an elevator system
+- Build a vending machine
+
 ## Presentation
 | Topic | Source 1 | Source 2 |
 |----|----|----|
