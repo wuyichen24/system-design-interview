@@ -50,12 +50,23 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - Build a currency exchange system
 - Build a flash sale system
 - Build a traffic control system
-  - Cnosider all phase transitions (from red to green, red to orange to green, and so on)
-  - Be clear on the conditions in which a certain transition will take place
-  - Consider pedestrian crossing requirements
-  - Determine cycle length
-  - Determine clearance time
-  - Apportion green light approriately
+  - Requirements
+     - A group of traffic lights has two components: main lights and pedestrian lights.
+     - Main traffic lights have three colors: red, yellow and green.
+     - Pedestrian lights have two colors: red and green.
+     - Pedestrian lights' colors are reversed from main lights:
+        - Main: red/yellow - pedestrian's: green
+        - Main: green - pedestrian: red
+     - There is a button for pedestrian lights if the button is pushed in advance, pedestrian's lights change colors according to the main ones if the button isn't pushed, pedestrian's lights remain red.
+     - A typical junction has 4 groups of lights.
+     - Additional question: design the system in a way that allows cars which start from one junction after a red light don't have to stop at the next one.
+  - Key points in solution
+     - Cnosider all phase transitions (from red to green, red to orange to green, and so on)
+     - Be clear on the conditions in which a certain transition will take place
+     - Consider pedestrian crossing requirements
+     - Determine cycle length
+     - Determine clearance time
+     - Apportion green light approriately
 - Build a counter system for online services
 - Build a game of chess
 - Build a parking garage
@@ -64,6 +75,15 @@ For system design knowledge, please find [system-design-knowledge](https://githu
    - How to handle transactions?
 - Build an elevator system
 - Build a vending machine
+- Build a task management system - Trello
+   - Requirement
+      - User can move tasks from one lane to the other and move it back.
+      - This should have a state diagram with many end states.
+- Build a card game
+   - There should be more than one method of cards distribution such as even distribution, uneven distribution, etc.
+   - There are multiple situations which could be considered as a winning situation:
+      - One who finishes all his cards early.
+      - One who earns the maximum points at the last.
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
