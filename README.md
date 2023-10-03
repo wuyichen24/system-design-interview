@@ -31,7 +31,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [Build Hotel Reservation System]() | <li>Airbnb<li>Priceline |
-| [Build Ticket Reservation System]() | <li>Ticketmaster |
+| [Build Ticket Selling System]() | <li>Ticketmaster |
  
 ### Other system
 | Problem | Examples |
