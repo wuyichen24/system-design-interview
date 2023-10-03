@@ -39,7 +39,7 @@
       - IDs cannot be ordered by time cross multiple servers.
       - Need to consider the size of each range.
 
-### Solution optinos for decentralized architecture
+### Solution options for decentralized architecture
 - **UUID**
    - Concepts
       - UUID consists of 32 hexadecimal (base-16) digits, displayed in five groups separated by hyphens.
