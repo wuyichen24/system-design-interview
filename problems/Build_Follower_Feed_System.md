@@ -1,17 +1,17 @@
-# Build Twitter
+# Build Follower Feed System
 
 ## Requirements clarification
 - **Functional requirements**
-   - Post: Users can post tweets.
-      - Tweets can contain photos and videos.
+   - Post: Users can post feeds.
+      - feeds can contain photos and videos.
    - Follow: Users can follow other users.
-   - Timeline: System should be able to create and display a user’s timeline consisting of top tweets from all the people the user follows.
-      - User timeline: All the tweets a particular user has sent. 
+   - Timeline: System should be able to create and display a user’s timeline consisting of top feeds from all the people the user follows.
+      - User timeline: All the feeds a particular user has sent. 
       - Home timeline: A temporal merge of all the user timelines of the people are you are following. 
 - **Non-functional requirements**
    - High availability.
    - Acceptable latency of generating timeline is 200ms.
-   - High consistency is desirable (It should be ok for a user doesn’t see a tweet for a while).
+   - High consistency is desirable (It should be ok for a user doesn’t see a feed for a while).
 
 ## Estimation
 - **Traffic estimation**
@@ -61,13 +61,13 @@
         | Email | string | | The email of the user. |
         | Location | string | | The location of the user. |
         | LastLogin | datetime | | The last login time of the user. |
-   - Table 2: Tweet
+   - Table 2: Feed
       - Description
-         - Store the information of each tweet.
+         - Store the information of each feed.
       - Columns
         | Column Name | Column Type | PK | Description |
         |----|----|----|----|
-        | TweetId | int | PK | The tweet ID. |
+        | FeedId | int | PK | The tweet ID. |
         | UserId | int | | The user ID of the user who created the tweet. |
         | Content | string | | The text content of the tweet. |
         | Location | string | | The location of the tweet was published. |
