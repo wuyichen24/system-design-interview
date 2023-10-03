@@ -27,6 +27,12 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
 
+### Booking system
+| Problem | Examples |
+|----|----|
+| [Build Hotel Reservation System]() | <li>Airbnb<li>Priceline |
+| [Build Ticket Reservation System]() | <li>Ticketmaster |
+ 
 ### Other system
 | Problem | Examples |
 |----|----|
