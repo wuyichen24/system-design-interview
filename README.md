@@ -7,19 +7,36 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - [Procedure](interview/Procedure.md)
 
 ## Problems
+### Feed System
+| Problem | Examples |
+|----|----|
+| [Build Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter<li>Facebook | 
+
+### Geolocation System
+| Problem | Examples |
+|----|----|
+| [Build Proximity System](problems/Build_Proximity_System.md) | |
+
+### Video processing system
+| Problem | Examples |
+|----|----|
+| [Build Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
+
+### Storage system
+| Problem | Examples |
+|----|----|
+| [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
+
+### Other system
 | Problem | Examples |
 |----|----|
 | [Build URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
 | [Build Messaging System](problems/Build_Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
-| [Build Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
 | [Build Photo Sharing System](problems/Build_Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
-| [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
 | [Build Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
-| [Build Twitter](problems/Build_Twitter.md) | <li>Twitter<li>Facebook | 
 | [Build Payment System](problems/Build_Payment_System.md) | <li>Amazon |
 | [Build Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
-| [Build Proximity System](problems/Build_Proximity_System.md) | |
 | [Build Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Build Search System](problems/Build_Search_System.md) | |
 | [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
