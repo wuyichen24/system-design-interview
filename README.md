@@ -24,10 +24,10 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Search System](problems/Build_Search_System.md) | |
 | [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
 | [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
+| [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
 
 ### More topics will be added
 - Build a key-value store (System design interview vol1)
-- Build a unique ID generator (System design interview vol1)
 - Build a web crawler (System design interview vol1)
    - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
    - The crawler should not be unbounded on the same domain.
