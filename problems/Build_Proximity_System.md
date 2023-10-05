@@ -9,23 +9,16 @@
    - Business owners can add, delete or update a business.
    - A user can view detailed information about a business.
 - **Non-functional requirements**
-   - High availability.
-   - Low latency.
-   - High availability is desirable (It should be ok for a user doesn’t see a place for a while).
+   - *Low latency*
+      - Users should be able to see nearby businesses quickly.
+   - *High availability and scalability*
+      - Our system can handle the spike in traffic during peak hours in densely populated areas.
 
 ## Estimation
 - **Traffic estimation**
-   - Our system will be read-heavy.
+   - Read-heavy.
 
 ## Data model definition
-- **Schema**
-   - Table 1: Place
-      - LocationID (8 bytes): Uniquely identifies a location.
-      - Name (256 bytes)
-      - Latitude (8 bytes)
-      - Longitude (8 bytes)
-      - Description (512 bytes)
-      - Category (1 byte): E.g., coffee shop, restaurant, theater, etc.
   
 ## High-level design
 - **Solutions**
