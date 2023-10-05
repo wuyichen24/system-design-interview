@@ -51,6 +51,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
 | [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
 | [Build Auction System](problems/Build_Auction_System.md)* | eBay |
+| [Build Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
 
 * = incomplete
 
