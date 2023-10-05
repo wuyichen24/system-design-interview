@@ -32,7 +32,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Booking system
 | Problem | Examples |
 |----|----|
-| [Build Hotel Reservation System]() | <li>Airbnb<li>Priceline |
+| [Build Hotel Reservation System](problems/Build_Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
 | [Build Ticket Selling System]() | <li>Ticketmaster |
  
 ### Other system
