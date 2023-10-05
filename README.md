@@ -26,6 +26,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
+| [Build Cloud Object Storage System]() | <li>AWS S3 |
+| [Build Key-value Store]() | |
 
 ### Booking system
 | Problem | Examples |
