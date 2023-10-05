@@ -10,7 +10,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Feed System
 | Problem | Examples |
 |----|----|
-| [Build Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter<li>Facebook | 
+| [Build Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter |
+| [Build Friend Feed System](problems/feed/Build_Friend_Feed_System.md) | <li>Facebook |
 
 ### Geolocation System
 | Problem | Examples |
