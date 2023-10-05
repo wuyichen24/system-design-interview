@@ -6,7 +6,8 @@
 ## Requirements clarification
 - **Functional requirements**
    - A user can search businesses by the search radius.
-   - A user can change the search radius.
+   - Business owners can add, delete or update a business.
+   - A user can view detailed information about a business.
 - **Non-functional requirements**
    - High availability.
    - Low latency.
