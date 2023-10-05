@@ -8,7 +8,7 @@
    - A user can publish a post.
    - A user can see friends' post on the feed page.
    - A post can contain media files, including both images and videos.
-- **Non-functional requirements****
+- **Non-functional requirements**
 
 ## High-level design
 
