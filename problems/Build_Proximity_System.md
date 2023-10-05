@@ -16,11 +16,28 @@
 
 ## Estimation
 - **Traffic estimation**
-   - Read-heavy.
+   - Read-heavy
 
 ## Data model definition
   
 ## High-level design
+
+![figure-2-high-level-design-OLWE4F2G](https://github.com/wuyichen24/system-design-interview/assets/8989447/d8fd9d92-69b9-4417-b5f6-be9caebe6594)
+
+- **Load balancer**
+   - Distributes incoming traffic across multiple services.
+- **Location-based service (LBS)**
+   - Finds nearby businesses for a given radius and location.
+   - Characteristics:
+      - It is a read-heavy service with no write requests.
+      - QPS is high, especially during peak hours in dense areas.
+      - This service is stateless so it’s easy to scale horizontally.
+- **Business service**
+   - Allows business owners to create, update, or delete businesses.
+   - Allows users to view detailed information about a business.
+- **Database cluster**
+
+## Detailed Design
 - **Solutions**
    - SQL
       - Select * from Places where Latitude between X-D and X+D and Longitude between Y-D and Y+D
@@ -42,5 +59,4 @@
          - Connect all leaf nodes with a doubly linked list.
          - Through parent nodes (each node has a pointer to access its parent).
 
-## Detailed Design
-![Screen Shot 2021-05-26 at 2 03 54 AM](https://user-images.githubusercontent.com/8989447/119624692-a4251500-bdc6-11eb-8df9-05a8096caad6.png)
+
