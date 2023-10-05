@@ -5,8 +5,8 @@
 
 ## Requirements clarification
 - **Functional requirements**
-   - Change places: Users should be able to add/delete/update places.
-   - Search places: Given their location (longitude/latitude), users should be able to find all nearby places within a given distance.
+   - A user can search businesses by the search radius.
+   - A user can change the search radius.
 - **Non-functional requirements**
    - High availability.
    - Low latency.
