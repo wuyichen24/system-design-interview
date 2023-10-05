@@ -1,5 +1,8 @@
 # Build Proximity System
 
+## Real-life examples
+- Yelp
+
 ## Requirements clarification
 - **Functional requirements**
    - Change places: Users should be able to add/delete/update places.
