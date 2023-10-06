@@ -16,7 +16,7 @@
 
 ## High-level design
 
-![figure-5-restful-api-request-flow-SL4EZ27Z](https://github.com/wuyichen24/system-design-interview/assets/8989447/18e97788-79fc-40f4-8019-195d80a69272)
+![figure-5-restful-api-request-flow-SL4EZ27Z](https://github.com/wuyichen24/system-design-interview/assets/8989447/859eed81-4511-4221-b3ee-37b43cce2c4e)
 
 - **Load Balancer**
    - Distributes traffic across those servers to spread out load evenly.
@@ -31,4 +31,7 @@
 - **Location Cache**
    - Stores the most recent location data for each active user.
    - Sets a Time to Live (TTL) on each entry in the cache.
-   
+- **Location History Database**
+   - Stores users’ historical location data (not directly related to the “nearby friends” feature).   
+- **User Database**
+   - Stores user data and user friendship data.
