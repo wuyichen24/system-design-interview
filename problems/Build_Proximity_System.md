@@ -70,9 +70,11 @@
    - Cons
       - Have boundary issues:
          - Two locations can be very close but have no shared prefix at all.
+
            ![figure-10-no-shared-prefix-MFLTKKDZ](https://github.com/wuyichen24/system-design-interview/assets/8989447/0d81854e-032c-4b84-bd4f-cc93cd1e6867)
 
          - Two locations can have a long shared prefix, but they belong to different geohashes.
+
            ![figure-11-boundary-issue-XJWRE2EX](https://github.com/wuyichen24/system-design-interview/assets/8989447/2a96dc01-08c2-46df-acc7-7cae180bbc6a)
 
 - **Quadtree**
