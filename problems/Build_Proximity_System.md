@@ -78,25 +78,15 @@
            ![figure-11-boundary-issue-XJWRE2EX](https://github.com/wuyichen24/system-design-interview/assets/8989447/2a96dc01-08c2-46df-acc7-7cae180bbc6a)
 
 - **Quadtree**
+   - Concepts
+      - Partition a two-dimensional space by recursively subdividing it into four quadrants (grids) until the contents of the grids meet certain criteria.
+      - Quadtree is an in-memory data structure and it is not a database solution.
+
+        ![figure-13-quadtree-MWKA5XCK](https://github.com/wuyichen24/system-design-interview/assets/8989447/0156d8da-2642-43d2-aa52-27c11c8c83fd)
+        ![figure-14-build-quadtree-ZV3JS35E](https://github.com/wuyichen24/system-design-interview/assets/8989447/3a5f0387-d6bc-4d46-a684-2043bd625465)
+
+        
 - **Google S2**
-   - SQL
-      - Select * from Places where Latitude between X-D and X+D and Longitude between Y-D and Y+D
-      - Not efficient
-         - Need to use range to query 2 columns.
-   - Grids (Static size grid)
-      - Divide the whole map into smaller grids to group locations into smaller sets.
-      - Select * from Places where Latitude between X-D and X+D and Longitude between Y-D and Y+D and GridID in (GridID, GridID1, GridID2, ..., GridID8)
-      - It could be a problem there are a lot of places in a single grid.
-   - QuadTree (Dynamic size grids)
-      - Structure
-         - Each node has four children.
-         - If a node reaches our limit of 500 places, we will break it down to create four child nodes under it.
-         - Leaf nodes represents the grids that cannot be further broken down.
-         - Root node represents the whole world in one grid.
-      - Traversal
-         - If the current node has children, move to the child node that contains our desired location and repeat this process.
-      - Find neighboring grids
-         - Connect all leaf nodes with a doubly linked list.
-         - Through parent nodes (each node has a pointer to access its parent).
+
 
 
