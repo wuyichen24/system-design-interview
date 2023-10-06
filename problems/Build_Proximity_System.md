@@ -22,7 +22,7 @@
   
 ## High-level design
 
-![figure-21-design-diagram-ORKTOGMW](https://github.com/wuyichen24/system-design-interview/assets/8989447/a8cb6b44-942c-4fdd-9970-7e7b616318cc)
+![figure-21-design-diagram-ORKTOGMW](https://github.com/wuyichen24/system-design-interview/assets/8989447/70b934d4-0277-4999-93cb-7b04c6d97f71)
 
 - **Load balancer**
    - Distributes incoming traffic across multiple services.
