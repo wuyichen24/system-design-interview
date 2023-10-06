@@ -16,7 +16,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Geolocation System
 | Problem | Examples |
 |----|----|
-| [Build Proximity System](problems/Build_Proximity_System.md) | |
+| [Build Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
+| [Build Nearby Friends]() | |
 
 ### Video processing system
 | Problem | Examples |
@@ -63,8 +64,6 @@ For system design knowledge, please find [system-design-knowledge](https://githu
    - The crawler should not be unbounded on the same domain.
    - Build a system that constantly tracks new web pages
 - Build a notification system (System design interview vol1)
-- Build a news feed system (System design interview vol1)
-- Build a nearby friends system (System design interview vol2)
 - Build a map system - Google map (System design interview vol2)
 - Build a distributed message queue (System design interview vol2)
 - Build a metrics monitoring alerting system (System design interview vol2)
