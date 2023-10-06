@@ -17,7 +17,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [Build Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
-| [Build Nearby Friends]() | |
+| [Build Nearby Friends System](problems/Build_Nearby_Friends_System.md) | |
 
 ### Video processing system
 | Problem | Examples |
