@@ -24,6 +24,8 @@
 
 ![figure-2-high-level-design-OLWE4F2G](https://github.com/wuyichen24/system-design-interview/assets/8989447/d8fd9d92-69b9-4417-b5f6-be9caebe6594)
 
+![figure-21-design-diagram-ORKTOGMW](https://github.com/wuyichen24/system-design-interview/assets/8989447/6de1b8a5-4ba5-459d-b506-03918cdf3287)
+
 - **Load balancer**
    - Distributes incoming traffic across multiple services.
 - **Location-based service (LBS)**
