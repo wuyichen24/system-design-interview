@@ -13,7 +13,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter |
 | [Build Friend Feed System](problems/feed/Build_Friend_Feed_System.md) | <li>Facebook |
 
-### Geolocation System
+### Location System
 | Problem | Examples |
 |----|----|
 | [Build Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
