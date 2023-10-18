@@ -128,3 +128,6 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | The Evolution of Reddit.com's Architecture | | [Youtube](https://www.youtube.com/watch?v=nUcO7n4hek4) |
 | Scalable and Reliable Logging at Pinterest | | [Youtube](https://www.youtube.com/watch?v=DphnpWVYeG8) | 
 | Facebook and memcached | | [Youtube](https://www.youtube.com/watch?v=UH7wkvcf0ys) |
+
+## References
+- https://leetcode.com/discuss/interview-question/3766958/Bookmark-It-%3A-System-Design-and-Most-popular-Coding-Questions
