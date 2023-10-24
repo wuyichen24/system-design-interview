@@ -18,6 +18,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Build Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
 | [Build Nearby Friends System](problems/Build_Nearby_Friends_System.md) | |
+| Build a map system (System design interview vol2) | Google map |
 
 ### Video processing system
 | Problem | Examples |
@@ -36,7 +37,23 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Build Hotel Reservation System](problems/Build_Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
 | [Build Ticket Selling System]() | <li>Ticketmaster |
- 
+
+### Tool system
+| Problem | Examples |
+|----|----|
+| [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
+| [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
+| Build a notification system (System design interview vol1) | |
+
+- Build a distributed message queue (System design interview vol2)
+- Build a metrics monitoring alerting system (System design interview vol2)
+- Build a AD click event aggregation system (System design interview vol2)
+- Build a distributed email system (System design interview vol2)
+- Build a web crawler (System design interview vol1)
+   - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
+   - The crawler should not be unbounded on the same domain.
+   - Build a system that constantly tracks new web pages
+
 ### Other system
 | Problem | Examples |
 |----|----|
@@ -49,29 +66,14 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
 | [Build Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Build Search System](problems/Build_Search_System.md) | |
-| [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
 | [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
-| [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
 | [Build Auction System](problems/Build_Auction_System.md)* | eBay |
 | [Build Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
 
 * = incomplete
 
 ### More topics will be added
-- Build a key-value store (System design interview vol1)
-- Build a web crawler (System design interview vol1)
-   - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
-   - The crawler should not be unbounded on the same domain.
-   - Build a system that constantly tracks new web pages
-- Build a notification system (System design interview vol1)
-- Build a map system - Google map (System design interview vol2)
-- Build a distributed message queue (System design interview vol2)
-- Build a metrics monitoring alerting system (System design interview vol2)
-- Build a AD click event aggregation system (System design interview vol2)
-- Build a distributed email system (System design interview vol2)
-- Build a cloud object storage system (System design interview vol2)
 - Build a real-time gaming leaderboardboard (System design interview vol2)
-- Build a ticket selling system - ticketmaster
 - Build a currency exchange system
 - Build a flash sale system
 - Build a traffic control system
