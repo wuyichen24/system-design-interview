@@ -43,7 +43,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
 | [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
-| Build a notification system (System design interview vol1) | |
+| [Build Notification System](Build_Notification_System.md) | |
 
 - Build a distributed message queue (System design interview vol2)
 - Build a metrics monitoring alerting system (System design interview vol2)
