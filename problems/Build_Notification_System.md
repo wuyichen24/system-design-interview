@@ -35,3 +35,8 @@
       - Examples: Twilio, Nexmo, AWS SNS.
    - *Email Service*
       - Examples: Sendgrid, Mailchimp, AWS SES.
+
+## Detailed Design
+### Updated design for considering other factors
+
+![figure-10-14-XSG2DEDM](https://github.com/wuyichen24/system-design-interview/assets/8989447/cc85002f-d395-44b4-8e3a-615d67616837)
