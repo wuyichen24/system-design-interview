@@ -13,7 +13,25 @@
 - **Service 1 to N**
    - Different services that send notifications via APIs provided by notification servers.
 - **Notification servers**
-   - Provide APIs for services to send notifications.
-   - Query the database or cache to fetch data needed to render a notification.
-   - Carry out basic validations to verify emails, phone numbers.
-   - Put notification data to message queues for parallel processing.
+   - Provides APIs for services to send notifications.
+   - Queries the database or cache to fetch data needed to render a notification.
+   - Carries out basic validations to verify emails, phone numbers.
+   - Puts notification data to message queues for parallel processing.
+- **Cache**
+   - Caches user info, device info, notification templates.
+- **DB**
+   - Stores user info, device info, notification templates.
+- **Message queues**
+   - Buffers notifications need to be sent out for different types.
+- **Workers**
+   - A list of servers that pull notification events from message queues and send them to the corresponding third-party services.
+- **Third-party services**
+   - *APNs (Apple Push Notification Service)*
+      - For iOS push notifications.
+   - *FCM (Firebase Cloud Messaging)*
+      - For Android push notifications.
+      - Examples for China: Jpush, PushY.
+   - *SMS Service*
+      - Examples: Twilio, Nexmo, AWS SNS.
+   - *Email Service*
+      - Examples: Sendgrid, Mailchimp, AWS SES.
