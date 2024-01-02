@@ -47,12 +47,12 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Payment System](problems/finance/Payment_System.md) | |
 | [Stock Exchange System](problems/finance/Stock_Exchange_System.md) | Robinhood |
 
-### Tool system
+### Support system
 | Problem | Examples |
 |----|----|
-| [Rate Limiter](problems/Build_Rate_Limiter.md) | |
-| [Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
-| [Build Notification System](Build_Notification_System.md) | |
+| [Rate Limiter](problems/support/Rate_Limiter.md) | |
+| [Unique ID Generator](problems/support/Unique_ID_Generator.md) | |
+| [Notification System](Notification_System.md) | |
 
 - metrics monitoring alerting system (System design interview vol2)
 - AD click event aggregation system (System design interview vol2)
