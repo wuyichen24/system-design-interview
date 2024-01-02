@@ -96,7 +96,7 @@
      | object_name | The name of the object. |
      | object_id | The UUID of the object. |
      | bucket_id | Which bucket the object belongs to. |
-     | object_version | The version number of the object. |
+     | object_version | The version number (TIMEUUID) of the object. |
   
    - *buckets*
 
@@ -105,9 +105,19 @@
      | bucket_name | The name of the bucket. |
      | bucket_id | The UUID of the bucket. |
      | owner_id | The owner of the bucket. |
-     | enable_versioning | The bucket enabled versioning or not. | 
+     | enable_versioning | The bucket enabled versioning or not. |
+     
+- **Sharding key**
+   - The hash of the combination of `bucket_name` and `object_name`.
+    
+### Object versioning
+- **If an existing object is modified**
+   - Insert a new record in the `objects` table.
+      - Same `bucket_id` and `object_name` as the old record.
+      - Generate new `object_id` and `object_version` for the new record.
 
 ## Key points
 - The data store does not store the name of the object and it only supports object operations via object_id (UUID).
 - Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
 - Same data will be replicated to different data nodes, also replicated to different Availability Zones.
+- For supporting multiple versions of an object, the `object_name` should be same but `object_id` (UUID) should be new.
