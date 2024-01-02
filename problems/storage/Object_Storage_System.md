@@ -63,6 +63,7 @@
    - Continuously monitors all data nodes through heartbeats.
  
      <img width="600" alt="virtual-cluster-map" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/6f6db642-11c6-4c93-911b-ee3dc964e6be">
+     
 - **Data node**
    - Stores the actual object data.
    - Ensures reliability and durability by replicating data to multiple data nodes, also called a replication group.
