@@ -23,7 +23,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Video processing system
 | Problem | Examples |
 |----|----|
-| [Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
+| [Video Distribution System](problems/video/Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
 
 ### Storage system
 | Problem | Examples |
