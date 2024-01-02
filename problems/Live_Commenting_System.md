@@ -1,4 +1,4 @@
-# Build Live Commenting System
+# Live Commenting System
 
 ## Requirements clarification
 - **Functional requirements**
