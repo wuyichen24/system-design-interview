@@ -114,7 +114,8 @@
 - **If an existing object is modified**
    - Insert a new record in the `objects` table.
       - Same `bucket_id` and `object_name` as the old record.
-      - Generate new `object_id` and `object_version` for the new record.
+      - Generate new `object_id` (UUID) and `object_version` (TIMEUUID) for the new record.
+      - The current version has the largest TIMEUUID of all the entries with the same object_name. 
 
 ## Key points
 - The data store does not store the name of the object and it only supports object operations via object_id (UUID).
