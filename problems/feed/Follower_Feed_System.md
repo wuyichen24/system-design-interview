@@ -1,4 +1,4 @@
-# Build Follower Feed System
+# Follower Feed System
 
 ## Requirements clarification
 - **Functional requirements**
