@@ -1,4 +1,4 @@
-# Build Recommendation System
+# BuildRecommendation System
 
 ## Requirements clarification
 - **Functional requirements**
