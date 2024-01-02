@@ -1,4 +1,4 @@
-# Build Auction System
+# Auction System
 
 ## Real-life examples
 - eBay
