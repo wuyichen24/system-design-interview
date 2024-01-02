@@ -1,4 +1,4 @@
-# Cloud File Storage System
+# File Storage System
 
 ## Real-life examples
 - Google Drive
