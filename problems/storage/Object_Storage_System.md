@@ -49,4 +49,5 @@
 ## Detailed design
 ### Data store
 #### High-level design
-![data_store](https://github.com/wuyichen24/system-design-interview/assets/8989447/c0d1988a-14ac-43c0-98a5-97bdb52f26cd)
+
+<img width="500" alt="data_store" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/c0d1988a-14ac-43c0-98a5-97bdb52f26cd">
