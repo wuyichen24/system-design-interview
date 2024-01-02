@@ -1,4 +1,4 @@
-# Build Nearby Friends System
+# Nearby Friends System
 
 ## Real-life examples
 
