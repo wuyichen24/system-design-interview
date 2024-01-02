@@ -1,4 +1,4 @@
-# Build Payment System
+# Payment System
 
 ## Real-life examples
 - **Digital wallet**
