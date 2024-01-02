@@ -66,7 +66,6 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
-
 | [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Flash Sale System](problems/Build_Flash_Sale_System.md) | |
