@@ -51,3 +51,20 @@
 #### High-level design
 
 <img width="600" alt="data_store" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/c0d1988a-14ac-43c0-98a5-97bdb52f26cd">
+
+- **Data Routing Service**
+   - Provides RESTful or gRPC APIs to access the data node cluster.
+   - Queries the placement service to get the best data node to store data.
+   - Reads data from data nodes and return it to the API service.
+   - Writes data to data nodes.
+- **Placement Service**
+   - Determines which data nodes (primary and replicas) should be chosen to store an object.
+   - Maintains a virtual cluster map, which provides the physical topology of the cluster.
+   - Continuously monitors all data nodes through heartbeats.
+ 
+  ![virtual-cluster-map](https://github.com/wuyichen24/system-design-interview/assets/8989447/6f6db642-11c6-4c93-911b-ee3dc964e6be)
+
+- **Data node**
+   - Stores the actual object data.
+   - Ensures reliability and durability by replicating data to multiple data nodes, also called a replication group.
+
