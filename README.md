@@ -55,7 +55,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Unique ID Generator](problems/support/Unique_ID_Generator.md) | |
 | [Notification System](problems/support/Notification_System.md) | |
 | [Web Crawler](problems/support/Web_Crawler.md) | |
-| [Search System](problems/Build_Search_System.md) | |
+| [Search System](problems/support/Search_System.md) | |
 | [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
 
 - metrics monitoring alerting system (System design interview vol2)
