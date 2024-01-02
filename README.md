@@ -56,6 +56,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Notification System](problems/support/Notification_System.md) | |
 | [Web Crawler](problems/support/Web_Crawler.md) | |
 | [Search System](problems/Build_Search_System.md) | |
+| [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
 
 - metrics monitoring alerting system (System design interview vol2)
 - AD click event aggregation system (System design interview vol2)
@@ -65,7 +66,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
-| [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
+
 | [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Recommendation System](problems/Build_Recommendation_System.md) | |
 | [Flash Sale System](problems/Build_Flash_Sale_System.md) | |
