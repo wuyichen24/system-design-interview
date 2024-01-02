@@ -1,4 +1,4 @@
-# Build Privacy Setting System
+# Privacy Setting System
 
 ## Requirements clarification
 - **Functional requirements**
