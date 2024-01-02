@@ -117,6 +117,8 @@
       - Generate new `object_id` (UUID) and `object_version` (TIMEUUID) for the new record.
       - The current version has the largest TIMEUUID of all the entries with the same object_name. 
 
+  <img width="500" alt="versioned-metadata" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/3be21f15-1d2d-4e7d-95f4-44d1765d3771">
+
 ## Key points
 - The data store does not store the name of the object and it only supports object operations via object_id (UUID).
 - Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
