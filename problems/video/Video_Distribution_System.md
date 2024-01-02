@@ -1,4 +1,4 @@
-# Build Video Distribution System
+# Video Distribution System
 
 ## Real-life examples
 - Youtube
