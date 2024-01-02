@@ -68,3 +68,11 @@
    - Stores the actual object data.
    - Ensures reliability and durability by replicating data to multiple data nodes, also called a replication group.
 
+#### Data persistence flow
+<img width="600" alt="data-persistence" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/3936fa60-2e41-4ea4-b330-4a7811ae2a84">
+
+- *Step 1*: The API service forwards the object data to the data store.
+- *Step 2*: The data routing service generates a UUID for this object and queries the placement service for the data node to store this object. The placement service checks the virtual cluster map and returns the primary data node.
+- *Step 3*: The data routing service sends data directly to the primary data node, together with its UUID.
+- *Step 4*: The primary data node saves the data locally and replicates it to two secondary data nodes. The primary node responds to the data routing service when data is successfully replicated to all secondary nodes.
+- *Step 5*: The UUID of the object (ObjId) is returned to the API service.
