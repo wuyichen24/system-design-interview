@@ -83,4 +83,4 @@
    - When the read-write file reaches its capacity threshold, the read-write file is marked as read-only, and a new read-write file is created to receive new objects.
    - Once a file is marked as read-only, it can only serve read requests.
 
-     <img width="400" alt="store-multiple-small-objects" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/e3aed7fa-0eba-442f-840a-09856be3d9f0">
+     <img width="500" alt="store-multiple-small-objects" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/e3aed7fa-0eba-442f-840a-09856be3d9f0">
