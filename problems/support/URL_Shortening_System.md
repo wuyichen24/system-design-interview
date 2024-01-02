@@ -1,4 +1,4 @@
-# Build URL Shortening System
+# URL Shortening System
 
 ## Real-life examples
 - [TinyUrl](https://tinyurl.com/app)
