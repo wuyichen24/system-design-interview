@@ -1,4 +1,4 @@
-# Build Flash Sale System
+# Flash Sale System
 
 ## Requirements clarification
 - **Functional requirements**
