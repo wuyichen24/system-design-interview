@@ -86,3 +86,13 @@
      <img width="500" alt="store-multiple-small-objects" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/e3aed7fa-0eba-442f-840a-09856be3d9f0">
 
 - **Use the `object_mapping` table to store the relationship between object and file**
+
+  | Field | Description |
+  |----|----|
+  | object_id | UUID of the object |
+  | file_name | The name of the file that contains the object. |
+  | start_offset | Beginning address of the object in the file. |
+  | object_size | The number of bytes in the object. |
+
+  <img width="500" alt="updated-data-persistence" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/f5d9284b-6533-4e0e-99b9-3d1b4d663a72">
+
