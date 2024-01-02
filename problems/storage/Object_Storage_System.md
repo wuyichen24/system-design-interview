@@ -22,15 +22,6 @@
    - `GET /bucket_name/object_name`
 
 ## Data model definition
-- **Entry for metadata**
-   - Schema
-       - object_name: The name of the object (file name).
-       - object_id: UUID of the object.
-       - bucket_id: UUID represents which bucket the object belongs to.
-   - Example
-     | object_name | object_id | bucket_id|
-     |----|----|----|
-     | script.txt | 239D5866-0052-00F6-014E-C914E61ED42B | 82AA1B2E-F599-4590-B5E4-1F51AAE5F7E4 |
 
 ## High-level design
 ![object_storage](https://github.com/wuyichen24/system-design-interview/assets/8989447/aa9b3f35-8244-4ae7-94bd-b949ed60b34e)
