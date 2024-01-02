@@ -12,6 +12,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Follower Feed System](problems/social_media/Follower_Feed_System.md) | <li>Twitter |
 | [Friend Feed System](problems/social_media/Friend_Feed_System.md) | <li>Facebook |
+| [Messaging System](problems/social_media/Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
+| [Photo Sharing System](problems/social_media/Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
 
 ### Location System
 | Problem | Examples |
@@ -64,8 +66,6 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
-| [Messaging System](problems/Build_Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
-| [Photo Sharing System](problems/Build_Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
 | [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
 | [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
 | [Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
