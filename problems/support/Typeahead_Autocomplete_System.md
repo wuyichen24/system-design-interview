@@ -1,4 +1,4 @@
-# Build Typeahead/Autocomplete System
+# Typeahead/Autocomplete System
 
 ## Requirements clarification
 - **Functional requirements**
