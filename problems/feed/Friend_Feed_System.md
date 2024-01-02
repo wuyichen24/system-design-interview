@@ -1,4 +1,4 @@
-# Build Friend Feed System
+# Friend Feed System
 
 ## Real-life examples
 - Facebook
