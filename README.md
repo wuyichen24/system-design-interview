@@ -16,8 +16,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Location System
 | Problem | Examples |
 |----|----|
-| [Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
-| [Nearby Friends System](problems/Build_Nearby_Friends_System.md) | |
+| [Proximity System](problems/location/Proximity_System.md) | <li>Yelp |
+| [Nearby Friends System](problems/location/Nearby_Friends_System.md) | |
 | Map system (System design interview vol2) | Google map |
 
 ### Video processing system
