@@ -7,11 +7,11 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - [Procedure](interview/Procedure.md)
 
 ## Problems
-### Feed System
+### Social Media System
 | Problem | Examples |
 |----|----|
-| [Follower Feed System](problems/feed/Follower_Feed_System.md) | <li>Twitter |
-| [Friend Feed System](problems/feed/Friend_Feed_System.md) | <li>Facebook |
+| [Follower Feed System](problems/social_media/Follower_Feed_System.md) | <li>Twitter |
+| [Friend Feed System](problems/social_media/Friend_Feed_System.md) | <li>Facebook |
 
 ### Location System
 | Problem | Examples |
