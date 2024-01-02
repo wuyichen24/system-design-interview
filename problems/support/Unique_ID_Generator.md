@@ -1,4 +1,4 @@
-# Build Unique ID Generator
+# Unique ID Generator
 
 ## Requirements clarification
 - **Functional requirements**
