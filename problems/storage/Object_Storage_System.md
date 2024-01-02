@@ -96,3 +96,7 @@
 
   <img width="500" alt="updated-data-persistence" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/f5d9284b-6533-4e0e-99b9-3d1b4d663a72">
 
+## Key points
+- The data store does not store the name of the object and it only supports object operations via object_id (UUID).
+- Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
+- Same data will be replicated to different data nodes, also replicated to different Availability Zones.
