@@ -1,4 +1,4 @@
-# Build Proximity System
+# Proximity System
 
 ## Real-life examples
 - Yelp
