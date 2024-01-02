@@ -28,7 +28,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Storage system
 | Problem | Examples |
 |----|----|
-| [Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
+| [Cloud File Storage System](problems/storage/Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
 | [Cloud Object Storage System]()* | <li>AWS S3 |
 | [Key-value Store]()* | |
 | Distributed message queue (System design interview vol2) | |
@@ -36,14 +36,14 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Booking system
 | Problem | Examples |
 |----|----|
-| [Hotel Reservation System](problems/Build_Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
+| [Hotel Reservation System](problems/booking/Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
 | [Ticket Selling System]()* | <li>Ticketmaster |
 
-### Financial system
+### Finance system
 | Problem | Examples |
 |----|----|
-| [Payment System](problems/Build_Payment_System.md) | |
-| [Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
+| [Payment System](problems/finance/Payment_System.md) | |
+| [Stock Exchange System](problems/finance/Stock_Exchange_System.md) | Robinhood |
 
 ### Tool system
 | Problem | Examples |
