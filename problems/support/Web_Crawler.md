@@ -1,4 +1,4 @@
-# Build Web Crawler
+# Web Crawler
 
 ## Requirements clarification
 - **Functional requirements**
@@ -47,3 +47,8 @@
    - Excludes certain content types, file extensions, error links and URLs in “blacklisted” sites.
 - **URL Storage**
    - Stores already visited URLs.
+
+## Detailed design
+- Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
+- The crawler should not be unbounded on the same domain.
+- Build a system that constantly tracks new web pages
