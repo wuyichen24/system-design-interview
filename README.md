@@ -10,46 +10,52 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Feed System
 | Problem | Examples |
 |----|----|
-| [Build Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter |
-| [Build Friend Feed System](problems/feed/Build_Friend_Feed_System.md) | <li>Facebook |
+| [Follower Feed System](problems/feed/Build_Follower_Feed_System.md) | <li>Twitter |
+| [Friend Feed System](problems/feed/Build_Friend_Feed_System.md) | <li>Facebook |
 
 ### Location System
 | Problem | Examples |
 |----|----|
-| [Build Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
-| [Build Nearby Friends System](problems/Build_Nearby_Friends_System.md) | |
-| Build a map system (System design interview vol2) | Google map |
+| [Proximity System](problems/Build_Proximity_System.md) | <li>Yelp |
+| [Nearby Friends System](problems/Build_Nearby_Friends_System.md) | |
+| Map system (System design interview vol2) | Google map |
 
 ### Video processing system
 | Problem | Examples |
 |----|----|
-| [Build Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
+| [Video Distribution System](problems/Build_Video_Distribution_System.md) | <li>Youtube<li>Netflix<li>Vimeo |
 
 ### Storage system
 | Problem | Examples |
 |----|----|
-| [Build Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
-| [Build Cloud Object Storage System]() | <li>AWS S3 |
-| [Build Key-value Store]() | |
+| [Cloud File Storage System](problems/Build_Cloud_File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
+| [Cloud Object Storage System]()* | <li>AWS S3 |
+| [Key-value Store]()* | |
+| Distributed message queue (System design interview vol2) | |
 
 ### Booking system
 | Problem | Examples |
 |----|----|
-| [Build Hotel Reservation System](problems/Build_Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
-| [Build Ticket Selling System]() | <li>Ticketmaster |
+| [Hotel Reservation System](problems/Build_Hotel_Reservation_System.md) | <li>Airbnb<li>Priceline |
+| [Ticket Selling System]()* | <li>Ticketmaster |
+
+### Financial system
+| Problem | Examples |
+|----|----|
+| [Payment System](problems/Build_Payment_System.md) | |
+| [Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
 
 ### Tool system
 | Problem | Examples |
 |----|----|
-| [Build Rate Limiter](problems/Build_Rate_Limiter.md) | |
-| [Build Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
+| [Rate Limiter](problems/Build_Rate_Limiter.md) | |
+| [Unique ID Generator](problems/Build_Unique_ID_Generator.md) | |
 | [Build Notification System](Build_Notification_System.md) | |
 
-- Build a distributed message queue (System design interview vol2)
-- Build a metrics monitoring alerting system (System design interview vol2)
-- Build a AD click event aggregation system (System design interview vol2)
-- Build a distributed email system (System design interview vol2)
-- Build a web crawler (System design interview vol1)
+- metrics monitoring alerting system (System design interview vol2)
+- AD click event aggregation system (System design interview vol2)
+- distributed email system (System design interview vol2)
+- web crawler (System design interview vol1)
    - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
    - The crawler should not be unbounded on the same domain.
    - Build a system that constantly tracks new web pages
@@ -57,25 +63,23 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Other system
 | Problem | Examples |
 |----|----|
-| [Build URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
-| [Build Messaging System](problems/Build_Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
-| [Build Photo Sharing System](problems/Build_Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
-| [Build Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
-| [Build Payment System](problems/Build_Payment_System.md) | <li>Amazon |
-| [Build Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
-| [Build Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
-| [Build Recommendation System](problems/Build_Recommendation_System.md) | |
-| [Build Search System](problems/Build_Search_System.md) | |
-| [Build Flash Sale System](problems/Build_Flash_Sale_System.md) | |
-| [Build Auction System](problems/Build_Auction_System.md)* | eBay |
-| [Build Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
+| [URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
+| [Messaging System](problems/Build_Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
+| [Photo Sharing System](problems/Build_Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
+| [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
+| [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
+| [Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
+| [Recommendation System](problems/Build_Recommendation_System.md) | |
+| [Search System](problems/Build_Search_System.md) | |
+| [Flash Sale System](problems/Build_Flash_Sale_System.md) | |
+| [Auction System](problems/Build_Auction_System.md)* | eBay |
+
 
 `*` = incomplete
 
 ### More topics will be added
 - Build a real-time gaming leaderboardboard (System design interview vol2)
 - Build a currency exchange system
-- Build a flash sale system
 - Build a traffic control system
   - Requirements
      - A group of traffic lights has two components: main lights and pedestrian lights.
