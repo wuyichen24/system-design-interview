@@ -45,3 +45,6 @@
    - Stores the metadata of the objects.
 - **Data store**
    - Stores and retrieves the actual data.
+
+## Detailed design
+### Data store
