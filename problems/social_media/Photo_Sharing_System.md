@@ -1,4 +1,4 @@
-# Build Photo Sharing System
+# Photo Sharing System
 
 ## Real-life examples
 - Instagram
