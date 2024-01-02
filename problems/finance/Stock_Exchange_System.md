@@ -1,4 +1,4 @@
-# Build Stock Exchange System
+# Stock Exchange System
 
 ## Real-life examples
 
