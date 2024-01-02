@@ -1,4 +1,4 @@
-# Build Rate Limiter
+# Rate Limiter
 
 ## Real-life examples
 
