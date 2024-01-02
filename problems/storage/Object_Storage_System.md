@@ -87,6 +87,26 @@
 
   <img width="500" alt="updated-data-persistence" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/f5d9284b-6533-4e0e-99b9-3d1b4d663a72">
 
+### Metadata data model
+- **Tables**
+   - *objects*
+     
+     | Field | Description |
+     |----|----|
+     | object_name | The name of the object. |
+     | object_id | The UUID of the object. |
+     | bucket_id | Which bucket the object belongs to. |
+     | object_version | The version number of the object. |
+  
+   - *buckets*
+
+     | Field | Description |
+     |----|----|
+     | bucket_name | The name of the bucket. |
+     | bucket_id | The UUID of the bucket. |
+     | owner_id | The owner of the bucket. |
+     | enable_versioning | The bucket enabled versioning or not. | 
+
 ## Key points
 - The data store does not store the name of the object and it only supports object operations via object_id (UUID).
 - Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
