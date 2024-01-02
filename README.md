@@ -14,6 +14,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Friend Feed System](problems/social_media/Friend_Feed_System.md) | <li>Facebook |
 | [Messaging System](problems/social_media/Messaging_System.md) | <li>Facebook Chat<li>Whatapp<li>Slack |
 | [Photo Sharing System](problems/social_media/Photo_Sharing_System.md) | <li>Instagram<li>Flickr<li>Picasa |
+| [Privacy Setting System](problems/social_media/Privacy_Setting_System.md) | |
 
 ### Location System
 | Problem | Examples |
@@ -52,15 +53,13 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|
 | [Rate Limiter](problems/support/Rate_Limiter.md) | |
 | [Unique ID Generator](problems/support/Unique_ID_Generator.md) | |
-| [Notification System](Notification_System.md) | |
+| [Notification System](problems/support/Notification_System.md) | |
+| [Web Crawler](problems/support/Web_Crawler.md) | |
+| [Search System](problems/Build_Search_System.md) | |
 
 - metrics monitoring alerting system (System design interview vol2)
 - AD click event aggregation system (System design interview vol2)
 - distributed email system (System design interview vol2)
-- web crawler (System design interview vol1)
-   - Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
-   - The crawler should not be unbounded on the same domain.
-   - Build a system that constantly tracks new web pages
 
 ### Other system
 | Problem | Examples |
@@ -68,9 +67,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [URL Shortening System](problems/Build_URL_Shortening_System.md) | <li>TinyUrl |
 | [Typeahead/Autocomplete System](problems/Build_Typeahead_Autocomplete_System.md) | |
 | [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
-| [Privacy Setting System](problems/Build_Privacy_Setting_System.md) | |
 | [Recommendation System](problems/Build_Recommendation_System.md) | |
-| [Search System](problems/Build_Search_System.md) | |
 | [Flash Sale System](problems/Build_Flash_Sale_System.md) | |
 | [Auction System](problems/Build_Auction_System.md)* | eBay |
 
