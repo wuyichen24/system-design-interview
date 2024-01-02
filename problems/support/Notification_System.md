@@ -1,4 +1,4 @@
-# Build Notification System
+# Notification System
 
 ## Requirements clarification
 - **Functional requirements**
