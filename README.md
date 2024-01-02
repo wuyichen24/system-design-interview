@@ -66,12 +66,10 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 ### Other system
 | Problem | Examples |
 |----|----|
-
-| [Live Commenting System](problems/Build_Live_Commenting_System.md) | | 
-| [Recommendation System](problems/Build_Recommendation_System.md) | |
-| [Flash Sale System](problems/Build_Flash_Sale_System.md) | |
-| [Auction System](problems/Build_Auction_System.md)* | eBay |
-
+| [Live Commenting System](problems/Live_Commenting_System.md) | | 
+| [Recommendation System](problems/Recommendation_System.md) | |
+| [Flash Sale System](problems/Flash_Sale_System.md) | |
+| [Auction System](problems/Auction_System.md)* | eBay |
 
 `*` = incomplete
 
