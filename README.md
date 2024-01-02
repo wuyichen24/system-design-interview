@@ -70,7 +70,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Build Auction System](problems/Build_Auction_System.md)* | eBay |
 | [Build Stock Exchange System](problems/Build_Stock_Exchange_System.md) | Robinhood |
 
-* = incomplete
+`*` = incomplete
 
 ### More topics will be added
 - Build a real-time gaming leaderboardboard (System design interview vol2)
