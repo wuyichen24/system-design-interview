@@ -119,6 +119,13 @@
 
   <img width="500" alt="versioned-metadata" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/3be21f15-1d2d-4e7d-95f4-44d1765d3771">
 
+### Optimizing uploads of large files
+- **Solution**
+   - Slice a large object into smaller parts and upload them independently.
+   - After all the parts are uploaded, the object store re-assembles the object from the parts.
+
+  <img width="300" alt="multipart-upload" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/5b890dd7-a398-48ca-b068-759060610691">
+
 ## Key points
 - The data store does not store the name of the object and it only supports object operations via object_id (UUID).
 - Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
