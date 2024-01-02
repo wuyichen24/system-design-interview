@@ -76,3 +76,11 @@
 - *Step 3*: The data routing service sends data directly to the primary data node, together with its UUID.
 - *Step 4*: The primary data node saves the data locally and replicates it to two secondary data nodes. The primary node responds to the data routing service when data is successfully replicated to all secondary nodes.
 - *Step 5*: The UUID of the object (ObjId) is returned to the API service.
+
+#### How data is organized
+- **Store many small objects into a larger file**:
+   - When we save an object, it is appended to an existing read-write file.
+   - When the read-write file reaches its capacity threshold, the read-write file is marked as read-only, and a new read-write file is created to receive new objects.
+   - Once a file is marked as read-only, it can only serve read requests.
+
+  <img width="600" alt="store-multiple-small-objects" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/e3aed7fa-0eba-442f-840a-09856be3d9f0">
