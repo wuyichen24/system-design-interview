@@ -1,4 +1,4 @@
-# Build Cloud File Storage System
+# Cloud File Storage System
 
 ## Real-life examples
 - Google Drive
