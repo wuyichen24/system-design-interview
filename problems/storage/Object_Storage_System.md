@@ -16,6 +16,12 @@
 ## Estimation
 
 ## System interface definition
+- **Upload object**
+   - `PUT /bucket_name/object_name`
+- **Download**
+   - `GET /bucket_name/object_name`
+
+## Data model definition
 
 ## High-level design
 ![object_storage](https://github.com/wuyichen24/system-design-interview/assets/8989447/aa9b3f35-8244-4ae7-94bd-b949ed60b34e)
