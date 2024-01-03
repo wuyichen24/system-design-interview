@@ -1,5 +1,20 @@
 # Ad Click Event Aggregation System
 
+- [**Real-life examples**](#real-life-examples)
+- [**Requirements clarification**](#requirements-clarification)
+- [**Estimation**](#estimation)
+- [**System interface definition**](#system-interface-definition)
+- [**Data model definition**](#data-model-definition)
+- [**High-level design**](#high-level-design)
+- [**Detailed design**](#detailed-design)
+   - [Data Aggregation Service](#data-aggregation-service)
+   - [Aggregation window](#aggregation-window)
+- [**Alternative design**](#alternative-design)
+- [**Key points**](#key-points)
+- [**Summary**](#summary)
+- [**References**](#references)
+ 
+
 ## Real-life examples
 
 ## Requirements clarification
