@@ -152,3 +152,4 @@
 
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
+- Data aggregation service uses MapReduce framework and break down the problem into Map/Aggregate/Reduce nodes.
