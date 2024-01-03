@@ -60,12 +60,12 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [URL Shortening System](problems/support/URL_Shortening_System.md) | <li>TinyUrl |
 
 - metrics monitoring alerting system (System design interview vol2)
-- AD click event aggregation system (System design interview vol2)
 - distributed email system (System design interview vol2)
 
 ### Other system
 | Problem | Examples |
 |----|----|
+| [Ad Click Event Aggregation System](problems/Ad_Click_Event_Aggregation_System.md) | |
 | [Live Commenting System](problems/Live_Commenting_System.md) | | 
 | [Recommendation System](problems/Recommendation_System.md) | |
 | [Flash Sale System](problems/Flash_Sale_System.md) | |
