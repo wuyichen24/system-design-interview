@@ -114,7 +114,9 @@
        - Top N most clicked ads aggregated at per-minute granularity.
    - Achieves end-to-end exactly-once semantics (atomic commit).
 - **Data Aggregation Service**
-   - Processes raw data and generate aggregated data. 
+   - Processes raw data and generate aggregated data.
+- **Recalculation Service**
+   - Recalculate the raw data and generate new aggregated data when we discover a major bug.
 
 ## Detailed design
 ### Data Aggregation Service
