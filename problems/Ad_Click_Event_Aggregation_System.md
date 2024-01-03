@@ -116,5 +116,7 @@
 - **Data Aggregation Service**
    - Processes raw data and generate aggregated data. 
 
+
+
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
