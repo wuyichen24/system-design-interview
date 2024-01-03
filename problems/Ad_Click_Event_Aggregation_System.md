@@ -117,6 +117,8 @@
    - Processes raw data and generate aggregated data.
 - **Recalculation Service**
    - Recalculate the raw data and generate new aggregated data when we discover a major bug.
+- **Reconciliation**
+   - Sort the ad click events by event time in every partition at the end of the day, by using a batch job and reconciling with the real-time aggregation result.
 
 ## Detailed design
 ### Data Aggregation Service
