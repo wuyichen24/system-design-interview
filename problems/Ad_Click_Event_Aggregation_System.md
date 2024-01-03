@@ -185,3 +185,9 @@
 - Data aggregation service uses MapReduce framework and break down the problem into Map/Aggregate/Reduce nodes.
 - Need to recalculate the raw data and generate new aggregated data when we discover a major bug.
 - Should use event time rather than processing time.
+
+## Summary
+<img width="600" alt="chapter-summary" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/ad9d3434-4341-4716-807e-cedbbded344f">
+
+## References
+- [System Design Interview – An insider's guide | Ad Click Event Aggregation](https://bytebytego.com/courses/system-design-interview/ad-click-event-aggregation)
