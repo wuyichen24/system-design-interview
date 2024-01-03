@@ -32,7 +32,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [File Storage System](problems/storage/File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
-| [Object Storage System]()* | <li>AWS S3 |
+| [Object Storage System](problems/storage/Object_Storage_System.md) | <li>AWS S3 |
 | [Key-value Store]()* | |
 | Distributed message queue (System design interview vol2) | |
 
