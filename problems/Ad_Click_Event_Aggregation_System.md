@@ -150,6 +150,21 @@
    - *Case 3: data filtering*
       - Pre-define filtering criteria and aggregate based on them
 
+### Aggregation window
+- **Type of windows**
+   - Tumbling window: Has a fixed length, and every event belongs to exactly one window.
+   - Hopping window: Has a fixed length, but allows windows to overlap in order to provide some smoothing.
+   - Sliding window: Contains all the events that occur within some interval of each other.
+   - Session window: Has no fixed duration. Group together all events for the same user that occur closely together in time, and the window ends when the user has been inactive for some time.
+- **Which window should be used for our use cases**
+   - *Case 1: Aggregate the number of clicks*
+      - Use Tumbling window
+
+        ![figure-15-tumbling-window-2JXIXGIH](https://github.com/wuyichen24/system-design-interview/assets/8989447/46266b7b-f4e7-4963-b627-1cb464f92a5a)
+
+   - *Case 2: Return top N most clicked ads*
+      - Use sliding window
+
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
 - Data aggregation service uses MapReduce framework and break down the problem into Map/Aggregate/Reduce nodes.
