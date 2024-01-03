@@ -117,6 +117,20 @@
    - Processes raw data and generate aggregated data. 
 
 ## Detailed design
+### Data Aggregation Service
+- **Idea**
+   - Use MapReduce framework
+   - Break down the system into Map/Aggregate/Reduce nodes.
+ 
+     <img width="600" alt="aggregation-service" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/02d22150-60b0-40ef-9822-1b3b4c8d353e">
+     
+- **Components**
+   - *Map node*
+      - Reads data from a data source, and then filters and transforms the data.
+   - *Aggregate node*
+      - Counts ad click events by ad_id in memory every minute.
+   - *Reduce node*
+      - Reduces aggregated results from all “Aggregate” nodes to the final result.
 
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
