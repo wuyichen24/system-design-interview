@@ -15,6 +15,7 @@
    - [Object versioning](#object-versioning)
    - [Optimizing uploads of large files](#optimizing-uploads-of-large-files)
 - [**Key points**](#key-points)
+- [**Summary**](#summary)
 - [**References**](#references)
  
 ## Real-life examples
@@ -148,6 +149,9 @@
 - Multiple small objects will be stored in a single file. Use the `object_mapping` table to locate the object in a certain file.
 - Same data will be replicated to different data nodes, also replicated to different Availability Zones.
 - For supporting multiple versions of an object, the `object_name` should be same but `object_id` (UUID) should be new.
+
+## Summary 
+<img width="300" alt="chapter-summary" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/d35c2af9-1c7e-4000-a39a-6bde0b91ac88">
 
 ## References
 - [System Design Interview – An insider's guide | S3-like Object Storage](https://bytebytego.com/courses/system-design-interview/s3-like-object-storage)
