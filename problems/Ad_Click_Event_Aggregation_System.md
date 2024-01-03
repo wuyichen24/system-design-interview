@@ -132,5 +132,21 @@
    - *Reduce node*
       - Reduces aggregated results from all “Aggregate” nodes to the final result.
 
+- **Use cases**
+   - *Case 1: Aggregate the number of clicks*
+      - Input events are partitioned by ad_id (ad_id % 3) in Map nodes and are then aggregated by Aggregation nodes.
+    
+        <img width="800" alt="aggregate-the-number-of-clicks" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/7e085260-0a91-4cb2-9df2-176f215f89f8">
+        
+   - *Case 2: Return top N most clicked ads*
+      - Input events are mapped using ad_id.
+      - Each Aggregate node maintains a heap data structure to get the top 3 ads within the node efficiently.
+      - The Reduce node reduces 9 ads (top 3 from each aggregate node) to the top 3 most clicked ads every minute.
+
+        <img width="800" alt="return-top-n-most-clicked-ads" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/819076e0-59d5-4a29-8116-d7a63c56efcb">
+        
+   - *Case 3: data filtering*
+      - Pre-define filtering criteria and aggregate based on them
+
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
