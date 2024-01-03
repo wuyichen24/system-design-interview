@@ -102,7 +102,7 @@
          - Run queries on aggregated data for better performance.
  
 ## High-level design
-<img width="700" alt="high-level" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/f429a3bb-a7ff-49d2-af5f-d730670779cc">
+<img width="700" alt="high-level" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/73d0057a-0b7c-4717-88f5-384e101f81d1">
 
 - **Log Watcher**
    - Reads log and publish ad click event data into the left message queue.
