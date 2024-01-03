@@ -1,5 +1,22 @@
 # Object Storage System
 
+- [**Real-life examples**](#real-life-examples)
+- [**Requirements clarification**](#requirements-clarification)
+- [**Estimation**](#estimation)
+- [**System interface definition**](#system-interface-definition)
+- [**Data model definition**](#data-model-definition)
+- [**High-level design**](#high-level-design)
+- [**Detailed design**](#detailed-design)
+   - [Data store](#data-store)
+      - [High-level design](#high-level-design-1)
+      - [Data persistence flow](#data-persistence-flow)
+      - [How data is organized](#how-data-is-organized)
+   - [Metadata data model](#metadata-data-model)
+   - [Object versioning](#object-versioning)
+   - [Optimizing uploads of large files](#optimizing-uploads-of-large-files)
+- [**Key points**](#key-points)
+- [**References**](#references)
+ 
 ## Real-life examples
 - AWS S3
 
@@ -18,7 +35,7 @@
 ## System interface definition
 - **Upload object**
    - `PUT /bucket_name/object_name`
-- **Download**
+- **Download object**
    - `GET /bucket_name/object_name`
 
 ## Data model definition
