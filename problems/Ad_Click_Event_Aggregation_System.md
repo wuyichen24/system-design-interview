@@ -102,3 +102,6 @@
          - Run queries on aggregated data for better performance.
  
 ## High-level design
+
+## Key points
+- Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
