@@ -59,5 +59,37 @@
      | ad_ids | A list of the most clicked ads | array |
 
 ## Data model definition
+- **Raw data**
+
+     | ad_id | click_timestamp | user | ip | country |
+     |----|----|----|----|----|
+     | ad001 | 2021-01-01 00:00:01 | user1 | 207.148.22.22 | USA |
+     | ad001 | 2021-01-01 00:00:02 | user1 | 207.148.22.22 | USA |
+     | ad002 | 2021-01-01 00:00:02 | user2 | 209.153.56.11 | USA |
+  
+- **Aggregated data**
+   - aggregated_result table
+
+     | ad_id | click_minute | filter_id | count |
+     |----|----|----|----|
+     | ad001 | 202101010000 | 0012 | 2 |
+     | ad001 | 202101010000 | 0023 | 3 |
+     | ad001 | 202101010001 | 0012 | 1 |
+     | ad001 | 202101010001 | 0023 | 6 |
+     
+   - filter table
+  
+     | filter_id | region | IP | user_id |
+     |----|----|----|----|
+     | 0012 | US | * | * |
+     | 0013 | * | 123.1.2.3 | * |
+     
+   - most_clicked_ads table
+ 
+     | Field | Type | Description |
+     |----|----|----|
+     | window_size | integer | The aggregation window size (M) in minutes. | 
+     | update_time_minute | timestamp | Last updated timestamp (in 1-minute granularity) |
+     | most_clicked_ads	| array | List of ad IDs in JSON format. | 
 
 ## High-level design
