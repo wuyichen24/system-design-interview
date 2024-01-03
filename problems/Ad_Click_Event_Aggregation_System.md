@@ -90,6 +90,15 @@
      |----|----|----|
      | window_size | integer | The aggregation window size (M) in minutes. | 
      | update_time_minute | timestamp | Last updated timestamp (in 1-minute granularity) |
-     | most_clicked_ads	| array | List of ad IDs in JSON format. | 
+     | most_clicked_ads	| array | List of ad IDs in JSON format. |
 
+- **Solution**
+   - Store both raw data and aggregated data
+      - The use cases of raw data
+         - Debugging.
+         - Recalculate the aggregated data from the raw data, after a bug fix.
+         - Serve as backup data.
+      - The use cases of aggregated data
+         - Run queries on aggregated data for better performance.
+ 
 ## High-level design
