@@ -117,6 +117,7 @@
    - Processes raw data and generate aggregated data.
 - **Recalculation Service**
    - Recalculate the raw data and generate new aggregated data when we discover a major bug.
+   - Use snapshot to capture system status so that no need to replay data from the beginning of raw data.
 - **Reconciliation**
    - Sort the ad click events by event time in every partition at the end of the day, by using a batch job and reconciling with the real-time aggregation result.
 
@@ -169,10 +170,15 @@
 
         ![figure-16-sliding-window-OTVSYTQA](https://github.com/wuyichen24/system-design-interview/assets/8989447/b35152df-4d28-4b75-a839-e226d4bdc4fc)
 
-
 ## Alternative design
 ![figure-29-alternative-design-PS4NXR5P](https://github.com/wuyichen24/system-design-interview/assets/8989447/aee27ca0-8098-4e3a-9fd7-06943c28f4d6)
 
+- **Hive**
+   - Store ad click data (raw data).
+- **ElasticSearch**
+   - Enable faster queries.
+- **ClickHouse**
+   - OLAP database to store aggregated data.
 
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
