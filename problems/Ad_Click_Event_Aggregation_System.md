@@ -12,10 +12,10 @@
       - `ip`
       - `country`
 - **Functional requirements**
-   - Support 3 queries:
+   - Support 2 queries:
       - Aggregate the number of clicks of `ad_id` in the last `M` minutes.
       - Return the top 100 most clicked `ad_id` every minute.
-      - Support aggregation filtering by different attributes (e.g. `ip`, `user_id`, etc.).
+   - For above queries, support aggregation filtering by different attributes (e.g. `ip`, `user_id`, etc.).
 - **Non-functional requirements**
    - Correctness of the aggregation result is important.
    - Properly handle delayed or duplicate events.
@@ -34,8 +34,29 @@
      | from | Start minute (default is now minus 1 minute) | long |
      | to | End minute (default is now) | long |
      | filter	| An identifier for different filtering strategies. (For example, filter = 001 filters out non-US clicks) | long |
-  
+
    - Response
+
+     | Field | Description | Type |
+     |----|----|----|
+     | ad_id | The identifier of the ad | string |
+     | count | The aggregated count between the start and end minutes | long |
+     
+- **Return top `N` most clicked `ad_ids` in the last `M` minutes**
+   - URL: `GET /v1/ads/popular_ads`
+   - Request
+
+     | Field | Description | Type |
+     |----|----|----|
+     | count | Top N most clicked ads | integer |
+     | window | The aggregation window size (M) in minutes | integer |
+     | filter | An identifier for different filtering strategies | long |
+
+   - Response
+ 
+     | Field | Description | Type |
+     |----|----|----|
+     | ad_ids | A list of the most clicked ads | array |
 
 ## Data model definition
 
