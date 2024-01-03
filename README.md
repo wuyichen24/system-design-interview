@@ -113,6 +113,10 @@ For system design knowledge, please find [system-design-knowledge](https://githu
       - One who earns the maximum points at the last.
 - Build a restaurant management system.
 
+## More problems
+- https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
+- https://medium.com/coders-mojo/complete-system-design-series-part-1-45bf9c8654bc
+
 ## Presentation
 | Topic | Source 1 | Source 2 |
 |----|----|----|
