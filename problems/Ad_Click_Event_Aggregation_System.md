@@ -139,7 +139,7 @@
         <img width="800" alt="aggregate-the-number-of-clicks" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/7e085260-0a91-4cb2-9df2-176f215f89f8">
         
    - *Case 2: Return top N most clicked ads*
-      - Input events are mapped using ad_id.
+      - Input events are partitioned by ad_id (ad_id % 3) in Map nodes.
       - Each Aggregate node maintains a heap data structure to get the top 3 ads within the node efficiently.
       - The Reduce node reduces 9 ads (top 3 from each aggregate node) to the top 3 most clicked ads every minute.
 
