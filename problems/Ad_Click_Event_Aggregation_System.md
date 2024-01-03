@@ -165,6 +165,9 @@
    - *Case 2: Return top N most clicked ads*
       - Use sliding window
 
+        ![figure-16-sliding-window-OTVSYTQA](https://github.com/wuyichen24/system-design-interview/assets/8989447/b35152df-4d28-4b75-a839-e226d4bdc4fc)
+
+
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
 - Data aggregation service uses MapReduce framework and break down the problem into Map/Aggregate/Reduce nodes.
