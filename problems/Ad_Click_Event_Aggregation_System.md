@@ -104,5 +104,17 @@
 ## High-level design
 <img width="700" alt="high-level" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/f429a3bb-a7ff-49d2-af5f-d730670779cc">
 
+- **Log Watcher**
+   - Reads log and publish ad click event data into the left message queue.
+- **Message Queue (Left)**
+   - Stores ad click event data.
+- **Message Queue (Right)**
+   - Stores
+       - Ad click counts aggregated at per-minute granularity.
+       - Top N most clicked ads aggregated at per-minute granularity.
+   - Achieves end-to-end exactly-once semantics (atomic commit).
+- **Data Aggregation Service**
+   - Processes raw data and generate aggregated data. 
+
 ## Key points
 - Store both raw data and aggregated data, raw data for debugging and backup, aggregated data for fast queries.
