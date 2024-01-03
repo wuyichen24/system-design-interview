@@ -1,4 +1,4 @@
-# Ad Click Event Aggregation
+# Ad Click Event Aggregation System
 
 ## Real-life examples
 
