@@ -1,5 +1,16 @@
 # Metrics Monitoring and Alerting System
 
+- [**Real-life examples**](#real-life-examples)
+- [**Requirements clarification**](#requirements-clarification)
+- [**Estimation**](#estimation)
+- [**System interface definition**](#system-interface-definition)
+- [**Data model definition**](#data-model-definition)
+- [**High-level design**](#high-level-design)
+- [**Detailed design**](#detailed-design)
+- [**Key points**](#key-points)
+- [**Summary**](#summary)
+- [**References**](#references)
+
 ## Real-life examples
 - Datadog
 - New Relic
@@ -109,3 +120,9 @@
 - The metrics collector cluster should be set up for auto-scaling, to ensure that there are an adequate number of collector instances to handle the demand.
 - There are 3 ways to reduce disk usage: Encoding, compression and Downsampling
 - Build vs buy options for alerting and visualization systems.
+
+## Summary
+<img width="600" alt="chapter-summary" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/eb017f52-b732-4521-a157-3b21c7cd4093">
+
+## References
+- [System Design Interview – An insider's guide | Metrics Monitoring and Alerting System](https://bytebytego.com/courses/system-design-interview/metrics-monitoring-and-alerting-system)
