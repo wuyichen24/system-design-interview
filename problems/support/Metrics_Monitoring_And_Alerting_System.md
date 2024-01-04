@@ -46,6 +46,7 @@
 - **Kafka**
    - Decouples the data collection and data processing services from each other.
    - Prevents data loss when the database is unavailable, by retaining the data in Kafka.
+   - It could be entirely replaced by a competent time-series database (Facebook’s Gorilla).
 - **Time-series database**
    - Stores metrics data as time series.
    - Provides a custom query interface for analyzing and summarizing a large amount of time-series data.
@@ -73,6 +74,13 @@
       - The metrics collector should be in an auto-scaling cluster with a load balancer in front of it.
      
         <img width="600" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/46e8f82a-975d-4581-9b7c-f56a1742aecd">
+
+### Scale the metrics transmission pipeline
+- **Scale through Kafka**
+   - Configure the number of partitions based on throughput requirements.
+   - Partition metrics data by metric names, so consumers can aggregate data by metrics names.
+   - Further partition metrics data with tags/labels.
+   - Categorize and prioritize metrics so that important metrics can be processed first.
 
 ## Key points
 - There are 2 ways to collect metrics: pull model or push model.
