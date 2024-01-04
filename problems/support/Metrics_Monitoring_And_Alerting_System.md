@@ -4,7 +4,6 @@
 - Datadog
 - New Relic
 - Prometheus
-- Grafana
 - Graphite
 
 ## Requirements clarification
@@ -88,7 +87,22 @@
 
 <img width="800" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/2f44f534-f73f-4c84-96a4-35ac67fbefde">
 
+- **Workflow**
+   - *Step 1*: Load config files (rules) to cache servers.
+   - *Step 2*: The alert manager fetches alert configs from the cache.
+   - *Step 3*: Based on config rules, the alert manager calls the query service at a predefined interval.
+      - If the value violates the threshold, an alert event is created.
+   - *Step 4*: The alert store is a key-value database and keeps the state (inactive, pending, firing, resolved) of all alerts. It ensures a notification is sent at least once.
+   - *Step 5*: Eligible alerts are inserted into Kafka.
+   - *Step 6*: Alert consumers pull alert events from Kafka.
+   - *Step 7*: Alert consumers process alert events from Kafka and send notifications over to different channels such as email, text message, PagerDuty, or HTTP endpoints.
+- **Notes**
+   - Consider to build or buy alerting system (PagerDuty).
 
+### Storage
+- **Space optimization**
+   - Data encoding and compression
+   - Downsampling (Convert high-resolution data to low-resolution)
 
 ## Key points
 - There are 2 ways to collect metrics: pull model or push model.
