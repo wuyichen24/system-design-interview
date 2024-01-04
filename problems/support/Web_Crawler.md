@@ -17,7 +17,7 @@
 
 ## High-level design
 
-<img width="694" alt="Screenshot 2023-10-23 at 10 20 59 PM" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/4cdd99dc-ccfa-43dd-a836-4cf1e4f05304">
+<img width="800" alt="Screenshot 2023-10-23 at 10 20 59 PM" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/4cdd99dc-ccfa-43dd-a836-4cf1e4f05304">
 
 - **Seed URLs**
    - A web crawler uses seed URLs as a starting point for the crawl process.
