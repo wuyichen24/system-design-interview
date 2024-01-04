@@ -49,6 +49,4 @@
    - Stores already visited URLs.
 
 ## Detailed design
-- Prioritize web pages that are dynamic as these pages appear  more frequenctly in search engine ranking
-- The crawler should not be unbounded on the same domain.
-- Build a system that constantly tracks new web pages
+
