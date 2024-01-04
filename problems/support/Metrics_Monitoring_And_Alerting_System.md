@@ -5,6 +5,7 @@
 - New Relic
 - Prometheus
 - Grafana
+- Graphite
 
 ## Requirements clarification
 - **Functional requirements**
