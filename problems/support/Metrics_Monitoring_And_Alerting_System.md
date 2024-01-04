@@ -43,6 +43,9 @@
    - Provides metrics, like application servers, database, message queues.
 - **Metrics Collector**
    - Gathers metrics data and writes data into the time-series database.
+- **Kafka**
+   - Decouples the data collection and data processing services from each other.
+   - Prevents data loss when the database is unavailable, by retaining the data in Kafka.
 - **Time-series database**
    - Stores metrics data as time series.
    - Provides a custom query interface for analyzing and summarizing a large amount of time-series data.
