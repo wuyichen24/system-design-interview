@@ -62,7 +62,7 @@
 
         <img width="500" alt="pull-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/0f36fe3c-8402-4b88-a8f1-3fee983780c8">
         
-   - Push model
+   - *Push model*
       - A collection agent
           - Commonly installed on every server being monitored.
           - Collects metrics and pushes those metrics periodically to the metrics collector.
