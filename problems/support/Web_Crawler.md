@@ -23,7 +23,7 @@
    - A web crawler uses seed URLs as a starting point for the crawl process.
    - The general strategy is to divide the entire URL space into smaller ones.
       - Based on locality
-      - Nased on topics
+      - Based on topics
 - **URL Frontier**
    - Stores URLs need to be downloaded.
    - A First-in-First-out (FIFO) queue.
