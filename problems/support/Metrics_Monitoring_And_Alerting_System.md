@@ -86,7 +86,7 @@
 
 ### Alerting system
 
-<img width="600" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/2f44f534-f73f-4c84-96a4-35ac67fbefde">
+<img width="800" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/2f44f534-f73f-4c84-96a4-35ac67fbefde">
 
 
 
