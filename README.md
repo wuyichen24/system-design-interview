@@ -58,8 +58,8 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Search System](problems/support/Search_System.md) | |
 | [Typeahead/Autocomplete System](problems/support/Typeahead_Autocomplete_System.md) | |
 | [URL Shortening System](problems/support/URL_Shortening_System.md) | <li>TinyUrl |
+| [Metrics Monitoring and Alerting System](problems/support/Metrics_Monitoring_And_Alerting_System.md) | <li>Datadog<li>New Relic<li>Prometheus<li>Graphite |
 
-- metrics monitoring alerting system (System design interview vol2)
 - distributed email system (System design interview vol2)
 
 ### Other system
