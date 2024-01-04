@@ -13,7 +13,7 @@
       - Request count
       - Memory usage
       - Message count in message queues
-   - Alert users in multiple ways when a metric goes above the threshold
+   - Send alert notifications to various alerting destinations.
       - Email
       - Phone
       - PagerDuty
@@ -38,6 +38,30 @@
 ## High-level design
 <img width="800" alt="high-level" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/eb54e336-26a6-44a9-a44a-98fbbacb3885">
 
+- **Metrics Source**
+   - Provides metrics, like application servers, database, message queues.
+- **Metrics Collector**
+   - Gathers metrics data and writes data into the time-series database.
+- **Time-series database**
+   - Stores metrics data as time series.
+   - Provides a custom query interface for analyzing and summarizing a large amount of time-series data.
+   - Maintains indexes on labels to facilitate the fast lookup of time-series data by labels.
+- **Query Service**
+   - Makes it easy to query and retrieve data from the time-series database.
+   - This should be a very thin wrapper if we choose a good time-series database. It could also be entirely replaced by the time-series database’s own query interface.
+- **Alerting system**
+   - Sends alert notifications to various alerting destinations.
+
 ## Detailed design
+### Metrics collection
+- **Ways of collecting metrics**
+   - *Pull model*
+      - There are dedicated metric collectors which pull metrics values from the running applications periodically via a pre-defined HTTP endpoint (for example, /metrics).
+      - Metrics collectors will query Service Discovery to get the complete list of service endpoints to pull data from.
+      - Use a consistent hash ring to decide each metrics collector needs to collect which set of servers.
+
+        <img width="800" alt="pull-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/0f36fe3c-8402-4b88-a8f1-3fee983780c8">
+        
+   - Push model
 
 ## Key points
