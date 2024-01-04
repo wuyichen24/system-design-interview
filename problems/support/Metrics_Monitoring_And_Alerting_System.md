@@ -105,6 +105,7 @@
    - Downsampling (Convert high-resolution data to low-resolution)
 
 ## Key points
-- There are 2 ways to collect metrics: pull model or push model.
+- There are 2 ways to collect metrics: Pull model or Push model.
 - The metrics collector cluster should be set up for auto-scaling, to ensure that there are an adequate number of collector instances to handle the demand.
-
+- There are 3 ways to reduce disk usage: Encoding, compression and Downsampling
+- Build vs buy options for alerting and visualization systems.
