@@ -60,7 +60,7 @@
       - Metrics collectors will query Service Discovery to get the complete list of service endpoints to pull data from.
       - Use a consistent hash ring to decide each metrics collector needs to collect which set of servers.
 
-        <img width="800" alt="pull-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/0f36fe3c-8402-4b88-a8f1-3fee983780c8">
+        <img width="500" alt="pull-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/0f36fe3c-8402-4b88-a8f1-3fee983780c8">
         
    - Push model
 
