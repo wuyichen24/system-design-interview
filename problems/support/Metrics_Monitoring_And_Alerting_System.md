@@ -56,6 +56,8 @@
    - This should be a very thin wrapper if we choose a good time-series database. It could also be entirely replaced by the time-series database’s own query interface.
 - **Alerting system**
    - Sends alert notifications to various alerting destinations.
+- **Cache**
+   - Reduces the load of the time-series database and make query service more performant
 
 ## Detailed design
 ### Metrics collection
