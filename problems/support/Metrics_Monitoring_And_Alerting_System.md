@@ -19,7 +19,15 @@
       - PagerDuty
       - Webhooks
    - Support metrics visualization
+   - Data retention policy:
+      - Raw form for 7 days.
+      - 1-minute resolution for 30 days.
+      - 1-hour resolution for 1 year.
 - **Non-functional requirements**
+   - Scalability: The system should be scalable to accommodate growing metrics and alert volume.
+   - Low latency: The system needs to have low query latency for dashboards and alerts.
+   - Reliability: The system should be highly reliable to avoid missing critical alerts.
+   - Flexibility: Technology keeps changing, so the pipeline should be flexible enough to easily integrate new technologies in the future.
 
 ## Estimation
 
