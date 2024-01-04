@@ -84,6 +84,12 @@
    - Further partition metrics data with tags/labels.
    - Categorize and prioritize metrics so that important metrics can be processed first.
 
+### Alerting system
+
+<img width="600" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/2f44f534-f73f-4c84-96a4-35ac67fbefde">
+
+
+
 ## Key points
 - There are 2 ways to collect metrics: pull model or push model.
 - The metrics collector cluster should be set up for auto-scaling, to ensure that there are an adequate number of collector instances to handle the demand.
