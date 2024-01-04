@@ -68,6 +68,6 @@
           - Collects metrics and pushes those metrics periodically to the metrics collector.
       - The metrics collector should be in an auto-scaling cluster with a load balancer in front of it.
      
-        <img width="550" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/46e8f82a-975d-4581-9b7c-f56a1742aecd">
+        <img width="600" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/46e8f82a-975d-4581-9b7c-f56a1742aecd">
 
 ## Key points
