@@ -63,5 +63,11 @@
         <img width="500" alt="pull-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/0f36fe3c-8402-4b88-a8f1-3fee983780c8">
         
    - Push model
+      - A collection agent
+          - Commonly installed on every server being monitored.
+          - Collects metrics and pushes those metrics periodically to the metrics collector.
+      - The metrics collector should be in an auto-scaling cluster with a load balancer in front of it.
+     
+        <img width="500" alt="push-model" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/46e8f82a-975d-4581-9b7c-f56a1742aecd">
 
 ## Key points
