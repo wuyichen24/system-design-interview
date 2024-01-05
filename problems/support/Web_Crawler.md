@@ -101,5 +101,19 @@
 - **Concepts**
    - Web pages are constantly being added, deleted, and edited. A web crawler must periodically recrawl downloaded pages to keep our data set fresh.
 - **Strategies**
+   - Recrawl based on web pages’ update history.
+   - Prioritize URLs and recrawl important pages first and more frequently.
+ 
+#### Storage
+- **Strategies**
+   - The majority of URLs are stored on disk.
+   - Maintains buffers in memory for enqueue/dequeue operations.
+   - Data in the buffer is periodically written to the disk.
+
+#### Final structure
+- Front queues: Manage prioritization
+- Back queues: Manage politeness
+
+<img width="400" alt="summary" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/09002ca3-f02c-48e8-81e6-f6c44f6b5b37">
 
 ## Key points
