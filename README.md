@@ -200,10 +200,10 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 |----|----|----|----|----|
 | a URL Shortener (TinyURL) | Yes | Yes | Yes | Yes | 
 | Chat system (WhatsApp, Facebook Messenger) | Yes | Yes | Yes | Yes | 
-| Newsfeed (Facebook) | Yes | No | Yes | Yes |
+| Newsfeed (Facebook) | Yes |  | Yes | Yes |
 | Typeahead | Yes | Yes | Yes | Yes | 
 | Web crawler | Yes | Yes | Yes | Yes | 
-| Proximity (Yelp) | Yes | No | Yes | Yes |
+| Proximity (Yelp) | Yes |  | Yes | Yes |
 | Rate limiter |
 | Photo sharing (Instagram) |
 | Video watching (Youtube, Netflix) |
