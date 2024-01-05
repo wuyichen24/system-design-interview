@@ -16,6 +16,10 @@
       - [Storage](#storage)
       - [Final structure](#final-structure)
    - [HTML Downloader](#html-downloader)
+      - [Robots exclusion protocol](#robots-exclusion-protocol)
+      - [Performance optimization](#performance-optimization)
+      - [Robustness optimization](#robustness-optimization)
+      - [Detect and avoid problematic content](#detect-and-avoid-problematic-content)
 - [**Key points**](#key-points)
 - [**References**](#references)
 
