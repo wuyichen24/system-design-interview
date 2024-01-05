@@ -83,6 +83,6 @@
    - Queue selector: Each worker thread is mapped to a FIFO queue, and it only downloads URLs from that queue. The queue selection logic is done by the Queue selector.
    - Worker thread 1,2,..., N: A worker thread downloads web pages one by one from the same host. A delay can be added between two download tasks.
 
-     <img width="500" alt="politeness" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/8b082a12-f80a-4aa1-8445-1c4c1b7ea75c">
+     <img width="400" alt="politeness" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/8b082a12-f80a-4aa1-8445-1c4c1b7ea75c">
         
 ## Key points
