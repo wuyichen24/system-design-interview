@@ -97,4 +97,9 @@
 
      <img width="400" alt="politeness" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/3325651a-8124-45b7-a682-828c8da7b1a2">
 
+#### Freshness
+- **Concepts**
+   - Web pages are constantly being added, deleted, and edited. A web crawler must periodically recrawl downloaded pages to keep our data set fresh.
+- **Strategies**
+
 ## Key points
