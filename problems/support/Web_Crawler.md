@@ -71,18 +71,28 @@
    - BFS (DFS is usually not a good choice because the depth of DFS can be very deep).
 
 ### URL frontier
-#### Politeness**
+#### Politeness
 - **Concept**
    - A web crawler should avoid sending too many requests to the same hosting server within a short period.
 - **Solution**
    - Download one page at a time from the same host. A delay can be added between two download tasks.
 - **Implementation**
-   - Queue router: It ensures that each queue (b1, b2, … bn) only contains URLs from the same host.
-   - Mapping table: It maps each host to a queue.
-   - FIFO queues (b1, b2, ..., bn): Each queue contains URLs from the same host.
-   - Queue selector: Each worker thread is mapped to a FIFO queue, and it only downloads URLs from that queue. The queue selection logic is done by the Queue selector.
-   - Worker thread 1,2,..., N: A worker thread downloads web pages one by one from the same host. A delay can be added between two download tasks.
+   - *Queue router*: It ensures that each queue (b1, b2, … bn) only contains URLs from the same host.
+   - *Mapping table*: It maps each host to a queue.
+   - *FIFO queues (b1, b2, ..., bn)*: Each queue contains URLs from the same host.
+   - *Queue selector*: Each worker thread is mapped to a FIFO queue, and it only downloads URLs from that queue. The queue selection logic is done by the Queue selector.
+   - *Worker thread (1,2,..., N)*: A worker thread downloads web pages one by one from the same host. A delay can be added between two download tasks.
 
      <img width="400" alt="politeness" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/8b082a12-f80a-4aa1-8445-1c4c1b7ea75c">
-        
+
+#### Priority
+- **Factors**
+   - PageRank
+   - Website traffic
+   - Update frequency
+- **Implementation**
+   - *Prioritizer*: It takes URLs as input and computes the priorities.
+   - *Queue (f1 to fn)*: Each queue has an assigned priority. Queues with high priority are selected with higher probability.
+   - *Queue selector*: Randomly choose a queue with a bias towards queues with higher priority.
+   
 ## Key points
