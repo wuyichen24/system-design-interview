@@ -7,6 +7,17 @@
 - [**Data model definition**](#data-model-definition)
 - [**High-level design**](#high-level-design)
 - [**Detailed design**](#detailed-design)
+   - [Workflow](#workflow)
+   - [Algorithm](#algorithm)
+   - [URL frontier](#url-frontier)
+      - [Politeness](#politeness)
+      - [Priority](#priority)
+      - [Freshness](#freshness)
+      - [Storage](#storage)
+      - [Final structure](#final-structure)
+   - [HTML Downloader](#html-downloader)
+- [**Key points**](#key-points)
+- [**References**](#references)
 
 ## Real-life examples
 ## Requirements clarification
