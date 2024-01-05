@@ -118,6 +118,32 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - https://medium.com/coders-mojo/complete-system-design-series-part-1-45bf9c8654bc
 
 ## Education platform comparison
+[System Design Interview](https://bytebytego.com/courses/system-design-interview/)
+- Design A Rate Limiter
+- Design A Key-value Store
+- Design A Unique ID Generator In Distributed Systems
+- Design A URL Shortener
+- Design A Web Crawler
+- Design A Notification System
+- Design A News Feed System
+- Design A Chat System
+- Design A Search Autocomplete System
+- Design YouTube
+- Design Google Drive
+- Proximity Service
+- Nearby Friends
+- Google Maps
+- Distributed Message Queue
+- Metrics Monitoring and Alerting System
+- Ad Click Event Aggregation
+- Hotel Reservation System
+- Distributed Email Service
+- S3-like Object Storage
+- Real-time Gaming Leaderboard
+- Payment System
+- Digital Wallet
+- Stock Exchange
+
 [Exponent](https://www.tryexponent.com/courses/system-design-interview?ref=techinterviewhandbook)
 - Design a URL Shortener
 - Design Instagram
@@ -167,6 +193,22 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - Design WhatsApp
 - Design Typeahead Suggestion
 - Design a Collaborative Document Editing Service / Google Docs
+
+
+
+| | ByteByteGo - System Design Interview | Exponent | Design Gurus - Grokking Modern System Design Interview | Educative - Grokking Modern System Design Interview for Engineers & Managers |
+|----|----|----|----|----|
+| a URL Shortener (TinyURL) | Yes | Yes | Yes | Yes | 
+| Chat system (WhatsApp, Facebook Messenger) | Yes | Yes | Yes | Yes | 
+| Newsfeed (Facebook) | Yes | No | Yes | Yes |
+| Typeahead | Yes | Yes | Yes | Yes | 
+| Web crawler | Yes | Yes | Yes | Yes | 
+| Proximity (Yelp) | Yes | No | Yes | Yes |
+| Rate limiter |
+| Photo sharing (Instagram) |
+| Video watching (Youtube, Netflix) |
+| Food delivery (DoorDash, Uber Eats) |
+
 
 ## Presentation
 | Topic | Source 1 | Source 2 |
