@@ -32,7 +32,7 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | Problem | Examples |
 |----|----|
 | [File Storage System](problems/storage/File_Storage_System.md) | <li>Google Drive<li>Microsoft OneDrive<li>Dropbox |
-| [Object Storage System](problems/storage/Object_Storage_System.md) | <li>AWS S3 |
+| [Object Storage System](problems/storage/Object_Storage_System.md) **Done** | <li>AWS S3 |
 | [Key-value Store]()* | |
 | Distributed message queue (System design interview vol2) | |
 
@@ -54,18 +54,18 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 | [Rate Limiter](problems/support/Rate_Limiter.md) | |
 | [Unique ID Generator](problems/support/Unique_ID_Generator.md) | |
 | [Notification System](problems/support/Notification_System.md) | |
-| [Web Crawler](problems/support/Web_Crawler.md) | |
+| [Web Crawler](problems/support/Web_Crawler.md) **Done** | |
 | [Search System](problems/support/Search_System.md) | |
 | [Typeahead/Autocomplete System](problems/support/Typeahead_Autocomplete_System.md) | |
 | [URL Shortening System](problems/support/URL_Shortening_System.md) | <li>TinyUrl |
-| [Metrics Monitoring and Alerting System](problems/support/Metrics_Monitoring_And_Alerting_System.md) | <li>Datadog<li>New Relic<li>Prometheus<li>Graphite |
+| [Metrics Monitoring and Alerting System](problems/support/Metrics_Monitoring_And_Alerting_System.md) **Done** | <li>Datadog<li>New Relic<li>Prometheus<li>Graphite |
 
 - distributed email system (System design interview vol2)
 
 ### Other system
 | Problem | Examples |
 |----|----|
-| [Ad Click Event Aggregation System](problems/Ad_Click_Event_Aggregation_System.md) | |
+| [Ad Click Event Aggregation System](problems/Ad_Click_Event_Aggregation_System.md) **Done** | |
 | [Live Commenting System](problems/Live_Commenting_System.md) | | 
 | [Recommendation System](problems/Recommendation_System.md) | |
 | [Flash Sale System](problems/Flash_Sale_System.md) | |
