@@ -106,9 +106,12 @@
  
 #### Storage
 - **Strategies**
-   - The majority of URLs are stored on disk.
-   - Maintains buffers in memory for enqueue/dequeue operations.
-   - Data in the buffer is periodically written to the disk.
+   - Hybird approach
+      - Disk:
+         - The majority of URLs
+      - Memory:
+         - Maintains buffersfor enqueue/dequeue operations.
+         - Data in the buffer is periodically written to the disk.
 
 #### Final structure
 - Front queues: Manage prioritization
