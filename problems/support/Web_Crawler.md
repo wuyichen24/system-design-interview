@@ -126,7 +126,7 @@
    - Before attempting to crawl a web site, a crawler should check its corresponding robots.txt first and follow its rules.
    - To avoid repeat downloads of robots.txt file, we cache the results of the file. The file is downloaded and saved to cache periodically.
 - **Performance optimization**
-   - Crawl jobs are distributed into multiple servers, and each server runs multiple threads.
+   - Crawl jobs are distributed into multiple servers (downloader), and each server runs multiple threads.
    - Maintains our DNS cache to avoid calling DNS (bottleneck) frequently. Our DNS cache is updated periodically by cron jobs.
    - Deploys crawl servers geographically closer to website hosts.
    - Use short timeout when crawling web pages.
