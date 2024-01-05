@@ -1,5 +1,14 @@
 # Web Crawler
 
+- [**Real-life examples**](#real-life-examples)
+- [**Requirements clarification**](#requirements-clarification)
+- [**Estimation**](#estimation)
+- [**System interface definition**](#system-interface-definition)
+- [**Data model definition**](#data-model-definition)
+- [**High-level design**](#high-level-design)
+- [**Detailed design**](#detailed-design)
+
+## Real-life examples
 ## Requirements clarification
 - **Functional requirements**
    - Given a set of URLs, download all the web pages addressed by the URLs.
@@ -129,9 +138,20 @@
    - Crawl jobs are distributed into multiple servers (downloader), and each server runs multiple threads.
    - Maintains our DNS cache to avoid calling DNS (bottleneck) frequently. Our DNS cache is updated periodically by cron jobs.
    - Deploys crawl servers geographically closer to website hosts.
-   - Use short timeout when crawling web pages.
+   - Uses short timeout when crawling web pages.
+- **Robustness optimization**
+   - Crawl servers should save crawl states and data so that A disrupted crawl can be restarted easily.
+   - Crawl servers must handle exceptions gracefully without crashing the system.
+- **Detect and avoid problematic content**
+   - Use hashes or checksums help to detect duplication
+   - Setting a maximal length for URLs avoids spider traps (a web page that causes a crawler in an infinite loop).
+   - Excludes advertisements, code snippets, spam URLs, etc.
      
 ## Key points
 - Politeness: Download one page at a time from the same host. A delay can be added between two download tasks.
 - Priority: Use multiple queues to store URLs in different priorities, randomly choose a queue with a bias towards queues with higher priority.
 - Freshness: A web crawler must periodically recrawl downloaded pages based on web pages’ update history and importance.
+- Need to consider performance, robustness, problematic web pages for crawlers.
+
+## References
+- [System Design Interview – An insider's guide | Design A Web Crawler](https://bytebytego.com/courses/system-design-interview/design-a-web-crawler)
