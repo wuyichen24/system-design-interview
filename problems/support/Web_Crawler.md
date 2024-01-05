@@ -94,5 +94,7 @@
    - *Prioritizer*: It takes URLs as input and computes the priorities.
    - *Queue (f1 to fn)*: Each queue has an assigned priority. Queues with high priority are selected with higher probability.
    - *Queue selector*: Randomly choose a queue with a bias towards queues with higher priority.
-   
+
+     <img width="400" alt="politeness" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/3325651a-8124-45b7-a682-828c8da7b1a2">
+
 ## Key points
