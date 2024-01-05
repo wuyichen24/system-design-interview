@@ -117,6 +117,57 @@ For system design knowledge, please find [system-design-knowledge](https://githu
 - https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
 - https://medium.com/coders-mojo/complete-system-design-series-part-1-45bf9c8654bc
 
+## Education platform comparison
+[Exponent](https://www.tryexponent.com/courses/system-design-interview?ref=techinterviewhandbook)
+- Design a URL Shortener
+- Design Instagram
+- Design Amazon Prime Video
+- Design YouTube
+- Design TikTok
+- Design Uber Eats
+- Design Facebook Messenger
+- Design ChatGPT
+- Design a Parking Garage
+- Design a Rate Limiter
+- Design the Payment System for the Amazon Kindle
+- Design a Landmark Recognition System
+- Design Typeahead for Search Box
+- Design a Hotel Booking Service
+- Design a Web Crawler
+- Design a Distributed Message Queue
+
+[Design Gurus | Grokking Modern System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?aff=kJSIoU)
+- Designing a URL Shortening Service like TinyURL
+- Designing Pastebin
+- Designing Instagram
+- Designing Dropbox
+- Designing Facebook Messenger
+- Designing Twitter
+- Designing Youtube or Netflix
+- Designing Typeahead Suggestion
+- Designing an API Rate Limiter
+- Designing Twitter Search
+- Designing a Web Crawler
+- Designing Facebook’s Newsfeed
+- Designing Yelp or Nearby Friends
+- Designing Uber backend
+- Designing Ticketmaster
+
+[Educative | Grokking Modern System Design Interview for Engineers & Managers](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers)
+- Design YouTube
+- Design Quora
+- Design Google Maps
+- Design a Proximity Service / Yelp
+- Design Uber
+- Design Twitter
+- Design Newsfeed System
+- Design Instagram
+- Design a URL Shortening Service / TinyURL
+- Design a Web Crawler
+- Design WhatsApp
+- Design Typeahead Suggestion
+- Design a Collaborative Document Editing Service / Google Docs
+
 ## Presentation
 | Topic | Source 1 | Source 2 |
 |----|----|----|
