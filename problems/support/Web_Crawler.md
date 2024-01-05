@@ -119,4 +119,19 @@
 
 <img width="400" alt="summary" src="https://github.com/wuyichen24/system-design-interview/assets/8989447/09002ca3-f02c-48e8-81e6-f6c44f6b5b37">
 
+### HTML Downloader
+- **Robots exclusion protocol**
+   - The file called `robot.txt`, a standard used by websites to communicate with crawlers.
+   - It specifies what pages crawlers are allowed to download.
+   - Before attempting to crawl a web site, a crawler should check its corresponding robots.txt first and follow its rules.
+   - To avoid repeat downloads of robots.txt file, we cache the results of the file. The file is downloaded and saved to cache periodically.
+- **Performance optimization**
+   - Crawl jobs are distributed into multiple servers, and each server runs multiple threads.
+   - Maintains our DNS cache to avoid calling DNS (bottleneck) frequently. Our DNS cache is updated periodically by cron jobs.
+   - Deploys crawl servers geographically closer to website hosts.
+   - Use short timeout when crawling web pages.
+     
 ## Key points
+- Politeness: Download one page at a time from the same host. A delay can be added between two download tasks.
+- Priority: Use multiple queues to store URLs in different priorities, randomly choose a queue with a bias towards queues with higher priority.
+- Freshness: A web crawler must periodically recrawl downloaded pages based on web pages’ update history and importance.
