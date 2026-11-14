@@ -114,5 +114,5 @@
 - Segregate uploads and reads into 2 different types of servers.
 
 ## References
-- https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG
+- https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/designing-instagram
 - https://www.youtube.com/watch?v=VJpfO6KdyWE&ab_channel=Exponent
